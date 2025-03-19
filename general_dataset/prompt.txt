@@ -1,0 +1,15 @@
+Please help me analyze the following commit message and process it according to these requirements:
+
+1. Determine whether the commit message provides a specific description of the changes (e.g., describes specific code changes or feature improvements).
+2. Whether the commit message contains only a single modification task (i.e., does not include multiple independent changes).
+3. Simplify the commit message by removing issue IDs, the author's name and email, and any redundant information.
+
+The commit message content is as follows:
+
+<commit_message>
+
+Based on the above commit message, please return the results in the following format:
+
+- Provides specific change description: Yes/No (do not explain why).
+- Contains only a single modification task: Yes/No (do not explain why).
+- Simplified commit message:
