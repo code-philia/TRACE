@@ -1,0 +1,3707 @@
+{
+    "67109275": {
+        "name": "AbstractMethodCannotBeOverridden",
+        "url": "https://www.javadoc.io/doc/org.aspectj/aspectjtools/1.8.4/org/aspectj/org/eclipse/jdt/core/compiler/IProblem.html#AbstractMethodCannotBeOverridden",
+        "whitelisted": false
+    },
+    "67109227": {
+        "name": "AbstractMethodInAbstractClass",
+        "url": "https://www.javadoc.io/doc/org.aspectj/aspectjtools/1.8.4/org/aspectj/org/eclipse/jdt/core/compiler/IProblem.html#AbstractMethodInAbstractClass",
+        "whitelisted": false
+    },
+    "67109629": {
+        "name": "AbstractMethodInEnum",
+        "url": "https://www.javadoc.io/doc/org.aspectj/aspectjtools/1.8.4/org/aspectj/org/eclipse/jdt/core/compiler/IProblem.html#AbstractMethodInEnum",
+        "whitelisted": false
+    },
+    "67109264": {
+        "name": "AbstractMethodMustBeImplemented",
+        "url": "https://www.javadoc.io/doc/org.aspectj/aspectjtools/1.8.4/org/aspectj/org/eclipse/jdt/core/compiler/IProblem.html#AbstractMethodMustBeImplemented",
+        "whitelisted": false
+    },
+    "67109282": {
+        "name": "AbstractMethodMustBeImplementedOverConcreteMethod",
+        "url": "https://www.javadoc.io/doc/org.aspectj/aspectjtools/1.8.4/org/aspectj/org/eclipse/jdt/core/compiler/IProblem.html#AbstractMethodMustBeImplementedOverConcreteMethod",
+        "whitelisted": false
+    },
+    "16777549": {
+        "name": "SuperclassInternalNameProvided",
+        "url": "https://www.javadoc.io/doc/org.aspectj/aspectjtools/1.8.4/org/aspectj/org/eclipse/jdt/core/compiler/IProblem.html#SuperclassInternalNameProvided",
+        "whitelisted": false
+    },
+    "134217860": {
+        "name": "AmbiguousConstructor",
+        "url": "https://www.javadoc.io/doc/org.aspectj/aspectjtools/1.8.4/org/aspectj/org/eclipse/jdt/core/compiler/IProblem.html#AmbiguousConstructor",
+        "whitelisted": true
+    },
+    "134217870": {
+        "name": "AmbiguousConstructorInDefaultConstructor",
+        "url": "https://www.javadoc.io/doc/org.aspectj/aspectjtools/1.8.4/org/aspectj/org/eclipse/jdt/core/compiler/IProblem.html#AmbiguousConstructorInDefaultConstructor",
+        "whitelisted": false
+    },
+    "134217873": {
+        "name": "AmbiguousConstructorInImplicitConstructorCall",
+        "url": "https://www.javadoc.io/doc/org.aspectj/aspectjtools/1.8.4/org/aspectj/org/eclipse/jdt/core/compiler/IProblem.html#AmbiguousConstructorInImplicitConstructorCall",
+        "whitelisted": false
+    },
+    "33554504": {
+        "name": "AmbiguousField",
+        "url": "https://www.javadoc.io/doc/org.aspectj/aspectjtools/1.8.4/org/aspectj/org/eclipse/jdt/core/compiler/IProblem.html#AmbiguousField",
+        "whitelisted": false
+    },
+    "67108966": {
+        "name": "AmbiguousMethod",
+        "url": "https://www.javadoc.io/doc/org.aspectj/aspectjtools/1.8.4/org/aspectj/org/eclipse/jdt/core/compiler/IProblem.html#AmbiguousMethod",
+        "whitelisted": false
+    },
+    "16777220": {
+        "name": "AmbiguousType",
+        "url": "https://www.javadoc.io/doc/org.aspectj/aspectjtools/1.8.4/org/aspectj/org/eclipse/jdt/core/compiler/IProblem.html#AmbiguousType",
+        "whitelisted": false
+    },
+    "67109480": {
+        "name": "AnnotationCannotOverrideMethod",
+        "url": "https://www.javadoc.io/doc/org.aspectj/aspectjtools/1.8.4/org/aspectj/org/eclipse/jdt/core/compiler/IProblem.html#AnnotationCannotOverrideMethod",
+        "whitelisted": false
+    },
+    "16777823": {
+        "name": "AnnotationCircularity",
+        "url": "https://www.javadoc.io/doc/org.aspectj/aspectjtools/1.8.4/org/aspectj/org/eclipse/jdt/core/compiler/IProblem.html#AnnotationCircularity",
+        "whitelisted": true
+    },
+    "16777822": {
+        "name": "AnnotationCircularitySelfReference",
+        "url": "https://www.javadoc.io/doc/org.aspectj/aspectjtools/1.8.4/org/aspectj/org/eclipse/jdt/core/compiler/IProblem.html#AnnotationCircularitySelfReference",
+        "whitelisted": false
+    },
+    "536871526": {
+        "name": "AnnotationFieldNeedConstantInitialization",
+        "url": "https://www.javadoc.io/doc/org.aspectj/aspectjtools/1.8.4/org/aspectj/org/eclipse/jdt/core/compiler/IProblem.html#AnnotationFieldNeedConstantInitialization",
+        "whitelisted": false
+    },
+    "1610613353": {
+        "name": "AnnotationMembersCannotHaveParameters",
+        "url": "https://www.javadoc.io/doc/org.aspectj/aspectjtools/1.8.4/org/aspectj/org/eclipse/jdt/core/compiler/IProblem.html#AnnotationMembersCannotHaveParameters",
+        "whitelisted": false
+    },
+    "1610613354": {
+        "name": "AnnotationMembersCannotHaveTypeParameters",
+        "url": "https://www.javadoc.io/doc/org.aspectj/aspectjtools/1.8.4/org/aspectj/org/eclipse/jdt/core/compiler/IProblem.html#AnnotationMembersCannotHaveTypeParameters",
+        "whitelisted": false
+    },
+    "1610613360": {
+        "name": "AnnotationTypeDeclarationCannotHaveConstructor",
+        "url": "https://www.javadoc.io/doc/org.aspectj/aspectjtools/1.8.4/org/aspectj/org/eclipse/jdt/core/compiler/IProblem.html#AnnotationTypeDeclarationCannotHaveConstructor",
+        "whitelisted": false
+    },
+    "1610613355": {
+        "name": "AnnotationTypeDeclarationCannotHaveSuperclass",
+        "url": "https://www.javadoc.io/doc/org.aspectj/aspectjtools/1.8.4/org/aspectj/org/eclipse/jdt/core/compiler/IProblem.html#AnnotationTypeDeclarationCannotHaveSuperclass",
+        "whitelisted": true
+    },
+    "1610613356": {
+        "name": "AnnotationTypeDeclarationCannotHaveSuperinterfaces",
+        "url": "https://www.javadoc.io/doc/org.aspectj/aspectjtools/1.8.4/org/aspectj/org/eclipse/jdt/core/compiler/IProblem.html#AnnotationTypeDeclarationCannotHaveSuperinterfaces",
+        "whitelisted": false
+    },
+    "16777842": {
+        "name": "AnnotationTypeUsedAsSuperInterface",
+        "url": "https://www.javadoc.io/doc/org.aspectj/aspectjtools/1.8.4/org/aspectj/org/eclipse/jdt/core/compiler/IProblem.html#AnnotationTypeUsedAsSuperInterface",
+        "whitelisted": false
+    },
+    "536871545": {
+        "name": "AnnotationValueMustBeAnEnumConstant",
+        "url": "https://www.javadoc.io/doc/org.aspectj/aspectjtools/1.8.4/org/aspectj/org/eclipse/jdt/core/compiler/IProblem.html#AnnotationValueMustBeAnEnumConstant",
+        "whitelisted": false
+    },
+    "536871537": {
+        "name": "AnnotationValueMustBeAnnotation",
+        "url": "https://www.javadoc.io/doc/org.aspectj/aspectjtools/1.8.4/org/aspectj/org/eclipse/jdt/core/compiler/IProblem.html#AnnotationValueMustBeAnnotation",
+        "whitelisted": false
+    },
+    "536871544": {
+        "name": "AnnotationValueMustBeArrayInitializer",
+        "url": "https://www.javadoc.io/doc/org.aspectj/aspectjtools/1.8.4/org/aspectj/org/eclipse/jdt/core/compiler/IProblem.html#AnnotationValueMustBeArrayInitializer",
+        "whitelisted": false
+    },
+    "536871524": {
+        "name": "AnnotationValueMustBeClassLiteral",
+        "url": "https://www.javadoc.io/doc/org.aspectj/aspectjtools/1.8.4/org/aspectj/org/eclipse/jdt/core/compiler/IProblem.html#AnnotationValueMustBeClassLiteral",
+        "whitelisted": true
+    },
+    "536871525": {
+        "name": "AnnotationValueMustBeConstant",
+        "url": "https://www.javadoc.io/doc/org.aspectj/aspectjtools/1.8.4/org/aspectj/org/eclipse/jdt/core/compiler/IProblem.html#AnnotationValueMustBeConstant",
+        "whitelisted": false
+    },
+    "16777245": {
+        "name": "AnonymousClassCannotExtendFinalClass",
+        "url": "https://www.javadoc.io/doc/org.aspectj/aspectjtools/1.8.4/org/aspectj/org/eclipse/jdt/core/compiler/IProblem.html#AnonymousClassCannotExtendFinalClass",
+        "whitelisted": false
+    },
+    "67109673": {
+        "name": "ApplicableMethodOverriddenByInapplicable",
+        "url": "https://www.javadoc.io/doc/org.aspectj/aspectjtools/1.8.4/org/aspectj/org/eclipse/jdt/core/compiler/IProblem.html#ApplicableMethodOverriddenByInapplicable",
+        "whitelisted": false
+    },
+    "536871007": {
+        "name": "ArgumentHidingField",
+        "url": "https://www.javadoc.io/doc/org.aspectj/aspectjtools/1.8.4/org/aspectj/org/eclipse/jdt/core/compiler/IProblem.html#ArgumentHidingField",
+        "whitelisted": false
+    },
+    "536871006": {
+        "name": "ArgumentHidingLocalVariable",
+        "url": "https://www.javadoc.io/doc/org.aspectj/aspectjtools/1.8.4/org/aspectj/org/eclipse/jdt/core/compiler/IProblem.html#ArgumentHidingLocalVariable",
+        "whitelisted": false
+    },
+    "536870974": {
+        "name": "ArgumentIsNeverUsed",
+        "url": "https://www.javadoc.io/doc/org.aspectj/aspectjtools/1.8.4/org/aspectj/org/eclipse/jdt/core/compiler/IProblem.html#ArgumentIsNeverUsed",
+        "whitelisted": false
+    },
+    "67109236": {
+        "name": "ArgumentTypeAmbiguous",
+        "url": "https://www.javadoc.io/doc/org.aspectj/aspectjtools/1.8.4/org/aspectj/org/eclipse/jdt/core/compiler/IProblem.html#ArgumentTypeAmbiguous",
+        "whitelisted": false
+    },
+    "67109228": {
+        "name": "ArgumentTypeCannotBeVoid",
+        "url": "https://www.javadoc.io/doc/org.aspectj/aspectjtools/1.8.4/org/aspectj/org/eclipse/jdt/core/compiler/IProblem.html#ArgumentTypeCannotBeVoid",
+        "whitelisted": false
+    },
+    "67109229": {
+        "name": "ArgumentTypeCannotBeVoidArray",
+        "url": "https://www.javadoc.io/doc/org.aspectj/aspectjtools/1.8.4/org/aspectj/org/eclipse/jdt/core/compiler/IProblem.html#ArgumentTypeCannotBeVoidArray",
+        "whitelisted": false
+    },
+    "67109238": {
+        "name": "ArgumentTypeInheritedNameHidesEnclosingName",
+        "url": "https://www.javadoc.io/doc/org.aspectj/aspectjtools/1.8.4/org/aspectj/org/eclipse/jdt/core/compiler/IProblem.html#ArgumentTypeInheritedNameHidesEnclosingName",
+        "whitelisted": false
+    },
+    "67109237": {
+        "name": "ArgumentTypeInternalNameProvided",
+        "url": "https://www.javadoc.io/doc/org.aspectj/aspectjtools/1.8.4/org/aspectj/org/eclipse/jdt/core/compiler/IProblem.html#ArgumentTypeInternalNameProvided",
+        "whitelisted": false
+    },
+    "67109234": {
+        "name": "ArgumentTypeNotFound",
+        "url": "https://www.javadoc.io/doc/org.aspectj/aspectjtools/1.8.4/org/aspectj/org/eclipse/jdt/core/compiler/IProblem.html#ArgumentTypeNotFound",
+        "whitelisted": false
+    },
+    "67109235": {
+        "name": "ArgumentTypeNotVisible",
+        "url": "https://www.javadoc.io/doc/org.aspectj/aspectjtools/1.8.4/org/aspectj/org/eclipse/jdt/core/compiler/IProblem.html#ArgumentTypeNotVisible",
+        "whitelisted": false
+    },
+    "1610612944": {
+        "name": "ArrayConstantsOnlyInArrayInitializers",
+        "url": "https://www.javadoc.io/doc/org.aspectj/aspectjtools/1.8.4/org/aspectj/org/eclipse/jdt/core/compiler/IProblem.html#ArrayConstantsOnlyInArrayInitializers",
+        "whitelisted": false
+    },
+    "536871863": {
+        "name": "ArrayReferencePotentialNullReference",
+        "url": "https://www.javadoc.io/doc/org.aspectj/aspectjtools/1.8.4/org/aspectj/org/eclipse/jdt/core/compiler/IProblem.html#ArrayReferencePotentialNullReference",
+        "whitelisted": false
+    },
+    "536871062": {
+        "name": "ArrayReferenceRequired",
+        "url": "https://www.javadoc.io/doc/org.aspectj/aspectjtools/1.8.4/org/aspectj/org/eclipse/jdt/core/compiler/IProblem.html#ArrayReferenceRequired",
+        "whitelisted": false
+    },
+    "536871090": {
+        "name": "AssignmentHasNoEffect",
+        "url": "https://www.javadoc.io/doc/org.aspectj/aspectjtools/1.8.4/org/aspectj/org/eclipse/jdt/core/compiler/IProblem.html#AssignmentHasNoEffect",
+        "whitelisted": true
+    },
+    "536871782": {
+        "name": "AssignmentToMultiCatchParameter",
+        "url": "https://www.javadoc.io/doc/org.aspectj/aspectjtools/1.8.4/org/aspectj/org/eclipse/jdt/core/compiler/IProblem.html#AssignmentToMultiCatchParameter",
+        "whitelisted": false
+    },
+    "536871784": {
+        "name": "AssignmentToResource",
+        "url": "https://www.javadoc.io/doc/org.aspectj/aspectjtools/1.8.4/org/aspectj/org/eclipse/jdt/core/compiler/IProblem.html#AssignmentToResource",
+        "whitelisted": false
+    },
+    "1610613610": {
+        "name": "AutoManagedResourceNotBelow17",
+        "url": "https://www.javadoc.io/doc/org.aspectj/aspectjtools/1.8.4/org/aspectj/org/eclipse/jdt/core/compiler/IProblem.html#AutoManagedResourceNotBelow17",
+        "whitelisted": false
+    },
+    "1610613003": {
+        "name": "BinaryLiteralNotBelow17",
+        "url": "https://www.javadoc.io/doc/org.aspectj/aspectjtools/1.8.4/org/aspectj/org/eclipse/jdt/core/compiler/IProblem.html#BinaryLiteralNotBelow17",
+        "whitelisted": false
+    },
+    "603979889": {
+        "name": "BodyForAbstractMethod",
+        "url": "https://www.javadoc.io/doc/org.aspectj/aspectjtools/1.8.4/org/aspectj/org/eclipse/jdt/core/compiler/IProblem.html#BodyForAbstractMethod",
+        "whitelisted": false
+    },
+    "603979888": {
+        "name": "BodyForNativeMethod",
+        "url": "https://www.javadoc.io/doc/org.aspectj/aspectjtools/1.8.4/org/aspectj/org/eclipse/jdt/core/compiler/IProblem.html#BodyForNativeMethod",
+        "whitelisted": false
+    },
+    "16777784": {
+        "name": "BoundCannotBeArray",
+        "url": "https://www.javadoc.io/doc/org.aspectj/aspectjtools/1.8.4/org/aspectj/org/eclipse/jdt/core/compiler/IProblem.html#BoundCannotBeArray",
+        "whitelisted": false
+    },
+    "16777780": {
+        "name": "BoundHasConflictingArguments",
+        "url": "https://www.javadoc.io/doc/org.aspectj/aspectjtools/1.8.4/org/aspectj/org/eclipse/jdt/core/compiler/IProblem.html#BoundHasConflictingArguments",
+        "whitelisted": false
+    },
+    "16777745": {
+        "name": "BoundMustBeAnInterface",
+        "url": "https://www.javadoc.io/doc/org.aspectj/aspectjtools/1.8.4/org/aspectj/org/eclipse/jdt/core/compiler/IProblem.html#BoundMustBeAnInterface",
+        "whitelisted": false
+    },
+    "536871632": {
+        "name": "BoxingConversion",
+        "url": "https://www.javadoc.io/doc/org.aspectj/aspectjtools/1.8.4/org/aspectj/org/eclipse/jdt/core/compiler/IProblem.html#BoxingConversion",
+        "whitelisted": false
+    },
+    "536870975": {
+        "name": "BytecodeExceeds64KLimit",
+        "url": "https://www.javadoc.io/doc/org.aspectj/aspectjtools/1.8.4/org/aspectj/org/eclipse/jdt/core/compiler/IProblem.html#BytecodeExceeds64KLimit",
+        "whitelisted": false
+    },
+    "536870976": {
+        "name": "BytecodeExceeds64KLimitForClinit",
+        "url": "https://www.javadoc.io/doc/org.aspectj/aspectjtools/1.8.4/org/aspectj/org/eclipse/jdt/core/compiler/IProblem.html#BytecodeExceeds64KLimitForClinit",
+        "whitelisted": false
+    },
+    "536870981": {
+        "name": "BytecodeExceeds64KLimitForConstructor",
+        "url": "https://www.javadoc.io/doc/org.aspectj/aspectjtools/1.8.4/org/aspectj/org/eclipse/jdt/core/compiler/IProblem.html#BytecodeExceeds64KLimitForConstructor",
+        "whitelisted": false
+    },
+    "536870966": {
+        "name": "CannotAllocateVoidArray",
+        "url": "https://www.javadoc.io/doc/org.aspectj/aspectjtools/1.8.4/org/aspectj/org/eclipse/jdt/core/compiler/IProblem.html#CannotAllocateVoidArray",
+        "whitelisted": false
+    },
+    "67109618": {
+        "name": "CannotDeclareEnumSpecialMethod",
+        "url": "https://www.javadoc.io/doc/org.aspectj/aspectjtools/1.8.4/org/aspectj/org/eclipse/jdt/core/compiler/IProblem.html#CannotDeclareEnumSpecialMethod",
+        "whitelisted": false
+    },
+    "536870942": {
+        "name": "CannotDefineAnnotationInLocalType",
+        "url": "https://www.javadoc.io/doc/org.aspectj/aspectjtools/1.8.4/org/aspectj/org/eclipse/jdt/core/compiler/IProblem.html#CannotDefineAnnotationInLocalType",
+        "whitelisted": false
+    },
+    "536871070": {
+        "name": "CannotDefineDimensionExpressionsWithInit",
+        "url": "https://www.javadoc.io/doc/org.aspectj/aspectjtools/1.8.4/org/aspectj/org/eclipse/jdt/core/compiler/IProblem.html#CannotDefineDimensionExpressionsWithInit",
+        "whitelisted": false
+    },
+    "536870943": {
+        "name": "CannotDefineEnumInLocalType",
+        "url": "https://www.javadoc.io/doc/org.aspectj/aspectjtools/1.8.4/org/aspectj/org/eclipse/jdt/core/compiler/IProblem.html#CannotDefineEnumInLocalType",
+        "whitelisted": false
+    },
+    "536870938": {
+        "name": "CannotDefineInterfaceInLocalType",
+        "url": "https://www.javadoc.io/doc/org.aspectj/aspectjtools/1.8.4/org/aspectj/org/eclipse/jdt/core/compiler/IProblem.html#CannotDefineInterfaceInLocalType",
+        "whitelisted": false
+    },
+    "536870936": {
+        "name": "CannotDefineStaticInitializerInLocalType",
+        "url": "https://www.javadoc.io/doc/org.aspectj/aspectjtools/1.8.4/org/aspectj/org/eclipse/jdt/core/compiler/IProblem.html#CannotDefineStaticInitializerInLocalType",
+        "whitelisted": false
+    },
+    "16777972": {
+        "name": "CannotExtendEnum",
+        "url": "https://www.javadoc.io/doc/org.aspectj/aspectjtools/1.8.4/org/aspectj/org/eclipse/jdt/core/compiler/IProblem.html#CannotExtendEnum",
+        "whitelisted": true
+    },
+    "67109271": {
+        "name": "CannotHideAnInstanceMethodWithAStaticMethod",
+        "url": "https://www.javadoc.io/doc/org.aspectj/aspectjtools/1.8.4/org/aspectj/org/eclipse/jdt/core/compiler/IProblem.html#CannotHideAnInstanceMethodWithAStaticMethod",
+        "whitelisted": false
+    },
+    "536871833": {
+        "name": "CannotImplementIncompatibleNullness",
+        "url": "https://www.javadoc.io/doc/org.aspectj/aspectjtools/1.8.4/org/aspectj/org/eclipse/jdt/core/compiler/IProblem.html#CannotImplementIncompatibleNullness",
+        "whitelisted": false
+    },
+    "268435843": {
+        "name": "CannotImportPackage",
+        "url": "https://www.javadoc.io/doc/org.aspectj/aspectjtools/1.8.4/org/aspectj/org/eclipse/jdt/core/compiler/IProblem.html#CannotImportPackage",
+        "whitelisted": false
+    },
+    "16778094": {
+        "name": "CannotInferElidedTypes",
+        "url": "https://www.javadoc.io/doc/org.aspectj/aspectjtools/1.8.4/org/aspectj/org/eclipse/jdt/core/compiler/IProblem.html#CannotInferElidedTypes",
+        "whitelisted": false
+    },
+    "67109621": {
+        "name": "CannotInvokeSuperConstructorInEnum",
+        "url": "https://www.javadoc.io/doc/org.aspectj/aspectjtools/1.8.4/org/aspectj/org/eclipse/jdt/core/compiler/IProblem.html#CannotInvokeSuperConstructorInEnum",
+        "whitelisted": true
+    },
+    "67109270": {
+        "name": "CannotOverrideAStaticMethodWithAnInstanceMethod",
+        "url": "https://www.javadoc.io/doc/org.aspectj/aspectjtools/1.8.4/org/aspectj/org/eclipse/jdt/core/compiler/IProblem.html#CannotOverrideAStaticMethodWithAnInstanceMethod",
+        "whitelisted": true
+    },
+    "536871614": {
+        "name": "CannotReadSource",
+        "url": "https://www.javadoc.io/doc/org.aspectj/aspectjtools/1.8.4/org/aspectj/org/eclipse/jdt/core/compiler/IProblem.html#CannotReadSource",
+        "whitelisted": true
+    },
+    "536871074": {
+        "name": "CannotReturnInInitializer",
+        "url": "https://www.javadoc.io/doc/org.aspectj/aspectjtools/1.8.4/org/aspectj/org/eclipse/jdt/core/compiler/IProblem.html#CannotReturnInInitializer",
+        "whitelisted": false
+    },
+    "536871089": {
+        "name": "CannotThrowNull",
+        "url": "https://www.javadoc.io/doc/org.aspectj/aspectjtools/1.8.4/org/aspectj/org/eclipse/jdt/core/compiler/IProblem.html#CannotThrowNull",
+        "whitelisted": false
+    },
+    "16777536": {
+        "name": "CannotThrowType",
+        "url": "https://www.javadoc.io/doc/org.aspectj/aspectjtools/1.8.4/org/aspectj/org/eclipse/jdt/core/compiler/IProblem.html#CannotThrowType",
+        "whitelisted": false
+    },
+    "16778096": {
+        "name": "CannotUseDiamondWithAnonymousClasses",
+        "url": "https://www.javadoc.io/doc/org.aspectj/aspectjtools/1.8.4/org/aspectj/org/eclipse/jdt/core/compiler/IProblem.html#CannotUseDiamondWithAnonymousClasses",
+        "whitelisted": true
+    },
+    "16778095": {
+        "name": "CannotUseDiamondWithExplicitTypeArguments",
+        "url": "https://www.javadoc.io/doc/org.aspectj/aspectjtools/1.8.4/org/aspectj/org/eclipse/jdt/core/compiler/IProblem.html#CannotUseDiamondWithExplicitTypeArguments",
+        "whitelisted": false
+    },
+    "536871334": {
+        "name": "CannotUseSuperInCodeSnippet",
+        "url": "https://www.javadoc.io/doc/org.aspectj/aspectjtools/1.8.4/org/aspectj/org/eclipse/jdt/core/compiler/IProblem.html#CannotUseSuperInCodeSnippet",
+        "whitelisted": false
+    },
+    "16777529": {
+        "name": "ClassExtendFinalClass",
+        "url": "https://www.javadoc.io/doc/org.aspectj/aspectjtools/1.8.4/org/aspectj/org/eclipse/jdt/core/compiler/IProblem.html#ClassExtendFinalClass",
+        "whitelisted": false
+    },
+    "536871073": {
+        "name": "CodeCannotBeReached",
+        "url": "https://www.javadoc.io/doc/org.aspectj/aspectjtools/1.8.4/org/aspectj/org/eclipse/jdt/core/compiler/IProblem.html#CodeCannotBeReached",
+        "whitelisted": false
+    },
+    "536871332": {
+        "name": "CodeSnippetMissingClass",
+        "url": "https://www.javadoc.io/doc/org.aspectj/aspectjtools/1.8.4/org/aspectj/org/eclipse/jdt/core/compiler/IProblem.html#CodeSnippetMissingClass",
+        "whitelisted": false
+    },
+    "536871333": {
+        "name": "CodeSnippetMissingMethod",
+        "url": "https://www.javadoc.io/doc/org.aspectj/aspectjtools/1.8.4/org/aspectj/org/eclipse/jdt/core/compiler/IProblem.html#CodeSnippetMissingMethod",
+        "whitelisted": false
+    },
+    "536871123": {
+        "name": "ComparingIdentical",
+        "url": "https://www.javadoc.io/doc/org.aspectj/aspectjtools/1.8.4/org/aspectj/org/eclipse/jdt/core/compiler/IProblem.html#ComparingIdentical",
+        "whitelisted": false
+    },
+    "268435841": {
+        "name": "ConflictingImport",
+        "url": "https://www.javadoc.io/doc/org.aspectj/aspectjtools/1.8.4/org/aspectj/org/eclipse/jdt/core/compiler/IProblem.html#ConflictingImport",
+        "whitelisted": false
+    },
+    "67109804": {
+        "name": "ConflictingInheritedNullAnnotations",
+        "url": "https://www.javadoc.io/doc/org.aspectj/aspectjtools/1.8.4/org/aspectj/org/eclipse/jdt/core/compiler/IProblem.html#ConflictingInheritedNullAnnotations",
+        "whitelisted": false
+    },
+    "67109803": {
+        "name": "ConflictingNullAnnotations",
+        "url": "https://www.javadoc.io/doc/org.aspectj/aspectjtools/1.8.4/org/aspectj/org/eclipse/jdt/core/compiler/IProblem.html#ConflictingNullAnnotations",
+        "whitelisted": false
+    },
+    "603979902": {
+        "name": "ConstructedArrayIncompatible",
+        "url": "https://www.javadoc.io/doc/org.aspectj/aspectjtools/1.8.4/org/aspectj/org/eclipse/jdt/core/compiler/IProblem.html#ConstructedArrayIncompatible",
+        "whitelisted": false
+    },
+    "553648793": {
+        "name": "ConstructionTypeMismatch",
+        "url": "https://www.javadoc.io/doc/org.aspectj/aspectjtools/1.8.4/org/aspectj/org/eclipse/jdt/core/compiler/IProblem.html#ConstructionTypeMismatch",
+        "whitelisted": false
+    },
+    "1610613383": {
+        "name": "ConstructorReferenceNotBelow18",
+        "url": "https://www.javadoc.io/doc/org.aspectj/aspectjtools/1.8.4/org/aspectj/org/eclipse/jdt/core/compiler/IProblem.html#ConstructorReferenceNotBelow18",
+        "whitelisted": false
+    },
+    "134217728": {
+        "name": "ConstructorRelated",
+        "url": "https://www.javadoc.io/doc/org.aspectj/aspectjtools/1.8.4/org/aspectj/org/eclipse/jdt/core/compiler/IProblem.html#ConstructorRelated",
+        "whitelisted": true
+    },
+    "134218530": {
+        "name": "ConstructorVarargsArgumentNeedCast",
+        "url": "https://www.javadoc.io/doc/org.aspectj/aspectjtools/1.8.4/org/aspectj/org/eclipse/jdt/core/compiler/IProblem.html#ConstructorVarargsArgumentNeedCast",
+        "whitelisted": false
+    },
+    "16778120": {
+        "name": "ContainerAnnotationTypeHasNonDefaultMembers",
+        "url": "https://www.javadoc.io/doc/org.aspectj/aspectjtools/1.8.4/org/aspectj/org/eclipse/jdt/core/compiler/IProblem.html#ContainerAnnotationTypeHasNonDefaultMembers",
+        "whitelisted": false
+    },
+    "16778121": {
+        "name": "ContainerAnnotationTypeHasShorterRetention",
+        "url": "https://www.javadoc.io/doc/org.aspectj/aspectjtools/1.8.4/org/aspectj/org/eclipse/jdt/core/compiler/IProblem.html#ContainerAnnotationTypeHasShorterRetention",
+        "whitelisted": false
+    },
+    "16778118": {
+        "name": "ContainerAnnotationTypeHasWrongValueType",
+        "url": "https://www.javadoc.io/doc/org.aspectj/aspectjtools/1.8.4/org/aspectj/org/eclipse/jdt/core/compiler/IProblem.html#ContainerAnnotationTypeHasWrongValueType",
+        "whitelisted": false
+    },
+    "16778119": {
+        "name": "ContainerAnnotationTypeMustHaveValue",
+        "url": "https://www.javadoc.io/doc/org.aspectj/aspectjtools/1.8.4/org/aspectj/org/eclipse/jdt/core/compiler/IProblem.html#ContainerAnnotationTypeMustHaveValue",
+        "whitelisted": false
+    },
+    "536871841": {
+        "name": "ContradictoryNullAnnotations",
+        "url": "https://www.javadoc.io/doc/org.aspectj/aspectjtools/1.8.4/org/aspectj/org/eclipse/jdt/core/compiler/IProblem.html#ContradictoryNullAnnotations",
+        "whitelisted": false
+    },
+    "536871878": {
+        "name": "ContradictoryNullAnnotationsInferred",
+        "url": "https://www.javadoc.io/doc/org.aspectj/aspectjtools/1.8.4/org/aspectj/org/eclipse/jdt/core/compiler/IProblem.html#ContradictoryNullAnnotationsInferred",
+        "whitelisted": false
+    },
+    "536871877": {
+        "name": "ContradictoryNullAnnotationsOnBound",
+        "url": "https://www.javadoc.io/doc/org.aspectj/aspectjtools/1.8.4/org/aspectj/org/eclipse/jdt/core/compiler/IProblem.html#ContradictoryNullAnnotationsOnBound",
+        "whitelisted": false
+    },
+    "536871612": {
+        "name": "CorruptedSignature",
+        "url": "https://www.javadoc.io/doc/org.aspectj/aspectjtools/1.8.4/org/aspectj/org/eclipse/jdt/core/compiler/IProblem.html#CorruptedSignature",
+        "whitelisted": false
+    },
+    "603979903": {
+        "name": "DanglingReference",
+        "url": "https://www.javadoc.io/doc/org.aspectj/aspectjtools/1.8.4/org/aspectj/org/eclipse/jdt/core/compiler/IProblem.html#DanglingReference",
+        "whitelisted": false
+    },
+    "536871061": {
+        "name": "DeadCode",
+        "url": "https://www.javadoc.io/doc/org.aspectj/aspectjtools/1.8.4/org/aspectj/org/eclipse/jdt/core/compiler/IProblem.html#DeadCode",
+        "whitelisted": true
+    },
+    "1610613380": {
+        "name": "DefaultMethodNotBelow18",
+        "url": "https://www.javadoc.io/doc/org.aspectj/aspectjtools/1.8.4/org/aspectj/org/eclipse/jdt/core/compiler/IProblem.html#DefaultMethodNotBelow18",
+        "whitelisted": false
+    },
+    "67109915": {
+        "name": "DefaultMethodOverridesObjectMethod",
+        "url": "https://www.javadoc.io/doc/org.aspectj/aspectjtools/1.8.4/org/aspectj/org/eclipse/jdt/core/compiler/IProblem.html#DefaultMethodOverridesObjectMethod",
+        "whitelisted": false
+    },
+    "536871864": {
+        "name": "DereferencingNullableExpression",
+        "url": "https://www.javadoc.io/doc/org.aspectj/aspectjtools/1.8.4/org/aspectj/org/eclipse/jdt/core/compiler/IProblem.html#DereferencingNullableExpression",
+        "whitelisted": false
+    },
+    "16778099": {
+        "name": "DiamondNotBelow17",
+        "url": "https://www.javadoc.io/doc/org.aspectj/aspectjtools/1.8.4/org/aspectj/org/eclipse/jdt/core/compiler/IProblem.html#DiamondNotBelow17",
+        "whitelisted": false
+    },
+    "67108968": {
+        "name": "DirectInvocationOfAbstractMethod",
+        "url": "https://www.javadoc.io/doc/org.aspectj/aspectjtools/1.8.4/org/aspectj/org/eclipse/jdt/core/compiler/IProblem.html#DirectInvocationOfAbstractMethod",
+        "whitelisted": false
+    },
+    "1610613374": {
+        "name": "DisallowedExplicitThisParameter",
+        "url": "https://www.javadoc.io/doc/org.aspectj/aspectjtools/1.8.4/org/aspectj/org/eclipse/jdt/core/compiler/IProblem.html#DisallowedExplicitThisParameter",
+        "whitelisted": false
+    },
+    "16777838": {
+        "name": "DisallowedTargetForAnnotation",
+        "url": "https://www.javadoc.io/doc/org.aspectj/aspectjtools/1.8.4/org/aspectj/org/eclipse/jdt/core/compiler/IProblem.html#DisallowedTargetForAnnotation",
+        "whitelisted": false
+    },
+    "16778114": {
+        "name": "DisallowedTargetForContainerAnnotationType",
+        "url": "https://www.javadoc.io/doc/org.aspectj/aspectjtools/1.8.4/org/aspectj/org/eclipse/jdt/core/compiler/IProblem.html#DisallowedTargetForContainerAnnotationType",
+        "whitelisted": false
+    },
+    "16777496": {
+        "name": "DiscouragedReference",
+        "url": "https://www.javadoc.io/doc/org.aspectj/aspectjtools/1.8.4/org/aspectj/org/eclipse/jdt/core/compiler/IProblem.html#DiscouragedReference",
+        "whitelisted": false
+    },
+    "16777824": {
+        "name": "DuplicateAnnotation",
+        "url": "https://www.javadoc.io/doc/org.aspectj/aspectjtools/1.8.4/org/aspectj/org/eclipse/jdt/core/compiler/IProblem.html#DuplicateAnnotation",
+        "whitelisted": false
+    },
+    "536871522": {
+        "name": "DuplicateAnnotationMember",
+        "url": "https://www.javadoc.io/doc/org.aspectj/aspectjtools/1.8.4/org/aspectj/org/eclipse/jdt/core/compiler/IProblem.html#DuplicateAnnotationMember",
+        "whitelisted": false
+    },
+    "16778113": {
+        "name": "DuplicateAnnotationNotMarkedRepeatable",
+        "url": "https://www.javadoc.io/doc/org.aspectj/aspectjtools/1.8.4/org/aspectj/org/eclipse/jdt/core/compiler/IProblem.html#DuplicateAnnotationNotMarkedRepeatable",
+        "whitelisted": false
+    },
+    "33554514": {
+        "name": "DuplicateBlankFinalFieldInitialization",
+        "url": "https://www.javadoc.io/doc/org.aspectj/aspectjtools/1.8.4/org/aspectj/org/eclipse/jdt/core/compiler/IProblem.html#DuplicateBlankFinalFieldInitialization",
+        "whitelisted": false
+    },
+    "16778110": {
+        "name": "DuplicateBoundInIntersectionCast",
+        "url": "https://www.javadoc.io/doc/org.aspectj/aspectjtools/1.8.4/org/aspectj/org/eclipse/jdt/core/compiler/IProblem.html#DuplicateBoundInIntersectionCast",
+        "whitelisted": false
+    },
+    "16777783": {
+        "name": "DuplicateBounds",
+        "url": "https://www.javadoc.io/doc/org.aspectj/aspectjtools/1.8.4/org/aspectj/org/eclipse/jdt/core/compiler/IProblem.html#DuplicateBounds",
+        "whitelisted": false
+    },
+    "33554602": {
+        "name": "DuplicateCase",
+        "url": "https://www.javadoc.io/doc/org.aspectj/aspectjtools/1.8.4/org/aspectj/org/eclipse/jdt/core/compiler/IProblem.html#DuplicateCase",
+        "whitelisted": false
+    },
+    "536871078": {
+        "name": "DuplicateDefaultCase",
+        "url": "https://www.javadoc.io/doc/org.aspectj/aspectjtools/1.8.4/org/aspectj/org/eclipse/jdt/core/compiler/IProblem.html#DuplicateDefaultCase",
+        "whitelisted": false
+    },
+    "33554772": {
+        "name": "DuplicateField",
+        "url": "https://www.javadoc.io/doc/org.aspectj/aspectjtools/1.8.4/org/aspectj/org/eclipse/jdt/core/compiler/IProblem.html#DuplicateField",
+        "whitelisted": true
+    },
+    "536870969": {
+        "name": "DuplicateFinalLocalInitialization",
+        "url": "https://www.javadoc.io/doc/org.aspectj/aspectjtools/1.8.4/org/aspectj/org/eclipse/jdt/core/compiler/IProblem.html#DuplicateFinalLocalInitialization",
+        "whitelisted": false
+    },
+    "268435842": {
+        "name": "DuplicateImport",
+        "url": "https://www.javadoc.io/doc/org.aspectj/aspectjtools/1.8.4/org/aspectj/org/eclipse/jdt/core/compiler/IProblem.html#DuplicateImport",
+        "whitelisted": false
+    },
+    "67109917": {
+        "name": "DuplicateInheritedDefaultMethods",
+        "url": "https://www.javadoc.io/doc/org.aspectj/aspectjtools/1.8.4/org/aspectj/org/eclipse/jdt/core/compiler/IProblem.html#DuplicateInheritedDefaultMethods",
+        "whitelisted": false
+    },
+    "67109447": {
+        "name": "DuplicateInheritedMethods",
+        "url": "https://www.javadoc.io/doc/org.aspectj/aspectjtools/1.8.4/org/aspectj/org/eclipse/jdt/core/compiler/IProblem.html#DuplicateInheritedMethods",
+        "whitelisted": false
+    },
+    "536871083": {
+        "name": "DuplicateLabel",
+        "url": "https://www.javadoc.io/doc/org.aspectj/aspectjtools/1.8.4/org/aspectj/org/eclipse/jdt/core/compiler/IProblem.html#DuplicateLabel",
+        "whitelisted": false
+    },
+    "67109219": {
+        "name": "DuplicateMethod",
+        "url": "https://www.javadoc.io/doc/org.aspectj/aspectjtools/1.8.4/org/aspectj/org/eclipse/jdt/core/compiler/IProblem.html#DuplicateMethod",
+        "whitelisted": true
+    },
+    "16777743": {
+        "name": "DuplicateMethodErasure",
+        "url": "https://www.javadoc.io/doc/org.aspectj/aspectjtools/1.8.4/org/aspectj/org/eclipse/jdt/core/compiler/IProblem.html#DuplicateMethodErasure",
+        "whitelisted": false
+    },
+    "67109232": {
+        "name": "DuplicateModifierForArgument",
+        "url": "https://www.javadoc.io/doc/org.aspectj/aspectjtools/1.8.4/org/aspectj/org/eclipse/jdt/core/compiler/IProblem.html#DuplicateModifierForArgument",
+        "whitelisted": false
+    },
+    "33554773": {
+        "name": "DuplicateModifierForField",
+        "url": "https://www.javadoc.io/doc/org.aspectj/aspectjtools/1.8.4/org/aspectj/org/eclipse/jdt/core/compiler/IProblem.html#DuplicateModifierForField",
+        "whitelisted": false
+    },
+    "67109221": {
+        "name": "DuplicateModifierForMethod",
+        "url": "https://www.javadoc.io/doc/org.aspectj/aspectjtools/1.8.4/org/aspectj/org/eclipse/jdt/core/compiler/IProblem.html#DuplicateModifierForMethod",
+        "whitelisted": false
+    },
+    "16777517": {
+        "name": "DuplicateModifierForType",
+        "url": "https://www.javadoc.io/doc/org.aspectj/aspectjtools/1.8.4/org/aspectj/org/eclipse/jdt/core/compiler/IProblem.html#DuplicateModifierForType",
+        "whitelisted": false
+    },
+    "67109259": {
+        "name": "DuplicateModifierForVariable",
+        "url": "https://www.javadoc.io/doc/org.aspectj/aspectjtools/1.8.4/org/aspectj/org/eclipse/jdt/core/compiler/IProblem.html#DuplicateModifierForVariable",
+        "whitelisted": false
+    },
+    "16777535": {
+        "name": "DuplicateNestedType",
+        "url": "https://www.javadoc.io/doc/org.aspectj/aspectjtools/1.8.4/org/aspectj/org/eclipse/jdt/core/compiler/IProblem.html#DuplicateNestedType",
+        "whitelisted": false
+    },
+    "67109429": {
+        "name": "DuplicateParameterizedMethods",
+        "url": "https://www.javadoc.io/doc/org.aspectj/aspectjtools/1.8.4/org/aspectj/org/eclipse/jdt/core/compiler/IProblem.html#DuplicateParameterizedMethods",
+        "whitelisted": false
+    },
+    "16777530": {
+        "name": "DuplicateSuperInterface",
+        "url": "https://www.javadoc.io/doc/org.aspectj/aspectjtools/1.8.4/org/aspectj/org/eclipse/jdt/core/compiler/IProblem.html#DuplicateSuperInterface",
+        "whitelisted": false
+    },
+    "536871533": {
+        "name": "DuplicateTargetInTargetAnnotation",
+        "url": "https://www.javadoc.io/doc/org.aspectj/aspectjtools/1.8.4/org/aspectj/org/eclipse/jdt/core/compiler/IProblem.html#DuplicateTargetInTargetAnnotation",
+        "whitelisted": false
+    },
+    "16777539": {
+        "name": "DuplicateTypes",
+        "url": "https://www.javadoc.io/doc/org.aspectj/aspectjtools/1.8.4/org/aspectj/org/eclipse/jdt/core/compiler/IProblem.html#DuplicateTypes",
+        "whitelisted": false
+    },
+    "536871432": {
+        "name": "DuplicateTypeVariable",
+        "url": "https://www.javadoc.io/doc/org.aspectj/aspectjtools/1.8.4/org/aspectj/org/eclipse/jdt/core/compiler/IProblem.html#DuplicateTypeVariable",
+        "whitelisted": false
+    },
+    "553648316": {
+        "name": "EmptyControlFlowStatement",
+        "url": "https://www.javadoc.io/doc/org.aspectj/aspectjtools/1.8.4/org/aspectj/org/eclipse/jdt/core/compiler/IProblem.html#EmptyControlFlowStatement",
+        "whitelisted": false
+    },
+    "536870940": {
+        "name": "EnclosingInstanceInConstructorCall",
+        "url": "https://www.javadoc.io/doc/org.aspectj/aspectjtools/1.8.4/org/aspectj/org/eclipse/jdt/core/compiler/IProblem.html#EnclosingInstanceInConstructorCall",
+        "whitelisted": false
+    },
+    "1610612986": {
+        "name": "EndOfSource",
+        "url": "https://www.javadoc.io/doc/org.aspectj/aspectjtools/1.8.4/org/aspectj/org/eclipse/jdt/core/compiler/IProblem.html#EndOfSource",
+        "whitelisted": false
+    },
+    "67109622": {
+        "name": "EnumAbstractMethodMustBeImplemented",
+        "url": "https://www.javadoc.io/doc/org.aspectj/aspectjtools/1.8.4/org/aspectj/org/eclipse/jdt/core/compiler/IProblem.html#EnumAbstractMethodMustBeImplemented",
+        "whitelisted": false
+    },
+    "67109628": {
+        "name": "EnumConstantCannotDefineAbstractMethod",
+        "url": "https://www.javadoc.io/doc/org.aspectj/aspectjtools/1.8.4/org/aspectj/org/eclipse/jdt/core/compiler/IProblem.html#EnumConstantCannotDefineAbstractMethod",
+        "whitelisted": true
+    },
+    "67109627": {
+        "name": "EnumConstantMustImplementAbstractMethod",
+        "url": "https://www.javadoc.io/doc/org.aspectj/aspectjtools/1.8.4/org/aspectj/org/eclipse/jdt/core/compiler/IProblem.html#EnumConstantMustImplementAbstractMethod",
+        "whitelisted": false
+    },
+    "1610613178": {
+        "name": "EnumConstantsCannotBeSurroundedByParenthesis",
+        "url": "https://www.javadoc.io/doc/org.aspectj/aspectjtools/1.8.4/org/aspectj/org/eclipse/jdt/core/compiler/IProblem.html#EnumConstantsCannotBeSurroundedByParenthesis",
+        "whitelisted": false
+    },
+    "33555194": {
+        "name": "EnumStaticFieldInInInitializerContext",
+        "url": "https://www.javadoc.io/doc/org.aspectj/aspectjtools/1.8.4/org/aspectj/org/eclipse/jdt/core/compiler/IProblem.html#EnumStaticFieldInInInitializerContext",
+        "whitelisted": false
+    },
+    "33555191": {
+        "name": "EnumSwitchCannotTargetField",
+        "url": "https://www.javadoc.io/doc/org.aspectj/aspectjtools/1.8.4/org/aspectj/org/eclipse/jdt/core/compiler/IProblem.html#EnumSwitchCannotTargetField",
+        "whitelisted": false
+    },
+    "536870997": {
+        "name": "ExceptionParameterIsNeverUsed",
+        "url": "https://www.javadoc.io/doc/org.aspectj/aspectjtools/1.8.4/org/aspectj/org/eclipse/jdt/core/compiler/IProblem.html#ExceptionParameterIsNeverUsed",
+        "whitelisted": false
+    },
+    "67109241": {
+        "name": "ExceptionTypeAmbiguous",
+        "url": "https://www.javadoc.io/doc/org.aspectj/aspectjtools/1.8.4/org/aspectj/org/eclipse/jdt/core/compiler/IProblem.html#ExceptionTypeAmbiguous",
+        "whitelisted": false
+    },
+    "67109243": {
+        "name": "ExceptionTypeInheritedNameHidesEnclosingName",
+        "url": "https://www.javadoc.io/doc/org.aspectj/aspectjtools/1.8.4/org/aspectj/org/eclipse/jdt/core/compiler/IProblem.html#ExceptionTypeInheritedNameHidesEnclosingName",
+        "whitelisted": false
+    },
+    "67109242": {
+        "name": "ExceptionTypeInternalNameProvided",
+        "url": "https://www.javadoc.io/doc/org.aspectj/aspectjtools/1.8.4/org/aspectj/org/eclipse/jdt/core/compiler/IProblem.html#ExceptionTypeInternalNameProvided",
+        "whitelisted": false
+    },
+    "67109239": {
+        "name": "ExceptionTypeNotFound",
+        "url": "https://www.javadoc.io/doc/org.aspectj/aspectjtools/1.8.4/org/aspectj/org/eclipse/jdt/core/compiler/IProblem.html#ExceptionTypeNotFound",
+        "whitelisted": true
+    },
+    "67109240": {
+        "name": "ExceptionTypeNotVisible",
+        "url": "https://www.javadoc.io/doc/org.aspectj/aspectjtools/1.8.4/org/aspectj/org/eclipse/jdt/core/compiler/IProblem.html#ExceptionTypeNotVisible",
+        "whitelisted": true
+    },
+    "16777865": {
+        "name": "ExplicitAnnotationTargetRequired",
+        "url": "https://www.javadoc.io/doc/org.aspectj/aspectjtools/1.8.4/org/aspectj/org/eclipse/jdt/core/compiler/IProblem.html#ExplicitAnnotationTargetRequired",
+        "whitelisted": false
+    },
+    "536871801": {
+        "name": "ExplicitlyClosedAutoCloseable",
+        "url": "https://www.javadoc.io/doc/org.aspectj/aspectjtools/1.8.4/org/aspectj/org/eclipse/jdt/core/compiler/IProblem.html#ExplicitlyClosedAutoCloseable",
+        "whitelisted": false
+    },
+    "1610613379": {
+        "name": "ExplicitThisParameterNotBelow18",
+        "url": "https://www.javadoc.io/doc/org.aspectj/aspectjtools/1.8.4/org/aspectj/org/eclipse/jdt/core/compiler/IProblem.html#ExplicitThisParameterNotBelow18",
+        "whitelisted": false
+    },
+    "1610613384": {
+        "name": "ExplicitThisParameterNotInLambda",
+        "url": "https://www.javadoc.io/doc/org.aspectj/aspectjtools/1.8.4/org/aspectj/org/eclipse/jdt/core/compiler/IProblem.html#ExplicitThisParameterNotInLambda",
+        "whitelisted": false
+    },
+    "1610612959": {
+        "name": "ExpressionShouldBeAVariable",
+        "url": "https://www.javadoc.io/doc/org.aspectj/aspectjtools/1.8.4/org/aspectj/org/eclipse/jdt/core/compiler/IProblem.html#ExpressionShouldBeAVariable",
+        "whitelisted": false
+    },
+    "901": {
+        "name": "ExternalProblemFixable",
+        "url": "https://www.javadoc.io/doc/org.aspectj/aspectjtools/1.8.4/org/aspectj/org/eclipse/jdt/core/compiler/IProblem.html#ExternalProblemFixable",
+        "whitelisted": false
+    },
+    "900": {
+        "name": "ExternalProblemNotFixable",
+        "url": "https://www.javadoc.io/doc/org.aspectj/aspectjtools/1.8.4/org/aspectj/org/eclipse/jdt/core/compiler/IProblem.html#ExternalProblemNotFixable",
+        "whitelisted": false
+    },
+    "536871106": {
+        "name": "FallthroughCase",
+        "url": "https://www.javadoc.io/doc/org.aspectj/aspectjtools/1.8.4/org/aspectj/org/eclipse/jdt/core/compiler/IProblem.html#FallthroughCase",
+        "whitelisted": false
+    },
+    "536871854": {
+        "name": "FieldComparisonYieldsFalse",
+        "url": "https://www.javadoc.io/doc/org.aspectj/aspectjtools/1.8.4/org/aspectj/org/eclipse/jdt/core/compiler/IProblem.html#FieldComparisonYieldsFalse",
+        "whitelisted": false
+    },
+    "570425437": {
+        "name": "FieldHidingField",
+        "url": "https://www.javadoc.io/doc/org.aspectj/aspectjtools/1.8.4/org/aspectj/org/eclipse/jdt/core/compiler/IProblem.html#FieldHidingField",
+        "whitelisted": false
+    },
+    "570425436": {
+        "name": "FieldHidingLocalVariable",
+        "url": "https://www.javadoc.io/doc/org.aspectj/aspectjtools/1.8.4/org/aspectj/org/eclipse/jdt/core/compiler/IProblem.html#FieldHidingLocalVariable",
+        "whitelisted": false
+    },
+    "536871540": {
+        "name": "FieldMissingDeprecatedAnnotation",
+        "url": "https://www.javadoc.io/doc/org.aspectj/aspectjtools/1.8.4/org/aspectj/org/eclipse/jdt/core/compiler/IProblem.html#FieldMissingDeprecatedAnnotation",
+        "whitelisted": false
+    },
+    "33554432": {
+        "name": "FieldRelated",
+        "url": "https://www.javadoc.io/doc/org.aspectj/aspectjtools/1.8.4/org/aspectj/org/eclipse/jdt/core/compiler/IProblem.html#FieldRelated",
+        "whitelisted": false
+    },
+    "33554784": {
+        "name": "FieldTypeAmbiguous",
+        "url": "https://www.javadoc.io/doc/org.aspectj/aspectjtools/1.8.4/org/aspectj/org/eclipse/jdt/core/compiler/IProblem.html#FieldTypeAmbiguous",
+        "whitelisted": false
+    },
+    "33554786": {
+        "name": "FieldTypeInheritedNameHidesEnclosingName",
+        "url": "https://www.javadoc.io/doc/org.aspectj/aspectjtools/1.8.4/org/aspectj/org/eclipse/jdt/core/compiler/IProblem.html#FieldTypeInheritedNameHidesEnclosingName",
+        "whitelisted": false
+    },
+    "33554785": {
+        "name": "FieldTypeInternalNameProvided",
+        "url": "https://www.javadoc.io/doc/org.aspectj/aspectjtools/1.8.4/org/aspectj/org/eclipse/jdt/core/compiler/IProblem.html#FieldTypeInternalNameProvided",
+        "whitelisted": false
+    },
+    "33554782": {
+        "name": "FieldTypeNotFound",
+        "url": "https://www.javadoc.io/doc/org.aspectj/aspectjtools/1.8.4/org/aspectj/org/eclipse/jdt/core/compiler/IProblem.html#FieldTypeNotFound",
+        "whitelisted": false
+    },
+    "33554783": {
+        "name": "FieldTypeNotVisible",
+        "url": "https://www.javadoc.io/doc/org.aspectj/aspectjtools/1.8.4/org/aspectj/org/eclipse/jdt/core/compiler/IProblem.html#FieldTypeNotVisible",
+        "whitelisted": false
+    },
+    "16777753": {
+        "name": "FinalBoundForTypeVariable",
+        "url": "https://www.javadoc.io/doc/org.aspectj/aspectjtools/1.8.4/org/aspectj/org/eclipse/jdt/core/compiler/IProblem.html#FinalBoundForTypeVariable",
+        "whitelisted": false
+    },
+    "33554512": {
+        "name": "FinalFieldAssignment",
+        "url": "https://www.javadoc.io/doc/org.aspectj/aspectjtools/1.8.4/org/aspectj/org/eclipse/jdt/core/compiler/IProblem.html#FinalFieldAssignment",
+        "whitelisted": true
+    },
+    "536871096": {
+        "name": "FinallyMustCompleteNormally",
+        "url": "https://www.javadoc.io/doc/org.aspectj/aspectjtools/1.8.4/org/aspectj/org/eclipse/jdt/core/compiler/IProblem.html#FinallyMustCompleteNormally",
+        "whitelisted": false
+    },
+    "67109265": {
+        "name": "FinalMethodCannotBeOverridden",
+        "url": "https://www.javadoc.io/doc/org.aspectj/aspectjtools/1.8.4/org/aspectj/org/eclipse/jdt/core/compiler/IProblem.html#FinalMethodCannotBeOverridden",
+        "whitelisted": false
+    },
+    "536870972": {
+        "name": "FinalOuterLocalAssignment",
+        "url": "https://www.javadoc.io/doc/org.aspectj/aspectjtools/1.8.4/org/aspectj/org/eclipse/jdt/core/compiler/IProblem.html#FinalOuterLocalAssignment",
+        "whitelisted": false
+    },
+    "16777523": {
+        "name": "ForbiddenReference",
+        "url": "https://www.javadoc.io/doc/org.aspectj/aspectjtools/1.8.4/org/aspectj/org/eclipse/jdt/core/compiler/IProblem.html#ForbiddenReference",
+        "whitelisted": false
+    },
+    "16777760": {
+        "name": "GenericConstructorTypeArgumentMismatch",
+        "url": "https://www.javadoc.io/doc/org.aspectj/aspectjtools/1.8.4/org/aspectj/org/eclipse/jdt/core/compiler/IProblem.html#GenericConstructorTypeArgumentMismatch",
+        "whitelisted": false
+    },
+    "1100": {
+        "name": "GenericInferenceError",
+        "url": "https://www.javadoc.io/doc/org.aspectj/aspectjtools/1.8.4/org/aspectj/org/eclipse/jdt/core/compiler/IProblem.html#GenericInferenceError",
+        "whitelisted": false
+    },
+    "16777759": {
+        "name": "GenericMethodTypeArgumentMismatch",
+        "url": "https://www.javadoc.io/doc/org.aspectj/aspectjtools/1.8.4/org/aspectj/org/eclipse/jdt/core/compiler/IProblem.html#GenericMethodTypeArgumentMismatch",
+        "whitelisted": false
+    },
+    "16777773": {
+        "name": "GenericTypeCannotExtendThrowable",
+        "url": "https://www.javadoc.io/doc/org.aspectj/aspectjtools/1.8.4/org/aspectj/org/eclipse/jdt/core/compiler/IProblem.html#GenericTypeCannotExtendThrowable",
+        "whitelisted": false
+    },
+    "16777534": {
+        "name": "HidingEnclosingType",
+        "url": "https://www.javadoc.io/doc/org.aspectj/aspectjtools/1.8.4/org/aspectj/org/eclipse/jdt/core/compiler/IProblem.html#HidingEnclosingType",
+        "whitelisted": false
+    },
+    "16777533": {
+        "name": "HierarchyCircularity",
+        "url": "https://www.javadoc.io/doc/org.aspectj/aspectjtools/1.8.4/org/aspectj/org/eclipse/jdt/core/compiler/IProblem.html#HierarchyCircularity",
+        "whitelisted": true
+    },
+    "16777532": {
+        "name": "HierarchyCircularitySelfReference",
+        "url": "https://www.javadoc.io/doc/org.aspectj/aspectjtools/1.8.4/org/aspectj/org/eclipse/jdt/core/compiler/IProblem.html#HierarchyCircularitySelfReference",
+        "whitelisted": false
+    },
+    "16777543": {
+        "name": "HierarchyHasProblems",
+        "url": "https://www.javadoc.io/doc/org.aspectj/aspectjtools/1.8.4/org/aspectj/org/eclipse/jdt/core/compiler/IProblem.html#HierarchyHasProblems",
+        "whitelisted": true
+    },
+    "16777215": {
+        "name": "IgnoreCategoriesMask",
+        "url": "https://www.javadoc.io/doc/org.aspectj/aspectjtools/1.8.4/org/aspectj/org/eclipse/jdt/core/compiler/IProblem.html#IgnoreCategoriesMask",
+        "whitelisted": false
+    },
+    "67109226": {
+        "name": "IllegalAbstractModifierCombinationForMethod",
+        "url": "https://www.javadoc.io/doc/org.aspectj/aspectjtools/1.8.4/org/aspectj/org/eclipse/jdt/core/compiler/IProblem.html#IllegalAbstractModifierCombinationForMethod",
+        "whitelisted": false
+    },
+    "16777791": {
+        "name": "IllegalAccessFromTypeVariable",
+        "url": "https://www.javadoc.io/doc/org.aspectj/aspectjtools/1.8.4/org/aspectj/org/eclipse/jdt/core/compiler/IProblem.html#IllegalAccessFromTypeVariable",
+        "whitelisted": false
+    },
+    "16778139": {
+        "name": "IllegalAnnotationForBaseType",
+        "url": "https://www.javadoc.io/doc/org.aspectj/aspectjtools/1.8.4/org/aspectj/org/eclipse/jdt/core/compiler/IProblem.html#IllegalAnnotationForBaseType",
+        "whitelisted": false
+    },
+    "16777878": {
+        "name": "IllegalArrayOfUnionType",
+        "url": "https://www.javadoc.io/doc/org.aspectj/aspectjtools/1.8.4/org/aspectj/org/eclipse/jdt/core/compiler/IProblem.html#IllegalArrayOfUnionType",
+        "whitelisted": false
+    },
+    "16778109": {
+        "name": "IllegalArrayTypeInIntersectionCast",
+        "url": "https://www.javadoc.io/doc/org.aspectj/aspectjtools/1.8.4/org/aspectj/org/eclipse/jdt/core/compiler/IProblem.html#IllegalArrayTypeInIntersectionCast",
+        "whitelisted": false
+    },
+    "16778108": {
+        "name": "IllegalBasetypeInIntersectionCast",
+        "url": "https://www.javadoc.io/doc/org.aspectj/aspectjtools/1.8.4/org/aspectj/org/eclipse/jdt/core/compiler/IProblem.html#IllegalBasetypeInIntersectionCast",
+        "whitelisted": false
+    },
+    "16777372": {
+        "name": "IllegalCast",
+        "url": "https://www.javadoc.io/doc/org.aspectj/aspectjtools/1.8.4/org/aspectj/org/eclipse/jdt/core/compiler/IProblem.html#IllegalCast",
+        "whitelisted": true
+    },
+    "16777774": {
+        "name": "IllegalClassLiteralForTypeVariable",
+        "url": "https://www.javadoc.io/doc/org.aspectj/aspectjtools/1.8.4/org/aspectj/org/eclipse/jdt/core/compiler/IProblem.html#IllegalClassLiteralForTypeVariable",
+        "whitelisted": false
+    },
+    "1610613378": {
+        "name": "IllegalDeclarationOfThisParameter",
+        "url": "https://www.javadoc.io/doc/org.aspectj/aspectjtools/1.8.4/org/aspectj/org/eclipse/jdt/core/compiler/IProblem.html#IllegalDeclarationOfThisParameter",
+        "whitelisted": false
+    },
+    "67109922": {
+        "name": "IllegalDefaultModifierSpecification",
+        "url": "https://www.javadoc.io/doc/org.aspectj/aspectjtools/1.8.4/org/aspectj/org/eclipse/jdt/core/compiler/IProblem.html#IllegalDefaultModifierSpecification",
+        "whitelisted": false
+    },
+    "67109780": {
+        "name": "IllegalDefinitionToNonNullParameter",
+        "url": "https://www.javadoc.io/doc/org.aspectj/aspectjtools/1.8.4/org/aspectj/org/eclipse/jdt/core/compiler/IProblem.html#IllegalDefinitionToNonNullParameter",
+        "whitelisted": false
+    },
+    "536871114": {
+        "name": "IllegalDimension",
+        "url": "https://www.javadoc.io/doc/org.aspectj/aspectjtools/1.8.4/org/aspectj/org/eclipse/jdt/core/compiler/IProblem.html#IllegalDimension",
+        "whitelisted": false
+    },
+    "16777239": {
+        "name": "IllegalEnclosingInstanceSpecification",
+        "url": "https://www.javadoc.io/doc/org.aspectj/aspectjtools/1.8.4/org/aspectj/org/eclipse/jdt/core/compiler/IProblem.html#IllegalEnclosingInstanceSpecification",
+        "whitelisted": false
+    },
+    "67109465": {
+        "name": "IllegalExtendedDimensions",
+        "url": "https://www.javadoc.io/doc/org.aspectj/aspectjtools/1.8.4/org/aspectj/org/eclipse/jdt/core/compiler/IProblem.html#IllegalExtendedDimensions",
+        "whitelisted": false
+    },
+    "1610613536": {
+        "name": "IllegalExtendedDimensionsForVarArgs",
+        "url": "https://www.javadoc.io/doc/org.aspectj/aspectjtools/1.8.4/org/aspectj/org/eclipse/jdt/core/compiler/IProblem.html#IllegalExtendedDimensionsForVarArgs",
+        "whitelisted": false
+    },
+    "16777751": {
+        "name": "IllegalGenericArray",
+        "url": "https://www.javadoc.io/doc/org.aspectj/aspectjtools/1.8.4/org/aspectj/org/eclipse/jdt/core/compiler/IProblem.html#IllegalGenericArray",
+        "whitelisted": false
+    },
+    "1610613006": {
+        "name": "IllegalHexaLiteral",
+        "url": "https://www.javadoc.io/doc/org.aspectj/aspectjtools/1.8.4/org/aspectj/org/eclipse/jdt/core/compiler/IProblem.html#IllegalHexaLiteral",
+        "whitelisted": false
+    },
+    "536871458": {
+        "name": "IllegalInstanceofParameterizedType",
+        "url": "https://www.javadoc.io/doc/org.aspectj/aspectjtools/1.8.4/org/aspectj/org/eclipse/jdt/core/compiler/IProblem.html#IllegalInstanceofParameterizedType",
+        "whitelisted": false
+    },
+    "536871459": {
+        "name": "IllegalInstanceofTypeParameter",
+        "url": "https://www.javadoc.io/doc/org.aspectj/aspectjtools/1.8.4/org/aspectj/org/eclipse/jdt/core/compiler/IProblem.html#IllegalInstanceofTypeParameter",
+        "whitelisted": false
+    },
+    "16777524": {
+        "name": "IllegalModifierCombinationFinalAbstractForClass",
+        "url": "https://www.javadoc.io/doc/org.aspectj/aspectjtools/1.8.4/org/aspectj/org/eclipse/jdt/core/compiler/IProblem.html#IllegalModifierCombinationFinalAbstractForClass",
+        "whitelisted": false
+    },
+    "33554777": {
+        "name": "IllegalModifierCombinationFinalVolatileForField",
+        "url": "https://www.javadoc.io/doc/org.aspectj/aspectjtools/1.8.4/org/aspectj/org/eclipse/jdt/core/compiler/IProblem.html#IllegalModifierCombinationFinalVolatileForField",
+        "whitelisted": false
+    },
+    "67109920": {
+        "name": "IllegalModifierCombinationForInterfaceMethod",
+        "url": "https://www.javadoc.io/doc/org.aspectj/aspectjtools/1.8.4/org/aspectj/org/eclipse/jdt/core/compiler/IProblem.html#IllegalModifierCombinationForInterfaceMethod",
+        "whitelisted": false
+    },
+    "536871527": {
+        "name": "IllegalModifierForAnnotationField",
+        "url": "https://www.javadoc.io/doc/org.aspectj/aspectjtools/1.8.4/org/aspectj/org/eclipse/jdt/core/compiler/IProblem.html#IllegalModifierForAnnotationField",
+        "whitelisted": false
+    },
+    "16777820": {
+        "name": "IllegalModifierForAnnotationMemberType",
+        "url": "https://www.javadoc.io/doc/org.aspectj/aspectjtools/1.8.4/org/aspectj/org/eclipse/jdt/core/compiler/IProblem.html#IllegalModifierForAnnotationMemberType",
+        "whitelisted": false
+    },
+    "67109464": {
+        "name": "IllegalModifierForAnnotationMethod",
+        "url": "https://www.javadoc.io/doc/org.aspectj/aspectjtools/1.8.4/org/aspectj/org/eclipse/jdt/core/compiler/IProblem.html#IllegalModifierForAnnotationMethod",
+        "whitelisted": false
+    },
+    "16777819": {
+        "name": "IllegalModifierForAnnotationType",
+        "url": "https://www.javadoc.io/doc/org.aspectj/aspectjtools/1.8.4/org/aspectj/org/eclipse/jdt/core/compiler/IProblem.html#IllegalModifierForAnnotationType",
+        "whitelisted": false
+    },
+    "67109220": {
+        "name": "IllegalModifierForArgument",
+        "url": "https://www.javadoc.io/doc/org.aspectj/aspectjtools/1.8.4/org/aspectj/org/eclipse/jdt/core/compiler/IProblem.html#IllegalModifierForArgument",
+        "whitelisted": false
+    },
+    "16777518": {
+        "name": "IllegalModifierForClass",
+        "url": "https://www.javadoc.io/doc/org.aspectj/aspectjtools/1.8.4/org/aspectj/org/eclipse/jdt/core/compiler/IProblem.html#IllegalModifierForClass",
+        "whitelisted": true
+    },
+    "67109233": {
+        "name": "IllegalModifierForConstructor",
+        "url": "https://www.javadoc.io/doc/org.aspectj/aspectjtools/1.8.4/org/aspectj/org/eclipse/jdt/core/compiler/IProblem.html#IllegalModifierForConstructor",
+        "whitelisted": false
+    },
+    "16777966": {
+        "name": "IllegalModifierForEnum",
+        "url": "https://www.javadoc.io/doc/org.aspectj/aspectjtools/1.8.4/org/aspectj/org/eclipse/jdt/core/compiler/IProblem.html#IllegalModifierForEnum",
+        "whitelisted": true
+    },
+    "33555183": {
+        "name": "IllegalModifierForEnumConstant",
+        "url": "https://www.javadoc.io/doc/org.aspectj/aspectjtools/1.8.4/org/aspectj/org/eclipse/jdt/core/compiler/IProblem.html#IllegalModifierForEnumConstant",
+        "whitelisted": false
+    },
+    "67109624": {
+        "name": "IllegalModifierForEnumConstructor",
+        "url": "https://www.javadoc.io/doc/org.aspectj/aspectjtools/1.8.4/org/aspectj/org/eclipse/jdt/core/compiler/IProblem.html#IllegalModifierForEnumConstructor",
+        "whitelisted": false
+    },
+    "33554774": {
+        "name": "IllegalModifierForField",
+        "url": "https://www.javadoc.io/doc/org.aspectj/aspectjtools/1.8.4/org/aspectj/org/eclipse/jdt/core/compiler/IProblem.html#IllegalModifierForField",
+        "whitelisted": true
+    },
+    "16777519": {
+        "name": "IllegalModifierForInterface",
+        "url": "https://www.javadoc.io/doc/org.aspectj/aspectjtools/1.8.4/org/aspectj/org/eclipse/jdt/core/compiler/IProblem.html#IllegalModifierForInterface",
+        "whitelisted": false
+    },
+    "33554775": {
+        "name": "IllegalModifierForInterfaceField",
+        "url": "https://www.javadoc.io/doc/org.aspectj/aspectjtools/1.8.4/org/aspectj/org/eclipse/jdt/core/compiler/IProblem.html#IllegalModifierForInterfaceField",
+        "whitelisted": false
+    },
+    "67109223": {
+        "name": "IllegalModifierForInterfaceMethod",
+        "url": "https://www.javadoc.io/doc/org.aspectj/aspectjtools/1.8.4/org/aspectj/org/eclipse/jdt/core/compiler/IProblem.html#IllegalModifierForInterfaceMethod",
+        "whitelisted": false
+    },
+    "67109914": {
+        "name": "IllegalModifierForInterfaceMethod18",
+        "url": "https://www.javadoc.io/doc/org.aspectj/aspectjtools/1.8.4/org/aspectj/org/eclipse/jdt/core/compiler/IProblem.html#IllegalModifierForInterfaceMethod18",
+        "whitelisted": false
+    },
+    "16777522": {
+        "name": "IllegalModifierForLocalClass",
+        "url": "https://www.javadoc.io/doc/org.aspectj/aspectjtools/1.8.4/org/aspectj/org/eclipse/jdt/core/compiler/IProblem.html#IllegalModifierForLocalClass",
+        "whitelisted": false
+    },
+    "16777968": {
+        "name": "IllegalModifierForLocalEnum",
+        "url": "https://www.javadoc.io/doc/org.aspectj/aspectjtools/1.8.4/org/aspectj/org/eclipse/jdt/core/compiler/IProblem.html#IllegalModifierForLocalEnum",
+        "whitelisted": false
+    },
+    "16777520": {
+        "name": "IllegalModifierForMemberClass",
+        "url": "https://www.javadoc.io/doc/org.aspectj/aspectjtools/1.8.4/org/aspectj/org/eclipse/jdt/core/compiler/IProblem.html#IllegalModifierForMemberClass",
+        "whitelisted": false
+    },
+    "16777969": {
+        "name": "IllegalModifierForMemberEnum",
+        "url": "https://www.javadoc.io/doc/org.aspectj/aspectjtools/1.8.4/org/aspectj/org/eclipse/jdt/core/compiler/IProblem.html#IllegalModifierForMemberEnum",
+        "whitelisted": false
+    },
+    "16777521": {
+        "name": "IllegalModifierForMemberInterface",
+        "url": "https://www.javadoc.io/doc/org.aspectj/aspectjtools/1.8.4/org/aspectj/org/eclipse/jdt/core/compiler/IProblem.html#IllegalModifierForMemberInterface",
+        "whitelisted": false
+    },
+    "67109222": {
+        "name": "IllegalModifierForMethod",
+        "url": "https://www.javadoc.io/doc/org.aspectj/aspectjtools/1.8.4/org/aspectj/org/eclipse/jdt/core/compiler/IProblem.html#IllegalModifierForMethod",
+        "whitelisted": true
+    },
+    "67109260": {
+        "name": "IllegalModifierForVariable",
+        "url": "https://www.javadoc.io/doc/org.aspectj/aspectjtools/1.8.4/org/aspectj/org/eclipse/jdt/core/compiler/IProblem.html#IllegalModifierForVariable",
+        "whitelisted": false
+    },
+    "536871914": {
+        "name": "IllegalModifiers",
+        "url": "https://www.javadoc.io/doc/org.aspectj/aspectjtools/1.8.4/org/aspectj/org/eclipse/jdt/core/compiler/IProblem.html#IllegalModifiers",
+        "whitelisted": false
+    },
+    "536871913": {
+        "name": "IllegalModifiersForElidedType",
+        "url": "https://www.javadoc.io/doc/org.aspectj/aspectjtools/1.8.4/org/aspectj/org/eclipse/jdt/core/compiler/IProblem.html#IllegalModifiersForElidedType",
+        "whitelisted": false
+    },
+    "67109836": {
+        "name": "IllegalParameterNullityRedefinition",
+        "url": "https://www.javadoc.io/doc/org.aspectj/aspectjtools/1.8.4/org/aspectj/org/eclipse/jdt/core/compiler/IProblem.html#IllegalParameterNullityRedefinition",
+        "whitelisted": false
+    },
+    "16777243": {
+        "name": "IllegalPrimitiveOrArrayTypeForEnclosingInstance",
+        "url": "https://www.javadoc.io/doc/org.aspectj/aspectjtools/1.8.4/org/aspectj/org/eclipse/jdt/core/compiler/IProblem.html#IllegalPrimitiveOrArrayTypeForEnclosingInstance",
+        "whitelisted": false
+    },
+    "33555187": {
+        "name": "IllegalQualifiedEnumConstantLabel",
+        "url": "https://www.javadoc.io/doc/org.aspectj/aspectjtools/1.8.4/org/aspectj/org/eclipse/jdt/core/compiler/IProblem.html#IllegalQualifiedEnumConstantLabel",
+        "whitelisted": false
+    },
+    "16777782": {
+        "name": "IllegalQualifiedParameterizedTypeAllocation",
+        "url": "https://www.javadoc.io/doc/org.aspectj/aspectjtools/1.8.4/org/aspectj/org/eclipse/jdt/core/compiler/IProblem.html#IllegalQualifiedParameterizedTypeAllocation",
+        "whitelisted": false
+    },
+    "1610613387": {
+        "name": "IllegalQualifierForExplicitThis",
+        "url": "https://www.javadoc.io/doc/org.aspectj/aspectjtools/1.8.4/org/aspectj/org/eclipse/jdt/core/compiler/IProblem.html#IllegalQualifierForExplicitThis",
+        "whitelisted": false
+    },
+    "1610613388": {
+        "name": "IllegalQualifierForExplicitThis2",
+        "url": "https://www.javadoc.io/doc/org.aspectj/aspectjtools/1.8.4/org/aspectj/org/eclipse/jdt/core/compiler/IProblem.html#IllegalQualifierForExplicitThis2",
+        "whitelisted": false
+    },
+    "67109779": {
+        "name": "IllegalRedefinitionToNonNullParameter",
+        "url": "https://www.javadoc.io/doc/org.aspectj/aspectjtools/1.8.4/org/aspectj/org/eclipse/jdt/core/compiler/IProblem.html#IllegalRedefinitionToNonNullParameter",
+        "whitelisted": false
+    },
+    "67109778": {
+        "name": "IllegalReturnNullityRedefinition",
+        "url": "https://www.javadoc.io/doc/org.aspectj/aspectjtools/1.8.4/org/aspectj/org/eclipse/jdt/core/compiler/IProblem.html#IllegalReturnNullityRedefinition",
+        "whitelisted": false
+    },
+    "16777527": {
+        "name": "IllegalStaticModifierForMemberType",
+        "url": "https://www.javadoc.io/doc/org.aspectj/aspectjtools/1.8.4/org/aspectj/org/eclipse/jdt/core/compiler/IProblem.html#IllegalStaticModifierForMemberType",
+        "whitelisted": false
+    },
+    "67109921": {
+        "name": "IllegalStrictfpForAbstractInterfaceMethod",
+        "url": "https://www.javadoc.io/doc/org.aspectj/aspectjtools/1.8.4/org/aspectj/org/eclipse/jdt/core/compiler/IProblem.html#IllegalStrictfpForAbstractInterfaceMethod",
+        "whitelisted": false
+    },
+    "1610613376": {
+        "name": "IllegalTypeAnnotationsInStaticMemberAccess",
+        "url": "https://www.javadoc.io/doc/org.aspectj/aspectjtools/1.8.4/org/aspectj/org/eclipse/jdt/core/compiler/IProblem.html#IllegalTypeAnnotationsInStaticMemberAccess",
+        "whitelisted": false
+    },
+    "16778219": {
+        "name": "IllegalTypeArgumentsInRawConstructorReference",
+        "url": "https://www.javadoc.io/doc/org.aspectj/aspectjtools/1.8.4/org/aspectj/org/eclipse/jdt/core/compiler/IProblem.html#IllegalTypeArgumentsInRawConstructorReference",
+        "whitelisted": false
+    },
+    "1610613386": {
+        "name": "IllegalTypeForExplicitThis",
+        "url": "https://www.javadoc.io/doc/org.aspectj/aspectjtools/1.8.4/org/aspectj/org/eclipse/jdt/core/compiler/IProblem.html#IllegalTypeForExplicitThis",
+        "whitelisted": false
+    },
+    "536871433": {
+        "name": "IllegalTypeVariableSuperReference",
+        "url": "https://www.javadoc.io/doc/org.aspectj/aspectjtools/1.8.4/org/aspectj/org/eclipse/jdt/core/compiler/IProblem.html#IllegalTypeVariableSuperReference",
+        "whitelisted": false
+    },
+    "1610613004": {
+        "name": "IllegalUnderscorePosition",
+        "url": "https://www.javadoc.io/doc/org.aspectj/aspectjtools/1.8.4/org/aspectj/org/eclipse/jdt/core/compiler/IProblem.html#IllegalUnderscorePosition",
+        "whitelisted": false
+    },
+    "1610612934": {
+        "name": "IllegalUsageOfQualifiedTypeReference",
+        "url": "https://www.javadoc.io/doc/org.aspectj/aspectjtools/1.8.4/org/aspectj/org/eclipse/jdt/core/compiler/IProblem.html#IllegalUsageOfQualifiedTypeReference",
+        "whitelisted": false
+    },
+    "1610613377": {
+        "name": "IllegalUsageOfTypeAnnotations",
+        "url": "https://www.javadoc.io/doc/org.aspectj/aspectjtools/1.8.4/org/aspectj/org/eclipse/jdt/core/compiler/IProblem.html#IllegalUsageOfTypeAnnotations",
+        "whitelisted": false
+    },
+    "1610613179": {
+        "name": "IllegalUseOfUnderscoreAsAnIdentifier",
+        "url": "https://www.javadoc.io/doc/org.aspectj/aspectjtools/1.8.4/org/aspectj/org/eclipse/jdt/core/compiler/IProblem.html#IllegalUseOfUnderscoreAsAnIdentifier",
+        "whitelisted": false
+    },
+    "67109279": {
+        "name": "IllegalVararg",
+        "url": "https://www.javadoc.io/doc/org.aspectj/aspectjtools/1.8.4/org/aspectj/org/eclipse/jdt/core/compiler/IProblem.html#IllegalVararg",
+        "whitelisted": false
+    },
+    "553648782": {
+        "name": "IllegalVarargInLambda",
+        "url": "https://www.javadoc.io/doc/org.aspectj/aspectjtools/1.8.4/org/aspectj/org/eclipse/jdt/core/compiler/IProblem.html#IllegalVarargInLambda",
+        "whitelisted": false
+    },
+    "33554776": {
+        "name": "IllegalVisibilityModifierCombinationForField",
+        "url": "https://www.javadoc.io/doc/org.aspectj/aspectjtools/1.8.4/org/aspectj/org/eclipse/jdt/core/compiler/IProblem.html#IllegalVisibilityModifierCombinationForField",
+        "whitelisted": false
+    },
+    "16777526": {
+        "name": "IllegalVisibilityModifierCombinationForMemberType",
+        "url": "https://www.javadoc.io/doc/org.aspectj/aspectjtools/1.8.4/org/aspectj/org/eclipse/jdt/core/compiler/IProblem.html#IllegalVisibilityModifierCombinationForMemberType",
+        "whitelisted": false
+    },
+    "67109224": {
+        "name": "IllegalVisibilityModifierCombinationForMethod",
+        "url": "https://www.javadoc.io/doc/org.aspectj/aspectjtools/1.8.4/org/aspectj/org/eclipse/jdt/core/compiler/IProblem.html#IllegalVisibilityModifierCombinationForMethod",
+        "whitelisted": false
+    },
+    "16777525": {
+        "name": "IllegalVisibilityModifierForInterfaceMemberType",
+        "url": "https://www.javadoc.io/doc/org.aspectj/aspectjtools/1.8.4/org/aspectj/org/eclipse/jdt/core/compiler/IProblem.html#IllegalVisibilityModifierForInterfaceMemberType",
+        "whitelisted": false
+    },
+    "553648783": {
+        "name": "illFormedParameterizationOfFunctionalInterface",
+        "url": "https://www.javadoc.io/doc/org.aspectj/aspectjtools/1.8.4/org/aspectj/org/eclipse/jdt/core/compiler/IProblem.html#illFormedParameterizationOfFunctionalInterface",
+        "whitelisted": false
+    },
+    "971": {
+        "name": "ImplicitObjectBoundNoNullDefault",
+        "url": "https://www.javadoc.io/doc/org.aspectj/aspectjtools/1.8.4/org/aspectj/org/eclipse/jdt/core/compiler/IProblem.html#ImplicitObjectBoundNoNullDefault",
+        "whitelisted": false
+    },
+    "268435848": {
+        "name": "ImportAmbiguous",
+        "url": "https://www.javadoc.io/doc/org.aspectj/aspectjtools/1.8.4/org/aspectj/org/eclipse/jdt/core/compiler/IProblem.html#ImportAmbiguous",
+        "whitelisted": false
+    },
+    "268435850": {
+        "name": "ImportInheritedNameHidesEnclosingName",
+        "url": "https://www.javadoc.io/doc/org.aspectj/aspectjtools/1.8.4/org/aspectj/org/eclipse/jdt/core/compiler/IProblem.html#ImportInheritedNameHidesEnclosingName",
+        "whitelisted": false
+    },
+    "268435849": {
+        "name": "ImportInternalNameProvided",
+        "url": "https://www.javadoc.io/doc/org.aspectj/aspectjtools/1.8.4/org/aspectj/org/eclipse/jdt/core/compiler/IProblem.html#ImportInternalNameProvided",
+        "whitelisted": false
+    },
+    "268435846": {
+        "name": "ImportNotFound",
+        "url": "https://www.javadoc.io/doc/org.aspectj/aspectjtools/1.8.4/org/aspectj/org/eclipse/jdt/core/compiler/IProblem.html#ImportNotFound",
+        "whitelisted": false
+    },
+    "268435847": {
+        "name": "InvalidTypeForStaticImport",
+        "url": "https://www.javadoc.io/doc/org.aspectj/aspectjtools/1.8.4/org/aspectj/org/eclipse/jdt/core/compiler/IProblem.html#InvalidTypeForStaticImport",
+        "whitelisted": false
+    },
+    "268435456": {
+        "name": "ImportRelated",
+        "url": "https://www.javadoc.io/doc/org.aspectj/aspectjtools/1.8.4/org/aspectj/org/eclipse/jdt/core/compiler/IProblem.html#ImportRelated",
+        "whitelisted": false
+    },
+    "67109267": {
+        "name": "IncompatibleExceptionInInheritedMethodThrowsClause",
+        "url": "https://www.javadoc.io/doc/org.aspectj/aspectjtools/1.8.4/org/aspectj/org/eclipse/jdt/core/compiler/IProblem.html#IncompatibleExceptionInInheritedMethodThrowsClause",
+        "whitelisted": false
+    },
+    "67109266": {
+        "name": "IncompatibleExceptionInThrowsClause",
+        "url": "https://www.javadoc.io/doc/org.aspectj/aspectjtools/1.8.4/org/aspectj/org/eclipse/jdt/core/compiler/IProblem.html#IncompatibleExceptionInThrowsClause",
+        "whitelisted": true
+    },
+    "67109278": {
+        "name": "IncompatibleExceptionInThrowsClauseForNonInheritedInterfaceMethod",
+        "url": "https://www.javadoc.io/doc/org.aspectj/aspectjtools/1.8.4/org/aspectj/org/eclipse/jdt/core/compiler/IProblem.html#IncompatibleExceptionInThrowsClauseForNonInheritedInterfaceMethod",
+        "whitelisted": false
+    },
+    "553648786": {
+        "name": "IncompatibleLambdaParameterType",
+        "url": "https://www.javadoc.io/doc/org.aspectj/aspectjtools/1.8.4/org/aspectj/org/eclipse/jdt/core/compiler/IProblem.html#IncompatibleLambdaParameterType",
+        "whitelisted": false
+    },
+    "603979904": {
+        "name": "IncompatibleMethodReference",
+        "url": "https://www.javadoc.io/doc/org.aspectj/aspectjtools/1.8.4/org/aspectj/org/eclipse/jdt/core/compiler/IProblem.html#IncompatibleMethodReference",
+        "whitelisted": false
+    },
+    "67109268": {
+        "name": "IncompatibleReturnType",
+        "url": "https://www.javadoc.io/doc/org.aspectj/aspectjtools/1.8.4/org/aspectj/org/eclipse/jdt/core/compiler/IProblem.html#IncompatibleReturnType",
+        "whitelisted": false
+    },
+    "67109277": {
+        "name": "IncompatibleReturnTypeForNonInheritedInterfaceMethod",
+        "url": "https://www.javadoc.io/doc/org.aspectj/aspectjtools/1.8.4/org/aspectj/org/eclipse/jdt/core/compiler/IProblem.html#IncompatibleReturnTypeForNonInheritedInterfaceMethod",
+        "whitelisted": false
+    },
+    "16777232": {
+        "name": "IncompatibleTypesInConditionalOperator",
+        "url": "https://www.javadoc.io/doc/org.aspectj/aspectjtools/1.8.4/org/aspectj/org/eclipse/jdt/core/compiler/IProblem.html#IncompatibleTypesInConditionalOperator",
+        "whitelisted": true
+    },
+    "16777231": {
+        "name": "IncompatibleTypesInEqualityOperator",
+        "url": "https://www.javadoc.io/doc/org.aspectj/aspectjtools/1.8.4/org/aspectj/org/eclipse/jdt/core/compiler/IProblem.html#IncompatibleTypesInEqualityOperator",
+        "whitelisted": false
+    },
+    "16777796": {
+        "name": "IncompatibleTypesInForeach",
+        "url": "https://www.javadoc.io/doc/org.aspectj/aspectjtools/1.8.4/org/aspectj/org/eclipse/jdt/core/compiler/IProblem.html#IncompatibleTypesInForeach",
+        "whitelisted": false
+    },
+    "16777768": {
+        "name": "IncorrectArityForParameterizedConstructor",
+        "url": "https://www.javadoc.io/doc/org.aspectj/aspectjtools/1.8.4/org/aspectj/org/eclipse/jdt/core/compiler/IProblem.html#IncorrectArityForParameterizedConstructor",
+        "whitelisted": false
+    },
+    "16777765": {
+        "name": "IncorrectArityForParameterizedMethod",
+        "url": "https://www.javadoc.io/doc/org.aspectj/aspectjtools/1.8.4/org/aspectj/org/eclipse/jdt/core/compiler/IProblem.html#IncorrectArityForParameterizedMethod",
+        "whitelisted": false
+    },
+    "16777741": {
+        "name": "IncorrectArityForParameterizedType",
+        "url": "https://www.javadoc.io/doc/org.aspectj/aspectjtools/1.8.4/org/aspectj/org/eclipse/jdt/core/compiler/IProblem.html#IncorrectArityForParameterizedType",
+        "whitelisted": false
+    },
+    "16777238": {
+        "name": "IncorrectEnclosingInstanceReference",
+        "url": "https://www.javadoc.io/doc/org.aspectj/aspectjtools/1.8.4/org/aspectj/org/eclipse/jdt/core/compiler/IProblem.html#IncorrectEnclosingInstanceReference",
+        "whitelisted": false
+    },
+    "16777385": {
+        "name": "IncorrectSwitchType",
+        "url": "https://www.javadoc.io/doc/org.aspectj/aspectjtools/1.8.4/org/aspectj/org/eclipse/jdt/core/compiler/IProblem.html#IncorrectSwitchType",
+        "whitelisted": false
+    },
+    "16778093": {
+        "name": "IncorrectSwitchType17",
+        "url": "https://www.javadoc.io/doc/org.aspectj/aspectjtools/1.8.4/org/aspectj/org/eclipse/jdt/core/compiler/IProblem.html#IncorrectSwitchType17",
+        "whitelisted": false
+    },
+    "570425422": {
+        "name": "IndirectAccessToStaticField",
+        "url": "https://www.javadoc.io/doc/org.aspectj/aspectjtools/1.8.4/org/aspectj/org/eclipse/jdt/core/compiler/IProblem.html#IndirectAccessToStaticField",
+        "whitelisted": false
+    },
+    "603979895": {
+        "name": "IndirectAccessToStaticMethod",
+        "url": "https://www.javadoc.io/doc/org.aspectj/aspectjtools/1.8.4/org/aspectj/org/eclipse/jdt/core/compiler/IProblem.html#IndirectAccessToStaticMethod",
+        "whitelisted": false
+    },
+    "553648146": {
+        "name": "IndirectAccessToStaticType",
+        "url": "https://www.javadoc.io/doc/org.aspectj/aspectjtools/1.8.4/org/aspectj/org/eclipse/jdt/core/compiler/IProblem.html#IndirectAccessToStaticType",
+        "whitelisted": false
+    },
+    "67109916": {
+        "name": "InheritedDefaultMethodConflictsWithOtherInherited",
+        "url": "https://www.javadoc.io/doc/org.aspectj/aspectjtools/1.8.4/org/aspectj/org/eclipse/jdt/core/compiler/IProblem.html#InheritedDefaultMethodConflictsWithOtherInherited",
+        "whitelisted": false
+    },
+    "33554628": {
+        "name": "InheritedFieldHidesEnclosingName",
+        "url": "https://www.javadoc.io/doc/org.aspectj/aspectjtools/1.8.4/org/aspectj/org/eclipse/jdt/core/compiler/IProblem.html#InheritedFieldHidesEnclosingName",
+        "whitelisted": false
+    },
+    "67109283": {
+        "name": "InheritedIncompatibleReturnType",
+        "url": "https://www.javadoc.io/doc/org.aspectj/aspectjtools/1.8.4/org/aspectj/org/eclipse/jdt/core/compiler/IProblem.html#InheritedIncompatibleReturnType",
+        "whitelisted": false
+    },
+    "67109059": {
+        "name": "InheritedMethodHidesEnclosingName",
+        "url": "https://www.javadoc.io/doc/org.aspectj/aspectjtools/1.8.4/org/aspectj/org/eclipse/jdt/core/compiler/IProblem.html#InheritedMethodHidesEnclosingName",
+        "whitelisted": false
+    },
+    "67109269": {
+        "name": "InheritedMethodReducesVisibility",
+        "url": "https://www.javadoc.io/doc/org.aspectj/aspectjtools/1.8.4/org/aspectj/org/eclipse/jdt/core/compiler/IProblem.html#InheritedMethodReducesVisibility",
+        "whitelisted": false
+    },
+    "16777413": {
+        "name": "InheritedTypeHidesEnclosingName",
+        "url": "https://www.javadoc.io/doc/org.aspectj/aspectjtools/1.8.4/org/aspectj/org/eclipse/jdt/core/compiler/IProblem.html#InheritedTypeHidesEnclosingName",
+        "whitelisted": false
+    },
+    "536871075": {
+        "name": "InitializerMustCompleteNormally",
+        "url": "https://www.javadoc.io/doc/org.aspectj/aspectjtools/1.8.4/org/aspectj/org/eclipse/jdt/core/compiler/IProblem.html#InitializerMustCompleteNormally",
+        "whitelisted": false
+    },
+    "134217863": {
+        "name": "InstanceFieldDuringConstructorInvocation",
+        "url": "https://www.javadoc.io/doc/org.aspectj/aspectjtools/1.8.4/org/aspectj/org/eclipse/jdt/core/compiler/IProblem.html#InstanceFieldDuringConstructorInvocation",
+        "whitelisted": false
+    },
+    "134217864": {
+        "name": "InstanceMethodDuringConstructorInvocation",
+        "url": "https://www.javadoc.io/doc/org.aspectj/aspectjtools/1.8.4/org/aspectj/org/eclipse/jdt/core/compiler/IProblem.html#InstanceMethodDuringConstructorInvocation",
+        "whitelisted": false
+    },
+    "16777553": {
+        "name": "InterfaceAmbiguous",
+        "url": "https://www.javadoc.io/doc/org.aspectj/aspectjtools/1.8.4/org/aspectj/org/eclipse/jdt/core/compiler/IProblem.html#InterfaceAmbiguous",
+        "whitelisted": false
+    },
+    "1610612943": {
+        "name": "InterfaceCannotHaveConstructors",
+        "url": "https://www.javadoc.io/doc/org.aspectj/aspectjtools/1.8.4/org/aspectj/org/eclipse/jdt/core/compiler/IProblem.html#InterfaceCannotHaveConstructors",
+        "whitelisted": false
+    },
+    "16777516": {
+        "name": "InterfaceCannotHaveInitializers",
+        "url": "https://www.javadoc.io/doc/org.aspectj/aspectjtools/1.8.4/org/aspectj/org/eclipse/jdt/core/compiler/IProblem.html#InterfaceCannotHaveInitializers",
+        "whitelisted": false
+    },
+    "16777555": {
+        "name": "InterfaceInheritedNameHidesEnclosingName",
+        "url": "https://www.javadoc.io/doc/org.aspectj/aspectjtools/1.8.4/org/aspectj/org/eclipse/jdt/core/compiler/IProblem.html#InterfaceInheritedNameHidesEnclosingName",
+        "whitelisted": false
+    },
+    "16777554": {
+        "name": "InterfaceInternalNameProvided",
+        "url": "https://www.javadoc.io/doc/org.aspectj/aspectjtools/1.8.4/org/aspectj/org/eclipse/jdt/core/compiler/IProblem.html#InterfaceInternalNameProvided",
+        "whitelisted": false
+    },
+    "16777551": {
+        "name": "InterfaceNotFound",
+        "url": "https://www.javadoc.io/doc/org.aspectj/aspectjtools/1.8.4/org/aspectj/org/eclipse/jdt/core/compiler/IProblem.html#InterfaceNotFound",
+        "whitelisted": false
+    },
+    "553648792": {
+        "name": "InterfaceNotFunctionalInterface",
+        "url": "https://www.javadoc.io/doc/org.aspectj/aspectjtools/1.8.4/org/aspectj/org/eclipse/jdt/core/compiler/IProblem.html#InterfaceNotFunctionalInterface",
+        "whitelisted": false
+    },
+    "16777552": {
+        "name": "InterfaceNotVisible",
+        "url": "https://www.javadoc.io/doc/org.aspectj/aspectjtools/1.8.4/org/aspectj/org/eclipse/jdt/core/compiler/IProblem.html#InterfaceNotVisible",
+        "whitelisted": false
+    },
+    "536870912": {
+        "name": "Internal",
+        "url": "https://www.javadoc.io/doc/org.aspectj/aspectjtools/1.8.4/org/aspectj/org/eclipse/jdt/core/compiler/IProblem.html#Internal",
+        "whitelisted": false
+    },
+    "16777222": {
+        "name": "InternalTypeNameProvided",
+        "url": "https://www.javadoc.io/doc/org.aspectj/aspectjtools/1.8.4/org/aspectj/org/eclipse/jdt/core/compiler/IProblem.html#InternalTypeNameProvided",
+        "whitelisted": false
+    },
+    "16778107": {
+        "name": "IntersectionCastNotBelow18",
+        "url": "https://www.javadoc.io/doc/org.aspectj/aspectjtools/1.8.4/org/aspectj/org/eclipse/jdt/core/compiler/IProblem.html#IntersectionCastNotBelow18",
+        "whitelisted": false
+    },
+    "16777821": {
+        "name": "InvalidAnnotationMemberType",
+        "url": "https://www.javadoc.io/doc/org.aspectj/aspectjtools/1.8.4/org/aspectj/org/eclipse/jdt/core/compiler/IProblem.html#InvalidAnnotationMemberType",
+        "whitelisted": true
+    },
+    "603979901": {
+        "name": "InvalidArrayConstructorReference",
+        "url": "https://www.javadoc.io/doc/org.aspectj/aspectjtools/1.8.4/org/aspectj/org/eclipse/jdt/core/compiler/IProblem.html#InvalidArrayConstructorReference",
+        "whitelisted": false
+    },
+    "1610613002": {
+        "name": "InvalidBinary",
+        "url": "https://www.javadoc.io/doc/org.aspectj/aspectjtools/1.8.4/org/aspectj/org/eclipse/jdt/core/compiler/IProblem.html#InvalidBinary",
+        "whitelisted": false
+    },
+    "536871084": {
+        "name": "InvalidBreak",
+        "url": "https://www.javadoc.io/doc/org.aspectj/aspectjtools/1.8.4/org/aspectj/org/eclipse/jdt/core/compiler/IProblem.html#InvalidBreak",
+        "whitelisted": false
+    },
+    "553648315": {
+        "name": "InvalidCatchBlockSequence",
+        "url": "https://www.javadoc.io/doc/org.aspectj/aspectjtools/1.8.4/org/aspectj/org/eclipse/jdt/core/compiler/IProblem.html#InvalidCatchBlockSequence",
+        "whitelisted": false
+    },
+    "1610612989": {
+        "name": "InvalidCharacterConstant",
+        "url": "https://www.javadoc.io/doc/org.aspectj/aspectjtools/1.8.4/org/aspectj/org/eclipse/jdt/core/compiler/IProblem.html#InvalidCharacterConstant",
+        "whitelisted": false
+    },
+    "16777373": {
+        "name": "InvalidClassInstantiation",
+        "url": "https://www.javadoc.io/doc/org.aspectj/aspectjtools/1.8.4/org/aspectj/org/eclipse/jdt/core/compiler/IProblem.html#InvalidClassInstantiation",
+        "whitelisted": false
+    },
+    "536871085": {
+        "name": "InvalidContinue",
+        "url": "https://www.javadoc.io/doc/org.aspectj/aspectjtools/1.8.4/org/aspectj/org/eclipse/jdt/core/compiler/IProblem.html#InvalidContinue",
+        "whitelisted": false
+    },
+    "1610612998": {
+        "name": "InvalidDigit",
+        "url": "https://www.javadoc.io/doc/org.aspectj/aspectjtools/1.8.4/org/aspectj/org/eclipse/jdt/core/compiler/IProblem.html#InvalidDigit",
+        "whitelisted": false
+    },
+    "536871613": {
+        "name": "InvalidEncoding",
+        "url": "https://www.javadoc.io/doc/org.aspectj/aspectjtools/1.8.4/org/aspectj/org/eclipse/jdt/core/compiler/IProblem.html#InvalidEncoding",
+        "whitelisted": false
+    },
+    "1610612990": {
+        "name": "InvalidEscape",
+        "url": "https://www.javadoc.io/doc/org.aspectj/aspectjtools/1.8.4/org/aspectj/org/eclipse/jdt/core/compiler/IProblem.html#InvalidEscape",
+        "whitelisted": false
+    },
+    "1207959691": {
+        "name": "InvalidExplicitConstructorCall",
+        "url": "https://www.javadoc.io/doc/org.aspectj/aspectjtools/1.8.4/org/aspectj/org/eclipse/jdt/core/compiler/IProblem.html#InvalidExplicitConstructorCall",
+        "whitelisted": false
+    },
+    "1610612958": {
+        "name": "InvalidExpressionAsStatement",
+        "url": "https://www.javadoc.io/doc/org.aspectj/aspectjtools/1.8.4/org/aspectj/org/eclipse/jdt/core/compiler/IProblem.html#InvalidExpressionAsStatement",
+        "whitelisted": false
+    },
+    "1610613338": {
+        "name": "InvalidFileNameForPackageAnnotations",
+        "url": "https://www.javadoc.io/doc/org.aspectj/aspectjtools/1.8.4/org/aspectj/org/eclipse/jdt/core/compiler/IProblem.html#InvalidFileNameForPackageAnnotations",
+        "whitelisted": false
+    },
+    "1610612993": {
+        "name": "InvalidFloat",
+        "url": "https://www.javadoc.io/doc/org.aspectj/aspectjtools/1.8.4/org/aspectj/org/eclipse/jdt/core/compiler/IProblem.html#InvalidFloat",
+        "whitelisted": false
+    },
+    "1610612987": {
+        "name": "InvalidHexa",
+        "url": "https://www.javadoc.io/doc/org.aspectj/aspectjtools/1.8.4/org/aspectj/org/eclipse/jdt/core/compiler/IProblem.html#InvalidHexa",
+        "whitelisted": false
+    },
+    "1610613000": {
+        "name": "InvalidHighSurrogate",
+        "url": "https://www.javadoc.io/doc/org.aspectj/aspectjtools/1.8.4/org/aspectj/org/eclipse/jdt/core/compiler/IProblem.html#InvalidHighSurrogate",
+        "whitelisted": false
+    },
+    "1610612991": {
+        "name": "InvalidInput",
+        "url": "https://www.javadoc.io/doc/org.aspectj/aspectjtools/1.8.4/org/aspectj/org/eclipse/jdt/core/compiler/IProblem.html#InvalidInput",
+        "whitelisted": false
+    },
+    "1610612999": {
+        "name": "InvalidLowSurrogate",
+        "url": "https://www.javadoc.io/doc/org.aspectj/aspectjtools/1.8.4/org/aspectj/org/eclipse/jdt/core/compiler/IProblem.html#InvalidLowSurrogate",
+        "whitelisted": false
+    },
+    "536871088": {
+        "name": "InvalidNullToSynchronized",
+        "url": "https://www.javadoc.io/doc/org.aspectj/aspectjtools/1.8.4/org/aspectj/org/eclipse/jdt/core/compiler/IProblem.html#InvalidNullToSynchronized",
+        "whitelisted": false
+    },
+    "1610612988": {
+        "name": "InvalidOctal",
+        "url": "https://www.javadoc.io/doc/org.aspectj/aspectjtools/1.8.4/org/aspectj/org/eclipse/jdt/core/compiler/IProblem.html#InvalidOctal",
+        "whitelisted": false
+    },
+    "536871072": {
+        "name": "InvalidOperator",
+        "url": "https://www.javadoc.io/doc/org.aspectj/aspectjtools/1.8.4/org/aspectj/org/eclipse/jdt/core/compiler/IProblem.html#InvalidOperator",
+        "whitelisted": false
+    },
+    "16777750": {
+        "name": "InvalidParameterizedExceptionType",
+        "url": "https://www.javadoc.io/doc/org.aspectj/aspectjtools/1.8.4/org/aspectj/org/eclipse/jdt/core/compiler/IProblem.html#InvalidParameterizedExceptionType",
+        "whitelisted": false
+    },
+    "1610612961": {
+        "name": "InvalidParenthesizedExpression",
+        "url": "https://www.javadoc.io/doc/org.aspectj/aspectjtools/1.8.4/org/aspectj/org/eclipse/jdt/core/compiler/IProblem.html#InvalidParenthesizedExpression",
+        "whitelisted": false
+    },
+    "536871115": {
+        "name": "InvalidTypeExpression",
+        "url": "https://www.javadoc.io/doc/org.aspectj/aspectjtools/1.8.4/org/aspectj/org/eclipse/jdt/core/compiler/IProblem.html#InvalidTypeExpression",
+        "whitelisted": true
+    },
+    "536871493": {
+        "name": "InvalidTypeForCollection",
+        "url": "https://www.javadoc.io/doc/org.aspectj/aspectjtools/1.8.4/org/aspectj/org/eclipse/jdt/core/compiler/IProblem.html#InvalidTypeForCollection",
+        "whitelisted": false
+    },
+    "536871494": {
+        "name": "InvalidTypeForCollectionTarget14",
+        "url": "https://www.javadoc.io/doc/org.aspectj/aspectjtools/1.8.4/org/aspectj/org/eclipse/jdt/core/compiler/IProblem.html#InvalidTypeForCollectionTarget14",
+        "whitelisted": false
+    },
+    "536871087": {
+        "name": "InvalidTypeToSynchronized",
+        "url": "https://www.javadoc.io/doc/org.aspectj/aspectjtools/1.8.4/org/aspectj/org/eclipse/jdt/core/compiler/IProblem.html#InvalidTypeToSynchronized",
+        "whitelisted": false
+    },
+    "16777749": {
+        "name": "InvalidTypeVariableExceptionType",
+        "url": "https://www.javadoc.io/doc/org.aspectj/aspectjtools/1.8.4/org/aspectj/org/eclipse/jdt/core/compiler/IProblem.html#InvalidTypeVariableExceptionType",
+        "whitelisted": false
+    },
+    "1610612942": {
+        "name": "InvalidUnaryExpression",
+        "url": "https://www.javadoc.io/doc/org.aspectj/aspectjtools/1.8.4/org/aspectj/org/eclipse/jdt/core/compiler/IProblem.html#InvalidUnaryExpression",
+        "whitelisted": false
+    },
+    "1610612992": {
+        "name": "InvalidUnicodeEscape",
+        "url": "https://www.javadoc.io/doc/org.aspectj/aspectjtools/1.8.4/org/aspectj/org/eclipse/jdt/core/compiler/IProblem.html#InvalidUnicodeEscape",
+        "whitelisted": false
+    },
+    "553649001": {
+        "name": "InvalidUnionTypeReferenceSequence",
+        "url": "https://www.javadoc.io/doc/org.aspectj/aspectjtools/1.8.4/org/aspectj/org/eclipse/jdt/core/compiler/IProblem.html#InvalidUnionTypeReferenceSequence",
+        "whitelisted": false
+    },
+    "1610613333": {
+        "name": "InvalidUsageOfAnnotationDeclarations",
+        "url": "https://www.javadoc.io/doc/org.aspectj/aspectjtools/1.8.4/org/aspectj/org/eclipse/jdt/core/compiler/IProblem.html#InvalidUsageOfAnnotationDeclarations",
+        "whitelisted": false
+    },
+    "1610613332": {
+        "name": "InvalidUsageOfAnnotations",
+        "url": "https://www.javadoc.io/doc/org.aspectj/aspectjtools/1.8.4/org/aspectj/org/eclipse/jdt/core/compiler/IProblem.html#InvalidUsageOfAnnotations",
+        "whitelisted": false
+    },
+    "1610613330": {
+        "name": "InvalidUsageOfEnumDeclarations",
+        "url": "https://www.javadoc.io/doc/org.aspectj/aspectjtools/1.8.4/org/aspectj/org/eclipse/jdt/core/compiler/IProblem.html#InvalidUsageOfEnumDeclarations",
+        "whitelisted": false
+    },
+    "1610613328": {
+        "name": "InvalidUsageOfForeachStatements",
+        "url": "https://www.javadoc.io/doc/org.aspectj/aspectjtools/1.8.4/org/aspectj/org/eclipse/jdt/core/compiler/IProblem.html#InvalidUsageOfForeachStatements",
+        "whitelisted": false
+    },
+    "1610613327": {
+        "name": "InvalidUsageOfStaticImports",
+        "url": "https://www.javadoc.io/doc/org.aspectj/aspectjtools/1.8.4/org/aspectj/org/eclipse/jdt/core/compiler/IProblem.html#InvalidUsageOfStaticImports",
+        "whitelisted": false
+    },
+    "1610613373": {
+        "name": "InvalidUsageOfTypeAnnotations",
+        "url": "https://www.javadoc.io/doc/org.aspectj/aspectjtools/1.8.4/org/aspectj/org/eclipse/jdt/core/compiler/IProblem.html#InvalidUsageOfTypeAnnotations",
+        "whitelisted": false
+    },
+    "1610613329": {
+        "name": "InvalidUsageOfTypeArguments",
+        "url": "https://www.javadoc.io/doc/org.aspectj/aspectjtools/1.8.4/org/aspectj/org/eclipse/jdt/core/compiler/IProblem.html#InvalidUsageOfTypeArguments",
+        "whitelisted": false
+    },
+    "1610613326": {
+        "name": "InvalidUsageOfTypeParameters",
+        "url": "https://www.javadoc.io/doc/org.aspectj/aspectjtools/1.8.4/org/aspectj/org/eclipse/jdt/core/compiler/IProblem.html#InvalidUsageOfTypeParameters",
+        "whitelisted": false
+    },
+    "1610613334": {
+        "name": "InvalidUsageOfTypeParametersForAnnotationDeclaration",
+        "url": "https://www.javadoc.io/doc/org.aspectj/aspectjtools/1.8.4/org/aspectj/org/eclipse/jdt/core/compiler/IProblem.html#InvalidUsageOfTypeParametersForAnnotationDeclaration",
+        "whitelisted": false
+    },
+    "1610613335": {
+        "name": "InvalidUsageOfTypeParametersForEnumDeclaration",
+        "url": "https://www.javadoc.io/doc/org.aspectj/aspectjtools/1.8.4/org/aspectj/org/eclipse/jdt/core/compiler/IProblem.html#InvalidUsageOfTypeParametersForEnumDeclaration",
+        "whitelisted": false
+    },
+    "1610613331": {
+        "name": "InvalidUsageOfVarargs",
+        "url": "https://www.javadoc.io/doc/org.aspectj/aspectjtools/1.8.4/org/aspectj/org/eclipse/jdt/core/compiler/IProblem.html#InvalidUsageOfVarargs",
+        "whitelisted": false
+    },
+    "1610613314": {
+        "name": "InvalidUsageOfWildcard",
+        "url": "https://www.javadoc.io/doc/org.aspectj/aspectjtools/1.8.4/org/aspectj/org/eclipse/jdt/core/compiler/IProblem.html#InvalidUsageOfWildcard",
+        "whitelisted": false
+    },
+    "536871076": {
+        "name": "InvalidVoidExpression",
+        "url": "https://www.javadoc.io/doc/org.aspectj/aspectjtools/1.8.4/org/aspectj/org/eclipse/jdt/core/compiler/IProblem.html#InvalidVoidExpression",
+        "whitelisted": false
+    },
+    "16777540": {
+        "name": "IsClassPathCorrect",
+        "url": "https://www.javadoc.io/doc/org.aspectj/aspectjtools/1.8.4/org/aspectj/org/eclipse/jdt/core/compiler/IProblem.html#IsClassPathCorrect",
+        "whitelisted": false
+    },
+    "-2147483648": {
+        "name": "Javadoc",
+        "url": "https://www.javadoc.io/doc/org.aspectj/aspectjtools/1.8.4/org/aspectj/org/eclipse/jdt/core/compiler/IProblem.html#Javadoc",
+        "whitelisted": false
+    },
+    "-1610612242": {
+        "name": "JavadocAmbiguousConstructor",
+        "url": "https://www.javadoc.io/doc/org.aspectj/aspectjtools/1.8.4/org/aspectj/org/eclipse/jdt/core/compiler/IProblem.html#JavadocAmbiguousConstructor",
+        "whitelisted": false
+    },
+    "-1610612246": {
+        "name": "JavadocAmbiguousField",
+        "url": "https://www.javadoc.io/doc/org.aspectj/aspectjtools/1.8.4/org/aspectj/org/eclipse/jdt/core/compiler/IProblem.html#JavadocAmbiguousField",
+        "whitelisted": false
+    },
+    "-1610612238": {
+        "name": "JavadocAmbiguousMethod",
+        "url": "https://www.javadoc.io/doc/org.aspectj/aspectjtools/1.8.4/org/aspectj/org/eclipse/jdt/core/compiler/IProblem.html#JavadocAmbiguousMethod",
+        "whitelisted": false
+    },
+    "-1610612225": {
+        "name": "JavadocAmbiguousMethodReference",
+        "url": "https://www.javadoc.io/doc/org.aspectj/aspectjtools/1.8.4/org/aspectj/org/eclipse/jdt/core/compiler/IProblem.html#JavadocAmbiguousMethodReference",
+        "whitelisted": false
+    },
+    "-1610612231": {
+        "name": "JavadocAmbiguousType",
+        "url": "https://www.javadoc.io/doc/org.aspectj/aspectjtools/1.8.4/org/aspectj/org/eclipse/jdt/core/compiler/IProblem.html#JavadocAmbiguousType",
+        "whitelisted": false
+    },
+    "-1610612263": {
+        "name": "JavadocDuplicateParamName",
+        "url": "https://www.javadoc.io/doc/org.aspectj/aspectjtools/1.8.4/org/aspectj/org/eclipse/jdt/core/compiler/IProblem.html#JavadocDuplicateParamName",
+        "whitelisted": false
+    },
+    "-1610612260": {
+        "name": "JavadocDuplicateReturnTag",
+        "url": "https://www.javadoc.io/doc/org.aspectj/aspectjtools/1.8.4/org/aspectj/org/eclipse/jdt/core/compiler/IProblem.html#JavadocDuplicateReturnTag",
+        "whitelisted": false
+    },
+    "-1610612272": {
+        "name": "JavadocDuplicateTag",
+        "url": "https://www.javadoc.io/doc/org.aspectj/aspectjtools/1.8.4/org/aspectj/org/eclipse/jdt/core/compiler/IProblem.html#JavadocDuplicateTag",
+        "whitelisted": false
+    },
+    "-1610612256": {
+        "name": "JavadocDuplicateThrowsClassName",
+        "url": "https://www.javadoc.io/doc/org.aspectj/aspectjtools/1.8.4/org/aspectj/org/eclipse/jdt/core/compiler/IProblem.html#JavadocDuplicateThrowsClassName",
+        "whitelisted": false
+    },
+    "-1610612220": {
+        "name": "JavadocEmptyReturnTag",
+        "url": "https://www.javadoc.io/doc/org.aspectj/aspectjtools/1.8.4/org/aspectj/org/eclipse/jdt/core/compiler/IProblem.html#JavadocEmptyReturnTag",
+        "whitelisted": false
+    },
+    "-1610611881": {
+        "name": "JavadocGenericConstructorTypeArgumentMismatch",
+        "url": "https://www.javadoc.io/doc/org.aspectj/aspectjtools/1.8.4/org/aspectj/org/eclipse/jdt/core/compiler/IProblem.html#JavadocGenericConstructorTypeArgumentMismatch",
+        "whitelisted": false
+    },
+    "-1610611886": {
+        "name": "JavadocGenericMethodTypeArgumentMismatch",
+        "url": "https://www.javadoc.io/doc/org.aspectj/aspectjtools/1.8.4/org/aspectj/org/eclipse/jdt/core/compiler/IProblem.html#JavadocGenericMethodTypeArgumentMismatch",
+        "whitelisted": false
+    },
+    "-1610612271": {
+        "name": "JavadocHiddenReference",
+        "url": "https://www.javadoc.io/doc/org.aspectj/aspectjtools/1.8.4/org/aspectj/org/eclipse/jdt/core/compiler/IProblem.html#JavadocHiddenReference",
+        "whitelisted": false
+    },
+    "-1610611879": {
+        "name": "JavadocIncorrectArityForParameterizedConstructor",
+        "url": "https://www.javadoc.io/doc/org.aspectj/aspectjtools/1.8.4/org/aspectj/org/eclipse/jdt/core/compiler/IProblem.html#JavadocIncorrectArityForParameterizedConstructor",
+        "whitelisted": false
+    },
+    "-1610611884": {
+        "name": "JavadocIncorrectArityForParameterizedMethod",
+        "url": "https://www.javadoc.io/doc/org.aspectj/aspectjtools/1.8.4/org/aspectj/org/eclipse/jdt/core/compiler/IProblem.html#JavadocIncorrectArityForParameterizedMethod",
+        "whitelisted": false
+    },
+    "-1610612227": {
+        "name": "JavadocInheritedFieldHidesEnclosingName",
+        "url": "https://www.javadoc.io/doc/org.aspectj/aspectjtools/1.8.4/org/aspectj/org/eclipse/jdt/core/compiler/IProblem.html#JavadocInheritedFieldHidesEnclosingName",
+        "whitelisted": false
+    },
+    "-1610612228": {
+        "name": "JavadocInheritedMethodHidesEnclosingName",
+        "url": "https://www.javadoc.io/doc/org.aspectj/aspectjtools/1.8.4/org/aspectj/org/eclipse/jdt/core/compiler/IProblem.html#JavadocInheritedMethodHidesEnclosingName",
+        "whitelisted": false
+    },
+    "-1610612226": {
+        "name": "JavadocInheritedNameHidesEnclosingTypeName",
+        "url": "https://www.javadoc.io/doc/org.aspectj/aspectjtools/1.8.4/org/aspectj/org/eclipse/jdt/core/compiler/IProblem.html#JavadocInheritedNameHidesEnclosingTypeName",
+        "whitelisted": false
+    },
+    "-1610612229": {
+        "name": "JavadocInternalTypeNameProvided",
+        "url": "https://www.javadoc.io/doc/org.aspectj/aspectjtools/1.8.4/org/aspectj/org/eclipse/jdt/core/compiler/IProblem.html#JavadocInternalTypeNameProvided",
+        "whitelisted": false
+    },
+    "-1610612270": {
+        "name": "JavadocInvalidMemberTypeQualification",
+        "url": "https://www.javadoc.io/doc/org.aspectj/aspectjtools/1.8.4/org/aspectj/org/eclipse/jdt/core/compiler/IProblem.html#JavadocInvalidMemberTypeQualification",
+        "whitelisted": false
+    },
+    "-1610612262": {
+        "name": "JavadocInvalidParamName",
+        "url": "https://www.javadoc.io/doc/org.aspectj/aspectjtools/1.8.4/org/aspectj/org/eclipse/jdt/core/compiler/IProblem.html#JavadocInvalidParamName",
+        "whitelisted": false
+    },
+    "-1610612217": {
+        "name": "JavadocInvalidParamTagName",
+        "url": "https://www.javadoc.io/doc/org.aspectj/aspectjtools/1.8.4/org/aspectj/org/eclipse/jdt/core/compiler/IProblem.html#JavadocInvalidParamTagName",
+        "whitelisted": false
+    },
+    "-1610612267": {
+        "name": "JavadocInvalidParamTagTypeParameter",
+        "url": "https://www.javadoc.io/doc/org.aspectj/aspectjtools/1.8.4/org/aspectj/org/eclipse/jdt/core/compiler/IProblem.html#JavadocInvalidParamTagTypeParameter",
+        "whitelisted": false
+    },
+    "-1610612251": {
+        "name": "JavadocInvalidSeeArgs",
+        "url": "https://www.javadoc.io/doc/org.aspectj/aspectjtools/1.8.4/org/aspectj/org/eclipse/jdt/core/compiler/IProblem.html#JavadocInvalidSeeArgs",
+        "whitelisted": false
+    },
+    "-1610612252": {
+        "name": "JavadocInvalidSeeHref",
+        "url": "https://www.javadoc.io/doc/org.aspectj/aspectjtools/1.8.4/org/aspectj/org/eclipse/jdt/core/compiler/IProblem.html#JavadocInvalidSeeHref",
+        "whitelisted": false
+    },
+    "-1610612253": {
+        "name": "JavadocInvalidSeeReference",
+        "url": "https://www.javadoc.io/doc/org.aspectj/aspectjtools/1.8.4/org/aspectj/org/eclipse/jdt/core/compiler/IProblem.html#JavadocInvalidSeeReference",
+        "whitelisted": false
+    },
+    "-1610612274": {
+        "name": "JavadocInvalidSeeUrlReference",
+        "url": "https://www.javadoc.io/doc/org.aspectj/aspectjtools/1.8.4/org/aspectj/org/eclipse/jdt/core/compiler/IProblem.html#JavadocInvalidSeeUrlReference",
+        "whitelisted": false
+    },
+    "-1610612249": {
+        "name": "JavadocInvalidTag",
+        "url": "https://www.javadoc.io/doc/org.aspectj/aspectjtools/1.8.4/org/aspectj/org/eclipse/jdt/core/compiler/IProblem.html#JavadocInvalidTag",
+        "whitelisted": false
+    },
+    "-1610612257": {
+        "name": "JavadocInvalidThrowsClass",
+        "url": "https://www.javadoc.io/doc/org.aspectj/aspectjtools/1.8.4/org/aspectj/org/eclipse/jdt/core/compiler/IProblem.html#JavadocInvalidThrowsClass",
+        "whitelisted": false
+    },
+    "-1610612255": {
+        "name": "JavadocInvalidThrowsClassName",
+        "url": "https://www.javadoc.io/doc/org.aspectj/aspectjtools/1.8.4/org/aspectj/org/eclipse/jdt/core/compiler/IProblem.html#JavadocInvalidThrowsClassName",
+        "whitelisted": false
+    },
+    "-1610612219": {
+        "name": "JavadocInvalidValueReference",
+        "url": "https://www.javadoc.io/doc/org.aspectj/aspectjtools/1.8.4/org/aspectj/org/eclipse/jdt/core/compiler/IProblem.html#JavadocInvalidValueReference",
+        "whitelisted": false
+    },
+    "-1610612223": {
+        "name": "JavadocMalformedSeeReference",
+        "url": "https://www.javadoc.io/doc/org.aspectj/aspectjtools/1.8.4/org/aspectj/org/eclipse/jdt/core/compiler/IProblem.html#JavadocMalformedSeeReference",
+        "whitelisted": false
+    },
+    "536871426": {
+        "name": "JavadocMessagePrefix",
+        "url": "https://www.javadoc.io/doc/org.aspectj/aspectjtools/1.8.4/org/aspectj/org/eclipse/jdt/core/compiler/IProblem.html#JavadocMessagePrefix",
+        "whitelisted": false
+    },
+    "-1610612250": {
+        "name": "JavadocMissing",
+        "url": "https://www.javadoc.io/doc/org.aspectj/aspectjtools/1.8.4/org/aspectj/org/eclipse/jdt/core/compiler/IProblem.html#JavadocMissing",
+        "whitelisted": false
+    },
+    "-1610612221": {
+        "name": "JavadocMissingHashCharacter",
+        "url": "https://www.javadoc.io/doc/org.aspectj/aspectjtools/1.8.4/org/aspectj/org/eclipse/jdt/core/compiler/IProblem.html#JavadocMissingHashCharacter",
+        "whitelisted": false
+    },
+    "-1610612269": {
+        "name": "JavadocMissingIdentifier",
+        "url": "https://www.javadoc.io/doc/org.aspectj/aspectjtools/1.8.4/org/aspectj/org/eclipse/jdt/core/compiler/IProblem.html#JavadocMissingIdentifier",
+        "whitelisted": false
+    },
+    "-1610612264": {
+        "name": "JavadocMissingParamName",
+        "url": "https://www.javadoc.io/doc/org.aspectj/aspectjtools/1.8.4/org/aspectj/org/eclipse/jdt/core/compiler/IProblem.html#JavadocMissingParamName",
+        "whitelisted": false
+    },
+    "-1610612265": {
+        "name": "JavadocMissingParamTag",
+        "url": "https://www.javadoc.io/doc/org.aspectj/aspectjtools/1.8.4/org/aspectj/org/eclipse/jdt/core/compiler/IProblem.html#JavadocMissingParamTag",
+        "whitelisted": false
+    },
+    "-1610612261": {
+        "name": "JavadocMissingReturnTag",
+        "url": "https://www.javadoc.io/doc/org.aspectj/aspectjtools/1.8.4/org/aspectj/org/eclipse/jdt/core/compiler/IProblem.html#JavadocMissingReturnTag",
+        "whitelisted": false
+    },
+    "-1610612254": {
+        "name": "JavadocMissingSeeReference",
+        "url": "https://www.javadoc.io/doc/org.aspectj/aspectjtools/1.8.4/org/aspectj/org/eclipse/jdt/core/compiler/IProblem.html#JavadocMissingSeeReference",
+        "whitelisted": false
+    },
+    "-1610612273": {
+        "name": "JavadocMissingTagDescription",
+        "url": "https://www.javadoc.io/doc/org.aspectj/aspectjtools/1.8.4/org/aspectj/org/eclipse/jdt/core/compiler/IProblem.html#JavadocMissingTagDescription",
+        "whitelisted": false
+    },
+    "-1610612258": {
+        "name": "JavadocMissingThrowsClassName",
+        "url": "https://www.javadoc.io/doc/org.aspectj/aspectjtools/1.8.4/org/aspectj/org/eclipse/jdt/core/compiler/IProblem.html#JavadocMissingThrowsClassName",
+        "whitelisted": false
+    },
+    "-1610612259": {
+        "name": "JavadocMissingThrowsTag",
+        "url": "https://www.javadoc.io/doc/org.aspectj/aspectjtools/1.8.4/org/aspectj/org/eclipse/jdt/core/compiler/IProblem.html#JavadocMissingThrowsTag",
+        "whitelisted": false
+    },
+    "-1610612234": {
+        "name": "JavadocNoMessageSendOnArrayType",
+        "url": "https://www.javadoc.io/doc/org.aspectj/aspectjtools/1.8.4/org/aspectj/org/eclipse/jdt/core/compiler/IProblem.html#JavadocNoMessageSendOnArrayType",
+        "whitelisted": false
+    },
+    "-1610612236": {
+        "name": "JavadocNoMessageSendOnBaseType",
+        "url": "https://www.javadoc.io/doc/org.aspectj/aspectjtools/1.8.4/org/aspectj/org/eclipse/jdt/core/compiler/IProblem.html#JavadocNoMessageSendOnBaseType",
+        "whitelisted": false
+    },
+    "-1610611880": {
+        "name": "JavadocNonGenericConstructor",
+        "url": "https://www.javadoc.io/doc/org.aspectj/aspectjtools/1.8.4/org/aspectj/org/eclipse/jdt/core/compiler/IProblem.html#JavadocNonGenericConstructor",
+        "whitelisted": false
+    },
+    "-1610611885": {
+        "name": "JavadocNonGenericMethod",
+        "url": "https://www.javadoc.io/doc/org.aspectj/aspectjtools/1.8.4/org/aspectj/org/eclipse/jdt/core/compiler/IProblem.html#JavadocNonGenericMethod",
+        "whitelisted": false
+    },
+    "-1610612268": {
+        "name": "JavadocNonStaticTypeFromStaticInvocation",
+        "url": "https://www.javadoc.io/doc/org.aspectj/aspectjtools/1.8.4/org/aspectj/org/eclipse/jdt/core/compiler/IProblem.html#JavadocNonStaticTypeFromStaticInvocation",
+        "whitelisted": false
+    },
+    "-1610612243": {
+        "name": "JavadocNotVisibleConstructor",
+        "url": "https://www.javadoc.io/doc/org.aspectj/aspectjtools/1.8.4/org/aspectj/org/eclipse/jdt/core/compiler/IProblem.html#JavadocNotVisibleConstructor",
+        "whitelisted": false
+    },
+    "-1610612247": {
+        "name": "JavadocNotVisibleField",
+        "url": "https://www.javadoc.io/doc/org.aspectj/aspectjtools/1.8.4/org/aspectj/org/eclipse/jdt/core/compiler/IProblem.html#JavadocNotVisibleField",
+        "whitelisted": false
+    },
+    "-1610612239": {
+        "name": "JavadocNotVisibleMethod",
+        "url": "https://www.javadoc.io/doc/org.aspectj/aspectjtools/1.8.4/org/aspectj/org/eclipse/jdt/core/compiler/IProblem.html#JavadocNotVisibleMethod",
+        "whitelisted": false
+    },
+    "-1610612232": {
+        "name": "JavadocNotVisibleType",
+        "url": "https://www.javadoc.io/doc/org.aspectj/aspectjtools/1.8.4/org/aspectj/org/eclipse/jdt/core/compiler/IProblem.html#JavadocNotVisibleType",
+        "whitelisted": false
+    },
+    "-1610611878": {
+        "name": "JavadocParameterizedConstructorArgumentTypeMismatch",
+        "url": "https://www.javadoc.io/doc/org.aspectj/aspectjtools/1.8.4/org/aspectj/org/eclipse/jdt/core/compiler/IProblem.html#JavadocParameterizedConstructorArgumentTypeMismatch",
+        "whitelisted": false
+    },
+    "-1610611883": {
+        "name": "JavadocParameterizedMethodArgumentTypeMismatch",
+        "url": "https://www.javadoc.io/doc/org.aspectj/aspectjtools/1.8.4/org/aspectj/org/eclipse/jdt/core/compiler/IProblem.html#JavadocParameterizedMethodArgumentTypeMismatch",
+        "whitelisted": false
+    },
+    "-1610612235": {
+        "name": "JavadocParameterMismatch",
+        "url": "https://www.javadoc.io/doc/org.aspectj/aspectjtools/1.8.4/org/aspectj/org/eclipse/jdt/core/compiler/IProblem.html#JavadocParameterMismatch",
+        "whitelisted": false
+    },
+    "-1610611877": {
+        "name": "JavadocTypeArgumentsForRawGenericConstructor",
+        "url": "https://www.javadoc.io/doc/org.aspectj/aspectjtools/1.8.4/org/aspectj/org/eclipse/jdt/core/compiler/IProblem.html#JavadocTypeArgumentsForRawGenericConstructor",
+        "whitelisted": false
+    },
+    "-1610611882": {
+        "name": "JavadocTypeArgumentsForRawGenericMethod",
+        "url": "https://www.javadoc.io/doc/org.aspectj/aspectjtools/1.8.4/org/aspectj/org/eclipse/jdt/core/compiler/IProblem.html#JavadocTypeArgumentsForRawGenericMethod",
+        "whitelisted": false
+    },
+    "-1610612244": {
+        "name": "JavadocUndefinedConstructor",
+        "url": "https://www.javadoc.io/doc/org.aspectj/aspectjtools/1.8.4/org/aspectj/org/eclipse/jdt/core/compiler/IProblem.html#JavadocUndefinedConstructor",
+        "whitelisted": false
+    },
+    "-1610612248": {
+        "name": "JavadocUndefinedField",
+        "url": "https://www.javadoc.io/doc/org.aspectj/aspectjtools/1.8.4/org/aspectj/org/eclipse/jdt/core/compiler/IProblem.html#JavadocUndefinedField",
+        "whitelisted": false
+    },
+    "-1610612240": {
+        "name": "JavadocUndefinedMethod",
+        "url": "https://www.javadoc.io/doc/org.aspectj/aspectjtools/1.8.4/org/aspectj/org/eclipse/jdt/core/compiler/IProblem.html#JavadocUndefinedMethod",
+        "whitelisted": false
+    },
+    "-1610612233": {
+        "name": "JavadocUndefinedType",
+        "url": "https://www.javadoc.io/doc/org.aspectj/aspectjtools/1.8.4/org/aspectj/org/eclipse/jdt/core/compiler/IProblem.html#JavadocUndefinedType",
+        "whitelisted": false
+    },
+    "-1610612266": {
+        "name": "JavadocUnexpectedTag",
+        "url": "https://www.javadoc.io/doc/org.aspectj/aspectjtools/1.8.4/org/aspectj/org/eclipse/jdt/core/compiler/IProblem.html#JavadocUnexpectedTag",
+        "whitelisted": false
+    },
+    "-1610612218": {
+        "name": "JavadocUnexpectedText",
+        "url": "https://www.javadoc.io/doc/org.aspectj/aspectjtools/1.8.4/org/aspectj/org/eclipse/jdt/core/compiler/IProblem.html#JavadocUnexpectedText",
+        "whitelisted": false
+    },
+    "-1610612224": {
+        "name": "JavadocUnterminatedInlineTag",
+        "url": "https://www.javadoc.io/doc/org.aspectj/aspectjtools/1.8.4/org/aspectj/org/eclipse/jdt/core/compiler/IProblem.html#JavadocUnterminatedInlineTag",
+        "whitelisted": false
+    },
+    "-1610612241": {
+        "name": "JavadocUsingDeprecatedConstructor",
+        "url": "https://www.javadoc.io/doc/org.aspectj/aspectjtools/1.8.4/org/aspectj/org/eclipse/jdt/core/compiler/IProblem.html#JavadocUsingDeprecatedConstructor",
+        "whitelisted": false
+    },
+    "-1610612245": {
+        "name": "JavadocUsingDeprecatedField",
+        "url": "https://www.javadoc.io/doc/org.aspectj/aspectjtools/1.8.4/org/aspectj/org/eclipse/jdt/core/compiler/IProblem.html#JavadocUsingDeprecatedField",
+        "whitelisted": false
+    },
+    "-1610612237": {
+        "name": "JavadocUsingDeprecatedMethod",
+        "url": "https://www.javadoc.io/doc/org.aspectj/aspectjtools/1.8.4/org/aspectj/org/eclipse/jdt/core/compiler/IProblem.html#JavadocUsingDeprecatedMethod",
+        "whitelisted": false
+    },
+    "-1610612230": {
+        "name": "JavadocUsingDeprecatedType",
+        "url": "https://www.javadoc.io/doc/org.aspectj/aspectjtools/1.8.4/org/aspectj/org/eclipse/jdt/core/compiler/IProblem.html#JavadocUsingDeprecatedType",
+        "whitelisted": false
+    },
+    "99": {
+        "name": "LambdaDescriptorMentionsUnmentionable",
+        "url": "https://www.javadoc.io/doc/org.aspectj/aspectjtools/1.8.4/org/aspectj/org/eclipse/jdt/core/compiler/IProblem.html#LambdaDescriptorMentionsUnmentionable",
+        "whitelisted": false
+    },
+    "1610613381": {
+        "name": "LambdaExpressionNotBelow18",
+        "url": "https://www.javadoc.io/doc/org.aspectj/aspectjtools/1.8.4/org/aspectj/org/eclipse/jdt/core/compiler/IProblem.html#LambdaExpressionNotBelow18",
+        "whitelisted": false
+    },
+    "553648785": {
+        "name": "lambdaParameterTypeMismatched",
+        "url": "https://www.javadoc.io/doc/org.aspectj/aspectjtools/1.8.4/org/aspectj/org/eclipse/jdt/core/compiler/IProblem.html#lambdaParameterTypeMismatched",
+        "whitelisted": false
+    },
+    "536871009": {
+        "name": "LambdaRedeclaresArgument",
+        "url": "https://www.javadoc.io/doc/org.aspectj/aspectjtools/1.8.4/org/aspectj/org/eclipse/jdt/core/compiler/IProblem.html#LambdaRedeclaresArgument",
+        "whitelisted": false
+    },
+    "536871010": {
+        "name": "LambdaRedeclaresLocal",
+        "url": "https://www.javadoc.io/doc/org.aspectj/aspectjtools/1.8.4/org/aspectj/org/eclipse/jdt/core/compiler/IProblem.html#LambdaRedeclaresLocal",
+        "whitelisted": false
+    },
+    "1101": {
+        "name": "LambdaShapeComputationError",
+        "url": "https://www.javadoc.io/doc/org.aspectj/aspectjtools/1.8.4/org/aspectj/org/eclipse/jdt/core/compiler/IProblem.html#LambdaShapeComputationError",
+        "whitelisted": false
+    },
+    "553648784": {
+        "name": "lambdaSignatureMismatched",
+        "url": "https://www.javadoc.io/doc/org.aspectj/aspectjtools/1.8.4/org/aspectj/org/eclipse/jdt/core/compiler/IProblem.html#lambdaSignatureMismatched",
+        "whitelisted": false
+    },
+    "536871309": {
+        "name": "LocalVariableCannotBeNull",
+        "url": "https://www.javadoc.io/doc/org.aspectj/aspectjtools/1.8.4/org/aspectj/org/eclipse/jdt/core/compiler/IProblem.html#LocalVariableCannotBeNull",
+        "whitelisted": false
+    },
+    "536871310": {
+        "name": "LocalVariableCanOnlyBeNull",
+        "url": "https://www.javadoc.io/doc/org.aspectj/aspectjtools/1.8.4/org/aspectj/org/eclipse/jdt/core/compiler/IProblem.html#LocalVariableCanOnlyBeNull",
+        "whitelisted": false
+    },
+    "570425435": {
+        "name": "LocalVariableHidingField",
+        "url": "https://www.javadoc.io/doc/org.aspectj/aspectjtools/1.8.4/org/aspectj/org/eclipse/jdt/core/compiler/IProblem.html#LocalVariableHidingField",
+        "whitelisted": true
+    },
+    "536871002": {
+        "name": "LocalVariableHidingLocalVariable",
+        "url": "https://www.javadoc.io/doc/org.aspectj/aspectjtools/1.8.4/org/aspectj/org/eclipse/jdt/core/compiler/IProblem.html#LocalVariableHidingLocalVariable",
+        "whitelisted": false
+    },
+    "536870973": {
+        "name": "LocalVariableIsNeverUsed",
+        "url": "https://www.javadoc.io/doc/org.aspectj/aspectjtools/1.8.4/org/aspectj/org/eclipse/jdt/core/compiler/IProblem.html#LocalVariableIsNeverUsed",
+        "whitelisted": true
+    },
+    "536871311": {
+        "name": "LocalVariableMayBeNull",
+        "url": "https://www.javadoc.io/doc/org.aspectj/aspectjtools/1.8.4/org/aspectj/org/eclipse/jdt/core/compiler/IProblem.html#LocalVariableMayBeNull",
+        "whitelisted": false
+    },
+    "16777381": {
+        "name": "MaskedCatch",
+        "url": "https://www.javadoc.io/doc/org.aspectj/aspectjtools/1.8.4/org/aspectj/org/eclipse/jdt/core/compiler/IProblem.html#MaskedCatch",
+        "whitelisted": false
+    },
+    "67108974": {
+        "name": "MethodButWithConstructorName",
+        "url": "https://www.javadoc.io/doc/org.aspectj/aspectjtools/1.8.4/org/aspectj/org/eclipse/jdt/core/compiler/IProblem.html#MethodButWithConstructorName",
+        "whitelisted": false
+    },
+    "603979898": {
+        "name": "MethodCanBePotentiallyStatic",
+        "url": "https://www.javadoc.io/doc/org.aspectj/aspectjtools/1.8.4/org/aspectj/org/eclipse/jdt/core/compiler/IProblem.html#MethodCanBePotentiallyStatic",
+        "whitelisted": false
+    },
+    "603979897": {
+        "name": "MethodCanBeStatic",
+        "url": "https://www.javadoc.io/doc/org.aspectj/aspectjtools/1.8.4/org/aspectj/org/eclipse/jdt/core/compiler/IProblem.html#MethodCanBeStatic",
+        "whitelisted": false
+    },
+    "536871541": {
+        "name": "MethodMissingDeprecatedAnnotation",
+        "url": "https://www.javadoc.io/doc/org.aspectj/aspectjtools/1.8.4/org/aspectj/org/eclipse/jdt/core/compiler/IProblem.html#MethodMissingDeprecatedAnnotation",
+        "whitelisted": false
+    },
+    "67109487": {
+        "name": "MethodMustOverride",
+        "url": "https://www.javadoc.io/doc/org.aspectj/aspectjtools/1.8.4/org/aspectj/org/eclipse/jdt/core/compiler/IProblem.html#MethodMustOverride",
+        "whitelisted": false
+    },
+    "67109498": {
+        "name": "MethodMustOverrideOrImplement",
+        "url": "https://www.javadoc.io/doc/org.aspectj/aspectjtools/1.8.4/org/aspectj/org/eclipse/jdt/core/compiler/IProblem.html#MethodMustOverrideOrImplement",
+        "whitelisted": false
+    },
+    "67109424": {
+        "name": "MethodNameClash",
+        "url": "https://www.javadoc.io/doc/org.aspectj/aspectjtools/1.8.4/org/aspectj/org/eclipse/jdt/core/compiler/IProblem.html#MethodNameClash",
+        "whitelisted": false
+    },
+    "67109448": {
+        "name": "MethodNameClashHidden",
+        "url": "https://www.javadoc.io/doc/org.aspectj/aspectjtools/1.8.4/org/aspectj/org/eclipse/jdt/core/compiler/IProblem.html#MethodNameClashHidden",
+        "whitelisted": false
+    },
+    "67109273": {
+        "name": "MethodReducesVisibility",
+        "url": "https://www.javadoc.io/doc/org.aspectj/aspectjtools/1.8.4/org/aspectj/org/eclipse/jdt/core/compiler/IProblem.html#MethodReducesVisibility",
+        "whitelisted": false
+    },
+    "1610613382": {
+        "name": "MethodReferenceNotBelow18",
+        "url": "https://www.javadoc.io/doc/org.aspectj/aspectjtools/1.8.4/org/aspectj/org/eclipse/jdt/core/compiler/IProblem.html#MethodReferenceNotBelow18",
+        "whitelisted": false
+    },
+    "603979899": {
+        "name": "MethodReferenceSwingsBothWays",
+        "url": "https://www.javadoc.io/doc/org.aspectj/aspectjtools/1.8.4/org/aspectj/org/eclipse/jdt/core/compiler/IProblem.html#MethodReferenceSwingsBothWays",
+        "whitelisted": false
+    },
+    "67108864": {
+        "name": "MethodRelated",
+        "url": "https://www.javadoc.io/doc/org.aspectj/aspectjtools/1.8.4/org/aspectj/org/eclipse/jdt/core/compiler/IProblem.html#MethodRelated",
+        "whitelisted": false
+    },
+    "603979883": {
+        "name": "MethodRequiresBody",
+        "url": "https://www.javadoc.io/doc/org.aspectj/aspectjtools/1.8.4/org/aspectj/org/eclipse/jdt/core/compiler/IProblem.html#MethodRequiresBody",
+        "whitelisted": true
+    },
+    "67108970": {
+        "name": "MethodReturnsVoid",
+        "url": "https://www.javadoc.io/doc/org.aspectj/aspectjtools/1.8.4/org/aspectj/org/eclipse/jdt/core/compiler/IProblem.html#MethodReturnsVoid",
+        "whitelisted": false
+    },
+    "67109665": {
+        "name": "MethodVarargsArgumentNeedCast",
+        "url": "https://www.javadoc.io/doc/org.aspectj/aspectjtools/1.8.4/org/aspectj/org/eclipse/jdt/core/compiler/IProblem.html#MethodVarargsArgumentNeedCast",
+        "whitelisted": false
+    },
+    "1610613375": {
+        "name": "MisplacedTypeAnnotations",
+        "url": "https://www.javadoc.io/doc/org.aspectj/aspectjtools/1.8.4/org/aspectj/org/eclipse/jdt/core/compiler/IProblem.html#MisplacedTypeAnnotations",
+        "whitelisted": false
+    },
+    "16777778": {
+        "name": "MissingArgumentsForParameterizedMemberType",
+        "url": "https://www.javadoc.io/doc/org.aspectj/aspectjtools/1.8.4/org/aspectj/org/eclipse/jdt/core/compiler/IProblem.html#MissingArgumentsForParameterizedMemberType",
+        "whitelisted": false
+    },
+    "536871679": {
+        "name": "MissingDefaultCase",
+        "url": "https://www.javadoc.io/doc/org.aspectj/aspectjtools/1.8.4/org/aspectj/org/eclipse/jdt/core/compiler/IProblem.html#MissingDefaultCase",
+        "whitelisted": false
+    },
+    "16777237": {
+        "name": "MissingEnclosingInstance",
+        "url": "https://www.javadoc.io/doc/org.aspectj/aspectjtools/1.8.4/org/aspectj/org/eclipse/jdt/core/compiler/IProblem.html#MissingEnclosingInstance",
+        "whitelisted": false
+    },
+    "16777236": {
+        "name": "MissingEnclosingInstanceForConstructorCall",
+        "url": "https://www.javadoc.io/doc/org.aspectj/aspectjtools/1.8.4/org/aspectj/org/eclipse/jdt/core/compiler/IProblem.html#MissingEnclosingInstanceForConstructorCall",
+        "whitelisted": false
+    },
+    "33555193": {
+        "name": "MissingEnumConstantCase",
+        "url": "https://www.javadoc.io/doc/org.aspectj/aspectjtools/1.8.4/org/aspectj/org/eclipse/jdt/core/compiler/IProblem.html#MissingEnumConstantCase",
+        "whitelisted": false
+    },
+    "33555200": {
+        "name": "MissingEnumConstantCaseDespiteDefault",
+        "url": "https://www.javadoc.io/doc/org.aspectj/aspectjtools/1.8.4/org/aspectj/org/eclipse/jdt/core/compiler/IProblem.html#MissingEnumConstantCaseDespiteDefault",
+        "whitelisted": false
+    },
+    "536871678": {
+        "name": "MissingEnumDefaultCase",
+        "url": "https://www.javadoc.io/doc/org.aspectj/aspectjtools/1.8.4/org/aspectj/org/eclipse/jdt/core/compiler/IProblem.html#MissingEnumDefaultCase",
+        "whitelisted": false
+    },
+    "536871825": {
+        "name": "MissingNonNullByDefaultAnnotationOnPackage",
+        "url": "https://www.javadoc.io/doc/org.aspectj/aspectjtools/1.8.4/org/aspectj/org/eclipse/jdt/core/compiler/IProblem.html#MissingNonNullByDefaultAnnotationOnPackage",
+        "whitelisted": false
+    },
+    "536871842": {
+        "name": "MissingNonNullByDefaultAnnotationOnType",
+        "url": "https://www.javadoc.io/doc/org.aspectj/aspectjtools/1.8.4/org/aspectj/org/eclipse/jdt/core/compiler/IProblem.html#MissingNonNullByDefaultAnnotationOnType",
+        "whitelisted": false
+    },
+    "67109491": {
+        "name": "MissingOverrideAnnotation",
+        "url": "https://www.javadoc.io/doc/org.aspectj/aspectjtools/1.8.4/org/aspectj/org/eclipse/jdt/core/compiler/IProblem.html#MissingOverrideAnnotation",
+        "whitelisted": true
+    },
+    "67109500": {
+        "name": "MissingOverrideAnnotationForInterfaceMethodImplementation",
+        "url": "https://www.javadoc.io/doc/org.aspectj/aspectjtools/1.8.4/org/aspectj/org/eclipse/jdt/core/compiler/IProblem.html#MissingOverrideAnnotationForInterfaceMethodImplementation",
+        "whitelisted": false
+    },
+    "16777327": {
+        "name": "MissingReturnType",
+        "url": "https://www.javadoc.io/doc/org.aspectj/aspectjtools/1.8.4/org/aspectj/org/eclipse/jdt/core/compiler/IProblem.html#MissingReturnType",
+        "whitelisted": false
+    },
+    "1610612960": {
+        "name": "MissingSemiColon",
+        "url": "https://www.javadoc.io/doc/org.aspectj/aspectjtools/1.8.4/org/aspectj/org/eclipse/jdt/core/compiler/IProblem.html#MissingSemiColon",
+        "whitelisted": false
+    },
+    "536871008": {
+        "name": "MissingSerialVersion",
+        "url": "https://www.javadoc.io/doc/org.aspectj/aspectjtools/1.8.4/org/aspectj/org/eclipse/jdt/core/compiler/IProblem.html#MissingSerialVersion",
+        "whitelisted": false
+    },
+    "67109281": {
+        "name": "MissingSynchronizedModifierInInheritedMethod",
+        "url": "https://www.javadoc.io/doc/org.aspectj/aspectjtools/1.8.4/org/aspectj/org/eclipse/jdt/core/compiler/IProblem.html#MissingSynchronizedModifierInInheritedMethod",
+        "whitelisted": false
+    },
+    "134217857": {
+        "name": "MissingTypeInConstructor",
+        "url": "https://www.javadoc.io/doc/org.aspectj/aspectjtools/1.8.4/org/aspectj/org/eclipse/jdt/core/compiler/IProblem.html#MissingTypeInConstructor",
+        "whitelisted": false
+    },
+    "67109135": {
+        "name": "MissingTypeInLambda",
+        "url": "https://www.javadoc.io/doc/org.aspectj/aspectjtools/1.8.4/org/aspectj/org/eclipse/jdt/core/compiler/IProblem.html#MissingTypeInLambda",
+        "whitelisted": false
+    },
+    "67108984": {
+        "name": "MissingTypeInMethod",
+        "url": "https://www.javadoc.io/doc/org.aspectj/aspectjtools/1.8.4/org/aspectj/org/eclipse/jdt/core/compiler/IProblem.html#MissingTypeInMethod",
+        "whitelisted": false
+    },
+    "16777825": {
+        "name": "MissingValueForAnnotationMember",
+        "url": "https://www.javadoc.io/doc/org.aspectj/aspectjtools/1.8.4/org/aspectj/org/eclipse/jdt/core/compiler/IProblem.html#MissingValueForAnnotationMember",
+        "whitelisted": false
+    },
+    "1610613611": {
+        "name": "MultiCatchNotBelow17",
+        "url": "https://www.javadoc.io/doc/org.aspectj/aspectjtools/1.8.4/org/aspectj/org/eclipse/jdt/core/compiler/IProblem.html#MultiCatchNotBelow17",
+        "whitelisted": false
+    },
+    "16778111": {
+        "name": "MultipleFunctionalInterfaces",
+        "url": "https://www.javadoc.io/doc/org.aspectj/aspectjtools/1.8.4/org/aspectj/org/eclipse/jdt/core/compiler/IProblem.html#MultipleFunctionalInterfaces",
+        "whitelisted": false
+    },
+    "536871071": {
+        "name": "MustDefineEitherDimensionExpressionsOrInitializer",
+        "url": "https://www.javadoc.io/doc/org.aspectj/aspectjtools/1.8.4/org/aspectj/org/eclipse/jdt/core/compiler/IProblem.html#MustDefineEitherDimensionExpressionsOrInitializer",
+        "whitelisted": false
+    },
+    "536871238": {
+        "name": "MustSpecifyPackage",
+        "url": "https://www.javadoc.io/doc/org.aspectj/aspectjtools/1.8.4/org/aspectj/org/eclipse/jdt/core/compiler/IProblem.html#MustSpecifyPackage",
+        "whitelisted": false
+    },
+    "67109231": {
+        "name": "NativeMethodsCannotBeStrictfp",
+        "url": "https://www.javadoc.io/doc/org.aspectj/aspectjtools/1.8.4/org/aspectj/org/eclipse/jdt/core/compiler/IProblem.html#NativeMethodsCannotBeStrictfp",
+        "whitelisted": false
+    },
+    "67109057": {
+        "name": "NeedToEmulateConstructorAccess",
+        "url": "https://www.javadoc.io/doc/org.aspectj/aspectjtools/1.8.4/org/aspectj/org/eclipse/jdt/core/compiler/IProblem.html#NeedToEmulateConstructorAccess",
+        "whitelisted": false
+    },
+    "33554622": {
+        "name": "NeedToEmulateFieldReadAccess",
+        "url": "https://www.javadoc.io/doc/org.aspectj/aspectjtools/1.8.4/org/aspectj/org/eclipse/jdt/core/compiler/IProblem.html#NeedToEmulateFieldReadAccess",
+        "whitelisted": false
+    },
+    "33554623": {
+        "name": "NeedToEmulateFieldWriteAccess",
+        "url": "https://www.javadoc.io/doc/org.aspectj/aspectjtools/1.8.4/org/aspectj/org/eclipse/jdt/core/compiler/IProblem.html#NeedToEmulateFieldWriteAccess",
+        "whitelisted": false
+    },
+    "67109056": {
+        "name": "NeedToEmulateMethodAccess",
+        "url": "https://www.javadoc.io/doc/org.aspectj/aspectjtools/1.8.4/org/aspectj/org/eclipse/jdt/core/compiler/IProblem.html#NeedToEmulateMethodAccess",
+        "whitelisted": false
+    },
+    "16777789": {
+        "name": "NoAdditionalBoundAfterTypeVariable",
+        "url": "https://www.javadoc.io/doc/org.aspectj/aspectjtools/1.8.4/org/aspectj/org/eclipse/jdt/core/compiler/IProblem.html#NoAdditionalBoundAfterTypeVariable",
+        "whitelisted": false
+    },
+    "33554653": {
+        "name": "NoFieldOnBaseType",
+        "url": "https://www.javadoc.io/doc/org.aspectj/aspectjtools/1.8.4/org/aspectj/org/eclipse/jdt/core/compiler/IProblem.html#NoFieldOnBaseType",
+        "whitelisted": false
+    },
+    "553648787": {
+        "name": "NoGenericLambda",
+        "url": "https://www.javadoc.io/doc/org.aspectj/aspectjtools/1.8.4/org/aspectj/org/eclipse/jdt/core/compiler/IProblem.html#NoGenericLambda",
+        "whitelisted": false
+    },
+    "536871063": {
+        "name": "NoImplicitStringConversionForCharArrayExpression",
+        "url": "https://www.javadoc.io/doc/org.aspectj/aspectjtools/1.8.4/org/aspectj/org/eclipse/jdt/core/compiler/IProblem.html#NoImplicitStringConversionForCharArrayExpression",
+        "whitelisted": true
+    },
+    "67108980": {
+        "name": "NoMessageSendOnArrayType",
+        "url": "https://www.javadoc.io/doc/org.aspectj/aspectjtools/1.8.4/org/aspectj/org/eclipse/jdt/core/compiler/IProblem.html#NoMessageSendOnArrayType",
+        "whitelisted": false
+    },
+    "67108978": {
+        "name": "NoMessageSendOnBaseType",
+        "url": "https://www.javadoc.io/doc/org.aspectj/aspectjtools/1.8.4/org/aspectj/org/eclipse/jdt/core/compiler/IProblem.html#NoMessageSendOnBaseType",
+        "whitelisted": false
+    },
+    "536870970": {
+        "name": "NonBlankFinalLocalAssignment",
+        "url": "https://www.javadoc.io/doc/org.aspectj/aspectjtools/1.8.4/org/aspectj/org/eclipse/jdt/core/compiler/IProblem.html#NonBlankFinalLocalAssignment",
+        "whitelisted": false
+    },
+    "536871065": {
+        "name": "NonConstantExpression",
+        "url": "https://www.javadoc.io/doc/org.aspectj/aspectjtools/1.8.4/org/aspectj/org/eclipse/jdt/core/compiler/IProblem.html#NonConstantExpression",
+        "whitelisted": false
+    },
+    "536871173": {
+        "name": "NonExternalizedStringLiteral",
+        "url": "https://www.javadoc.io/doc/org.aspectj/aspectjtools/1.8.4/org/aspectj/org/eclipse/jdt/core/compiler/IProblem.html#NonExternalizedStringLiteral",
+        "whitelisted": false
+    },
+    "16777767": {
+        "name": "NonGenericConstructor",
+        "url": "https://www.javadoc.io/doc/org.aspectj/aspectjtools/1.8.4/org/aspectj/org/eclipse/jdt/core/compiler/IProblem.html#NonGenericConstructor",
+        "whitelisted": false
+    },
+    "16777764": {
+        "name": "NonGenericMethod",
+        "url": "https://www.javadoc.io/doc/org.aspectj/aspectjtools/1.8.4/org/aspectj/org/eclipse/jdt/core/compiler/IProblem.html#NonGenericMethod",
+        "whitelisted": false
+    },
+    "16777740": {
+        "name": "NonGenericType",
+        "url": "https://www.javadoc.io/doc/org.aspectj/aspectjtools/1.8.4/org/aspectj/org/eclipse/jdt/core/compiler/IProblem.html#NonGenericType",
+        "whitelisted": false
+    },
+    "968": {
+        "name": "NonNullDefaultDetailIsNotEvaluated",
+        "url": "https://www.javadoc.io/doc/org.aspectj/aspectjtools/1.8.4/org/aspectj/org/eclipse/jdt/core/compiler/IProblem.html#NonNullDefaultDetailIsNotEvaluated",
+        "whitelisted": false
+    },
+    "536871582": {
+        "name": "NonNullExpressionComparisonYieldsFalse",
+        "url": "https://www.javadoc.io/doc/org.aspectj/aspectjtools/1.8.4/org/aspectj/org/eclipse/jdt/core/compiler/IProblem.html#NonNullExpressionComparisonYieldsFalse",
+        "whitelisted": false
+    },
+    "536871370": {
+        "name": "NonNullLocalVariableComparisonYieldsFalse",
+        "url": "https://www.javadoc.io/doc/org.aspectj/aspectjtools/1.8.4/org/aspectj/org/eclipse/jdt/core/compiler/IProblem.html#NonNullLocalVariableComparisonYieldsFalse",
+        "whitelisted": false
+    },
+    "536871848": {
+        "name": "NonNullMessageSendComparisonYieldsFalse",
+        "url": "https://www.javadoc.io/doc/org.aspectj/aspectjtools/1.8.4/org/aspectj/org/eclipse/jdt/core/compiler/IProblem.html#NonNullMessageSendComparisonYieldsFalse",
+        "whitelisted": false
+    },
+    "536871850": {
+        "name": "NonNullSpecdFieldComparisonYieldsFalse",
+        "url": "https://www.javadoc.io/doc/org.aspectj/aspectjtools/1.8.4/org/aspectj/org/eclipse/jdt/core/compiler/IProblem.html#NonNullSpecdFieldComparisonYieldsFalse",
+        "whitelisted": false
+    },
+    "570425420": {
+        "name": "NonStaticAccessToStaticField",
+        "url": "https://www.javadoc.io/doc/org.aspectj/aspectjtools/1.8.4/org/aspectj/org/eclipse/jdt/core/compiler/IProblem.html#NonStaticAccessToStaticField",
+        "whitelisted": false
+    },
+    "603979893": {
+        "name": "NonStaticAccessToStaticMethod",
+        "url": "https://www.javadoc.io/doc/org.aspectj/aspectjtools/1.8.4/org/aspectj/org/eclipse/jdt/core/compiler/IProblem.html#NonStaticAccessToStaticMethod",
+        "whitelisted": false
+    },
+    "536870944": {
+        "name": "NonStaticContextForEnumMemberType",
+        "url": "https://www.javadoc.io/doc/org.aspectj/aspectjtools/1.8.4/org/aspectj/org/eclipse/jdt/core/compiler/IProblem.html#NonStaticContextForEnumMemberType",
+        "whitelisted": false
+    },
+    "33554506": {
+        "name": "NonStaticFieldFromStaticInvocation",
+        "url": "https://www.javadoc.io/doc/org.aspectj/aspectjtools/1.8.4/org/aspectj/org/eclipse/jdt/core/compiler/IProblem.html#NonStaticFieldFromStaticInvocation",
+        "whitelisted": false
+    },
+    "67108948": {
+        "name": "NonStaticOrAlienTypeReceiver",
+        "url": "https://www.javadoc.io/doc/org.aspectj/aspectjtools/1.8.4/org/aspectj/org/eclipse/jdt/core/compiler/IProblem.html#NonStaticOrAlienTypeReceiver",
+        "whitelisted": false
+    },
+    "536871434": {
+        "name": "NonStaticTypeFromStaticInvocation",
+        "url": "https://www.javadoc.io/doc/org.aspectj/aspectjtools/1.8.4/org/aspectj/org/eclipse/jdt/core/compiler/IProblem.html#NonStaticTypeFromStaticInvocation",
+        "whitelisted": false
+    },
+    "1610612962": {
+        "name": "NoSuperInInterfaceContext",
+        "url": "https://www.javadoc.io/doc/org.aspectj/aspectjtools/1.8.4/org/aspectj/org/eclipse/jdt/core/compiler/IProblem.html#NoSuperInInterfaceContext",
+        "whitelisted": false
+    },
+    "16777250": {
+        "name": "NotAnnotationType",
+        "url": "https://www.javadoc.io/doc/org.aspectj/aspectjtools/1.8.4/org/aspectj/org/eclipse/jdt/core/compiler/IProblem.html#NotAnnotationType",
+        "whitelisted": false
+    },
+    "134217859": {
+        "name": "NotVisibleConstructor",
+        "url": "https://www.javadoc.io/doc/org.aspectj/aspectjtools/1.8.4/org/aspectj/org/eclipse/jdt/core/compiler/IProblem.html#NotVisibleConstructor",
+        "whitelisted": false
+    },
+    "134217869": {
+        "name": "NotVisibleConstructorInDefaultConstructor",
+        "url": "https://www.javadoc.io/doc/org.aspectj/aspectjtools/1.8.4/org/aspectj/org/eclipse/jdt/core/compiler/IProblem.html#NotVisibleConstructorInDefaultConstructor",
+        "whitelisted": false
+    },
+    "134217872": {
+        "name": "NotVisibleConstructorInImplicitConstructorCall",
+        "url": "https://www.javadoc.io/doc/org.aspectj/aspectjtools/1.8.4/org/aspectj/org/eclipse/jdt/core/compiler/IProblem.html#NotVisibleConstructorInImplicitConstructorCall",
+        "whitelisted": false
+    },
+    "33554503": {
+        "name": "NotVisibleField",
+        "url": "https://www.javadoc.io/doc/org.aspectj/aspectjtools/1.8.4/org/aspectj/org/eclipse/jdt/core/compiler/IProblem.html#NotVisibleField",
+        "whitelisted": true
+    },
+    "67108965": {
+        "name": "NotVisibleMethod",
+        "url": "https://www.javadoc.io/doc/org.aspectj/aspectjtools/1.8.4/org/aspectj/org/eclipse/jdt/core/compiler/IProblem.html#NotVisibleMethod",
+        "whitelisted": true
+    },
+    "16777219": {
+        "name": "NotVisibleType",
+        "url": "https://www.javadoc.io/doc/org.aspectj/aspectjtools/1.8.4/org/aspectj/org/eclipse/jdt/core/compiler/IProblem.html#NotVisibleType",
+        "whitelisted": false
+    },
+    "33555356": {
+        "name": "NullableFieldReference",
+        "url": "https://www.javadoc.io/doc/org.aspectj/aspectjtools/1.8.4/org/aspectj/org/eclipse/jdt/core/compiler/IProblem.html#NullableFieldReference",
+        "whitelisted": false
+    },
+    "536871874": {
+        "name": "NullAnnotationUnsupportedLocation",
+        "url": "https://www.javadoc.io/doc/org.aspectj/aspectjtools/1.8.4/org/aspectj/org/eclipse/jdt/core/compiler/IProblem.html#NullAnnotationUnsupportedLocation",
+        "whitelisted": false
+    },
+    "536871875": {
+        "name": "NullAnnotationUnsupportedLocationAtType",
+        "url": "https://www.javadoc.io/doc/org.aspectj/aspectjtools/1.8.4/org/aspectj/org/eclipse/jdt/core/compiler/IProblem.html#NullAnnotationUnsupportedLocationAtType",
+        "whitelisted": false
+    },
+    "536871584": {
+        "name": "NullExpressionReference",
+        "url": "https://www.javadoc.io/doc/org.aspectj/aspectjtools/1.8.4/org/aspectj/org/eclipse/jdt/core/compiler/IProblem.html#NullExpressionReference",
+        "whitelisted": false
+    },
+    "970": {
+        "name": "NullityMismatchAgainstFreeTypeVariable",
+        "url": "https://www.javadoc.io/doc/org.aspectj/aspectjtools/1.8.4/org/aspectj/org/eclipse/jdt/core/compiler/IProblem.html#NullityMismatchAgainstFreeTypeVariable",
+        "whitelisted": false
+    },
+    "536871865": {
+        "name": "NullityMismatchingTypeAnnotation",
+        "url": "https://www.javadoc.io/doc/org.aspectj/aspectjtools/1.8.4/org/aspectj/org/eclipse/jdt/core/compiler/IProblem.html#NullityMismatchingTypeAnnotation",
+        "whitelisted": false
+    },
+    "536871866": {
+        "name": "NullityMismatchingTypeAnnotationSuperHint",
+        "url": "https://www.javadoc.io/doc/org.aspectj/aspectjtools/1.8.4/org/aspectj/org/eclipse/jdt/core/compiler/IProblem.html#NullityMismatchingTypeAnnotationSuperHint",
+        "whitelisted": false
+    },
+    "536871876": {
+        "name": "NullityMismatchTypeArgument",
+        "url": "https://www.javadoc.io/doc/org.aspectj/aspectjtools/1.8.4/org/aspectj/org/eclipse/jdt/core/compiler/IProblem.html#NullityMismatchTypeArgument",
+        "whitelisted": false
+    },
+    "536871867": {
+        "name": "NullityUncheckedTypeAnnotationDetail",
+        "url": "https://www.javadoc.io/doc/org.aspectj/aspectjtools/1.8.4/org/aspectj/org/eclipse/jdt/core/compiler/IProblem.html#NullityUncheckedTypeAnnotationDetail",
+        "whitelisted": false
+    },
+    "536871868": {
+        "name": "NullityUncheckedTypeAnnotationDetailSuperHint",
+        "url": "https://www.javadoc.io/doc/org.aspectj/aspectjtools/1.8.4/org/aspectj/org/eclipse/jdt/core/compiler/IProblem.html#NullityUncheckedTypeAnnotationDetailSuperHint",
+        "whitelisted": false
+    },
+    "536871366": {
+        "name": "NullLocalVariableComparisonYieldsFalse",
+        "url": "https://www.javadoc.io/doc/org.aspectj/aspectjtools/1.8.4/org/aspectj/org/eclipse/jdt/core/compiler/IProblem.html#NullLocalVariableComparisonYieldsFalse",
+        "whitelisted": false
+    },
+    "536871368": {
+        "name": "NullLocalVariableInstanceofYieldsFalse",
+        "url": "https://www.javadoc.io/doc/org.aspectj/aspectjtools/1.8.4/org/aspectj/org/eclipse/jdt/core/compiler/IProblem.html#NullLocalVariableInstanceofYieldsFalse",
+        "whitelisted": false
+    },
+    "536871363": {
+        "name": "NullLocalVariableReference",
+        "url": "https://www.javadoc.io/doc/org.aspectj/aspectjtools/1.8.4/org/aspectj/org/eclipse/jdt/core/compiler/IProblem.html#NullLocalVariableReference",
+        "whitelisted": false
+    },
+    "969": {
+        "name": "NullNotCompatibleToFreeTypeVariable",
+        "url": "https://www.javadoc.io/doc/org.aspectj/aspectjtools/1.8.4/org/aspectj/org/eclipse/jdt/core/compiler/IProblem.html#NullNotCompatibleToFreeTypeVariable",
+        "whitelisted": false
+    },
+    "1610612994": {
+        "name": "NullSourceString",
+        "url": "https://www.javadoc.io/doc/org.aspectj/aspectjtools/1.8.4/org/aspectj/org/eclipse/jdt/core/compiler/IProblem.html#NullSourceString",
+        "whitelisted": false
+    },
+    "536871373": {
+        "name": "NullUnboxing",
+        "url": "https://www.javadoc.io/doc/org.aspectj/aspectjtools/1.8.4/org/aspectj/org/eclipse/jdt/core/compiler/IProblem.html#NullUnboxing",
+        "whitelisted": false
+    },
+    "536871066": {
+        "name": "NumericValueOutOfRange",
+        "url": "https://www.javadoc.io/doc/org.aspectj/aspectjtools/1.8.4/org/aspectj/org/eclipse/jdt/core/compiler/IProblem.html#NumericValueOutOfRange",
+        "whitelisted": false
+    },
+    "536871435": {
+        "name": "ObjectCannotBeGeneric",
+        "url": "https://www.javadoc.io/doc/org.aspectj/aspectjtools/1.8.4/org/aspectj/org/eclipse/jdt/core/compiler/IProblem.html#ObjectCannotBeGeneric",
+        "whitelisted": false
+    },
+    "536871241": {
+        "name": "ObjectCannotHaveSuperTypes",
+        "url": "https://www.javadoc.io/doc/org.aspectj/aspectjtools/1.8.4/org/aspectj/org/eclipse/jdt/core/compiler/IProblem.html#ObjectCannotHaveSuperTypes",
+        "whitelisted": false
+    },
+    "16777217": {
+        "name": "ObjectHasNoSuperclass",
+        "url": "https://www.javadoc.io/doc/org.aspectj/aspectjtools/1.8.4/org/aspectj/org/eclipse/jdt/core/compiler/IProblem.html#ObjectHasNoSuperclass",
+        "whitelisted": false
+    },
+    "536871242": {
+        "name": "ObjectMustBeClass",
+        "url": "https://www.javadoc.io/doc/org.aspectj/aspectjtools/1.8.4/org/aspectj/org/eclipse/jdt/core/compiler/IProblem.html#ObjectMustBeClass",
+        "whitelisted": false
+    },
+    "536871575": {
+        "name": "OuterLocalMustBeEffectivelyFinal",
+        "url": "https://www.javadoc.io/doc/org.aspectj/aspectjtools/1.8.4/org/aspectj/org/eclipse/jdt/core/compiler/IProblem.html#OuterLocalMustBeEffectivelyFinal",
+        "whitelisted": false
+    },
+    "536870937": {
+        "name": "OuterLocalMustBeFinal",
+        "url": "https://www.javadoc.io/doc/org.aspectj/aspectjtools/1.8.4/org/aspectj/org/eclipse/jdt/core/compiler/IProblem.html#OuterLocalMustBeFinal",
+        "whitelisted": false
+    },
+    "67109276": {
+        "name": "OverridingDeprecatedMethod",
+        "url": "https://www.javadoc.io/doc/org.aspectj/aspectjtools/1.8.4/org/aspectj/org/eclipse/jdt/core/compiler/IProblem.html#OverridingDeprecatedMethod",
+        "whitelisted": false
+    },
+    "67109280": {
+        "name": "OverridingMethodWithoutSuperInvocation",
+        "url": "https://www.javadoc.io/doc/org.aspectj/aspectjtools/1.8.4/org/aspectj/org/eclipse/jdt/core/compiler/IProblem.html#OverridingMethodWithoutSuperInvocation",
+        "whitelisted": false
+    },
+    "67109274": {
+        "name": "OverridingNonVisibleMethod",
+        "url": "https://www.javadoc.io/doc/org.aspectj/aspectjtools/1.8.4/org/aspectj/org/eclipse/jdt/core/compiler/IProblem.html#OverridingNonVisibleMethod",
+        "whitelisted": false
+    },
+    "16777537": {
+        "name": "PackageCollidesWithType",
+        "url": "https://www.javadoc.io/doc/org.aspectj/aspectjtools/1.8.4/org/aspectj/org/eclipse/jdt/core/compiler/IProblem.html#PackageCollidesWithType",
+        "whitelisted": false
+    },
+    "536871240": {
+        "name": "PackageIsNotExpectedPackage",
+        "url": "https://www.javadoc.io/doc/org.aspectj/aspectjtools/1.8.4/org/aspectj/org/eclipse/jdt/core/compiler/IProblem.html#PackageIsNotExpectedPackage",
+        "whitelisted": false
+    },
+    "536870971": {
+        "name": "ParameterAssignment",
+        "url": "https://www.javadoc.io/doc/org.aspectj/aspectjtools/1.8.4/org/aspectj/org/eclipse/jdt/core/compiler/IProblem.html#ParameterAssignment",
+        "whitelisted": false
+    },
+    "16777769": {
+        "name": "ParameterizedConstructorArgumentTypeMismatch",
+        "url": "https://www.javadoc.io/doc/org.aspectj/aspectjtools/1.8.4/org/aspectj/org/eclipse/jdt/core/compiler/IProblem.html#ParameterizedConstructorArgumentTypeMismatch",
+        "whitelisted": false
+    },
+    "16777766": {
+        "name": "ParameterizedMethodArgumentTypeMismatch",
+        "url": "https://www.javadoc.io/doc/org.aspectj/aspectjtools/1.8.4/org/aspectj/org/eclipse/jdt/core/compiler/IProblem.html#ParameterizedMethodArgumentTypeMismatch",
+        "whitelisted": false
+    },
+    "67109781": {
+        "name": "ParameterLackingNonNullAnnotation",
+        "url": "https://www.javadoc.io/doc/org.aspectj/aspectjtools/1.8.4/org/aspectj/org/eclipse/jdt/core/compiler/IProblem.html#ParameterLackingNonNullAnnotation",
+        "whitelisted": false
+    },
+    "67109782": {
+        "name": "ParameterLackingNullableAnnotation",
+        "url": "https://www.javadoc.io/doc/org.aspectj/aspectjtools/1.8.4/org/aspectj/org/eclipse/jdt/core/compiler/IProblem.html#ParameterLackingNullableAnnotation",
+        "whitelisted": false
+    },
+    "67108979": {
+        "name": "ParameterMismatch",
+        "url": "https://www.javadoc.io/doc/org.aspectj/aspectjtools/1.8.4/org/aspectj/org/eclipse/jdt/core/compiler/IProblem.html#ParameterMismatch",
+        "whitelisted": false
+    },
+    "1610612940": {
+        "name": "ParsingError",
+        "url": "https://www.javadoc.io/doc/org.aspectj/aspectjtools/1.8.4/org/aspectj/org/eclipse/jdt/core/compiler/IProblem.html#ParsingError",
+        "whitelisted": true
+    },
+    "1610612968": {
+        "name": "ParsingErrorDeleteToken",
+        "url": "https://www.javadoc.io/doc/org.aspectj/aspectjtools/1.8.4/org/aspectj/org/eclipse/jdt/core/compiler/IProblem.html#ParsingErrorDeleteToken",
+        "whitelisted": false
+    },
+    "1610612969": {
+        "name": "ParsingErrorDeleteTokens",
+        "url": "https://www.javadoc.io/doc/org.aspectj/aspectjtools/1.8.4/org/aspectj/org/eclipse/jdt/core/compiler/IProblem.html#ParsingErrorDeleteTokens",
+        "whitelisted": false
+    },
+    "1610612976": {
+        "name": "ParsingErrorInsertToComplete",
+        "url": "https://www.javadoc.io/doc/org.aspectj/aspectjtools/1.8.4/org/aspectj/org/eclipse/jdt/core/compiler/IProblem.html#ParsingErrorInsertToComplete",
+        "whitelisted": false
+    },
+    "1610612978": {
+        "name": "ParsingErrorInsertToCompletePhrase",
+        "url": "https://www.javadoc.io/doc/org.aspectj/aspectjtools/1.8.4/org/aspectj/org/eclipse/jdt/core/compiler/IProblem.html#ParsingErrorInsertToCompletePhrase",
+        "whitelisted": false
+    },
+    "1610612977": {
+        "name": "ParsingErrorInsertToCompleteScope",
+        "url": "https://www.javadoc.io/doc/org.aspectj/aspectjtools/1.8.4/org/aspectj/org/eclipse/jdt/core/compiler/IProblem.html#ParsingErrorInsertToCompleteScope",
+        "whitelisted": false
+    },
+    "1610612967": {
+        "name": "ParsingErrorInsertTokenAfter",
+        "url": "https://www.javadoc.io/doc/org.aspectj/aspectjtools/1.8.4/org/aspectj/org/eclipse/jdt/core/compiler/IProblem.html#ParsingErrorInsertTokenAfter",
+        "whitelisted": false
+    },
+    "1610612966": {
+        "name": "ParsingErrorInsertTokenBefore",
+        "url": "https://www.javadoc.io/doc/org.aspectj/aspectjtools/1.8.4/org/aspectj/org/eclipse/jdt/core/compiler/IProblem.html#ParsingErrorInsertTokenBefore",
+        "whitelisted": false
+    },
+    "1610612971": {
+        "name": "ParsingErrorInvalidToken",
+        "url": "https://www.javadoc.io/doc/org.aspectj/aspectjtools/1.8.4/org/aspectj/org/eclipse/jdt/core/compiler/IProblem.html#ParsingErrorInvalidToken",
+        "whitelisted": false
+    },
+    "1610612970": {
+        "name": "ParsingErrorMergeTokens",
+        "url": "https://www.javadoc.io/doc/org.aspectj/aspectjtools/1.8.4/org/aspectj/org/eclipse/jdt/core/compiler/IProblem.html#ParsingErrorMergeTokens",
+        "whitelisted": false
+    },
+    "1610612972": {
+        "name": "ParsingErrorMisplacedConstruct",
+        "url": "https://www.javadoc.io/doc/org.aspectj/aspectjtools/1.8.4/org/aspectj/org/eclipse/jdt/core/compiler/IProblem.html#ParsingErrorMisplacedConstruct",
+        "whitelisted": false
+    },
+    "1610612941": {
+        "name": "ParsingErrorNoSuggestion",
+        "url": "https://www.javadoc.io/doc/org.aspectj/aspectjtools/1.8.4/org/aspectj/org/eclipse/jdt/core/compiler/IProblem.html#ParsingErrorNoSuggestion",
+        "whitelisted": false
+    },
+    "1610612974": {
+        "name": "ParsingErrorNoSuggestionForTokens",
+        "url": "https://www.javadoc.io/doc/org.aspectj/aspectjtools/1.8.4/org/aspectj/org/eclipse/jdt/core/compiler/IProblem.html#ParsingErrorNoSuggestionForTokens",
+        "whitelisted": false
+    },
+    "1610612945": {
+        "name": "ParsingErrorOnKeyword",
+        "url": "https://www.javadoc.io/doc/org.aspectj/aspectjtools/1.8.4/org/aspectj/org/eclipse/jdt/core/compiler/IProblem.html#ParsingErrorOnKeyword",
+        "whitelisted": false
+    },
+    "1610612946": {
+        "name": "ParsingErrorOnKeywordNoSuggestion",
+        "url": "https://www.javadoc.io/doc/org.aspectj/aspectjtools/1.8.4/org/aspectj/org/eclipse/jdt/core/compiler/IProblem.html#ParsingErrorOnKeywordNoSuggestion",
+        "whitelisted": false
+    },
+    "1610612973": {
+        "name": "ParsingErrorReplaceTokens",
+        "url": "https://www.javadoc.io/doc/org.aspectj/aspectjtools/1.8.4/org/aspectj/org/eclipse/jdt/core/compiler/IProblem.html#ParsingErrorReplaceTokens",
+        "whitelisted": false
+    },
+    "1610612975": {
+        "name": "ParsingErrorUnexpectedEOF",
+        "url": "https://www.javadoc.io/doc/org.aspectj/aspectjtools/1.8.4/org/aspectj/org/eclipse/jdt/core/compiler/IProblem.html#ParsingErrorUnexpectedEOF",
+        "whitelisted": true
+    },
+    "67109740": {
+        "name": "PolymorphicMethodNotBelow17",
+        "url": "https://www.javadoc.io/doc/org.aspectj/aspectjtools/1.8.4/org/aspectj/org/eclipse/jdt/core/compiler/IProblem.html#PolymorphicMethodNotBelow17",
+        "whitelisted": false
+    },
+    "536871091": {
+        "name": "PossibleAccidentalBooleanAssignment",
+        "url": "https://www.javadoc.io/doc/org.aspectj/aspectjtools/1.8.4/org/aspectj/org/eclipse/jdt/core/compiler/IProblem.html#PossibleAccidentalBooleanAssignment",
+        "whitelisted": false
+    },
+    "67109670": {
+        "name": "PotentialHeapPollutionFromVararg",
+        "url": "https://www.javadoc.io/doc/org.aspectj/aspectjtools/1.8.4/org/aspectj/org/eclipse/jdt/core/compiler/IProblem.html#PotentialHeapPollutionFromVararg",
+        "whitelisted": false
+    },
+    "536871797": {
+        "name": "PotentiallyUnclosedCloseable",
+        "url": "https://www.javadoc.io/doc/org.aspectj/aspectjtools/1.8.4/org/aspectj/org/eclipse/jdt/core/compiler/IProblem.html#PotentiallyUnclosedCloseable",
+        "whitelisted": false
+    },
+    "536871798": {
+        "name": "PotentiallyUnclosedCloseableAtExit",
+        "url": "https://www.javadoc.io/doc/org.aspectj/aspectjtools/1.8.4/org/aspectj/org/eclipse/jdt/core/compiler/IProblem.html#PotentiallyUnclosedCloseableAtExit",
+        "whitelisted": false
+    },
+    "536871585": {
+        "name": "PotentialNullExpressionReference",
+        "url": "https://www.javadoc.io/doc/org.aspectj/aspectjtools/1.8.4/org/aspectj/org/eclipse/jdt/core/compiler/IProblem.html#PotentialNullExpressionReference",
+        "whitelisted": false
+    },
+    "536871364": {
+        "name": "PotentialNullLocalVariableReference",
+        "url": "https://www.javadoc.io/doc/org.aspectj/aspectjtools/1.8.4/org/aspectj/org/eclipse/jdt/core/compiler/IProblem.html#PotentialNullLocalVariableReference",
+        "whitelisted": false
+    },
+    "536871831": {
+        "name": "PotentialNullMessageSendReference",
+        "url": "https://www.javadoc.io/doc/org.aspectj/aspectjtools/1.8.4/org/aspectj/org/eclipse/jdt/core/compiler/IProblem.html#PotentialNullMessageSendReference",
+        "whitelisted": false
+    },
+    "536871371": {
+        "name": "PotentialNullUnboxing",
+        "url": "https://www.javadoc.io/doc/org.aspectj/aspectjtools/1.8.4/org/aspectj/org/eclipse/jdt/core/compiler/IProblem.html#PotentialNullUnboxing",
+        "whitelisted": false
+    },
+    "16777541": {
+        "name": "PublicClassMustMatchFileName",
+        "url": "https://www.javadoc.io/doc/org.aspectj/aspectjtools/1.8.4/org/aspectj/org/eclipse/jdt/core/compiler/IProblem.html#PublicClassMustMatchFileName",
+        "whitelisted": true
+    },
+    "16777777": {
+        "name": "RawMemberTypeCannotBeParameterized",
+        "url": "https://www.javadoc.io/doc/org.aspectj/aspectjtools/1.8.4/org/aspectj/org/eclipse/jdt/core/compiler/IProblem.html#RawMemberTypeCannotBeParameterized",
+        "whitelisted": false
+    },
+    "16777788": {
+        "name": "RawTypeReference",
+        "url": "https://www.javadoc.io/doc/org.aspectj/aspectjtools/1.8.4/org/aspectj/org/eclipse/jdt/core/compiler/IProblem.html#RawTypeReference",
+        "whitelisted": true
+    },
+    "134217865": {
+        "name": "RecursiveConstructorInvocation",
+        "url": "https://www.javadoc.io/doc/org.aspectj/aspectjtools/1.8.4/org/aspectj/org/eclipse/jdt/core/compiler/IProblem.html#RecursiveConstructorInvocation",
+        "whitelisted": true
+    },
+    "536870968": {
+        "name": "RedefinedArgument",
+        "url": "https://www.javadoc.io/doc/org.aspectj/aspectjtools/1.8.4/org/aspectj/org/eclipse/jdt/core/compiler/IProblem.html#RedefinedArgument",
+        "whitelisted": false
+    },
+    "536870967": {
+        "name": "RedefinedLocal",
+        "url": "https://www.javadoc.io/doc/org.aspectj/aspectjtools/1.8.4/org/aspectj/org/eclipse/jdt/core/compiler/IProblem.html#RedefinedLocal",
+        "whitelisted": false
+    },
+    "536871367": {
+        "name": "RedundantLocalVariableNullAssignment",
+        "url": "https://www.javadoc.io/doc/org.aspectj/aspectjtools/1.8.4/org/aspectj/org/eclipse/jdt/core/compiler/IProblem.html#RedundantLocalVariableNullAssignment",
+        "whitelisted": false
+    },
+    "67109786": {
+        "name": "RedundantNullAnnotation",
+        "url": "https://www.javadoc.io/doc/org.aspectj/aspectjtools/1.8.4/org/aspectj/org/eclipse/jdt/core/compiler/IProblem.html#RedundantNullAnnotation",
+        "whitelisted": false
+    },
+    "536871873": {
+        "name": "RedundantNullCheckAgainstNonNullType",
+        "url": "https://www.javadoc.io/doc/org.aspectj/aspectjtools/1.8.4/org/aspectj/org/eclipse/jdt/core/compiler/IProblem.html#RedundantNullCheckAgainstNonNullType",
+        "whitelisted": false
+    },
+    "536871853": {
+        "name": "RedundantNullCheckOnField",
+        "url": "https://www.javadoc.io/doc/org.aspectj/aspectjtools/1.8.4/org/aspectj/org/eclipse/jdt/core/compiler/IProblem.html#RedundantNullCheckOnField",
+        "whitelisted": false
+    },
+    "536871583": {
+        "name": "RedundantNullCheckOnNonNullExpression",
+        "url": "https://www.javadoc.io/doc/org.aspectj/aspectjtools/1.8.4/org/aspectj/org/eclipse/jdt/core/compiler/IProblem.html#RedundantNullCheckOnNonNullExpression",
+        "whitelisted": false
+    },
+    "536871369": {
+        "name": "RedundantNullCheckOnNonNullLocalVariable",
+        "url": "https://www.javadoc.io/doc/org.aspectj/aspectjtools/1.8.4/org/aspectj/org/eclipse/jdt/core/compiler/IProblem.html#RedundantNullCheckOnNonNullLocalVariable",
+        "whitelisted": false
+    },
+    "536871832": {
+        "name": "RedundantNullCheckOnNonNullMessageSend",
+        "url": "https://www.javadoc.io/doc/org.aspectj/aspectjtools/1.8.4/org/aspectj/org/eclipse/jdt/core/compiler/IProblem.html#RedundantNullCheckOnNonNullMessageSend",
+        "whitelisted": false
+    },
+    "536871849": {
+        "name": "RedundantNullCheckOnNonNullSpecdField",
+        "url": "https://www.javadoc.io/doc/org.aspectj/aspectjtools/1.8.4/org/aspectj/org/eclipse/jdt/core/compiler/IProblem.html#RedundantNullCheckOnNonNullSpecdField",
+        "whitelisted": false
+    },
+    "536871365": {
+        "name": "RedundantNullCheckOnNullLocalVariable",
+        "url": "https://www.javadoc.io/doc/org.aspectj/aspectjtools/1.8.4/org/aspectj/org/eclipse/jdt/core/compiler/IProblem.html#RedundantNullCheckOnNullLocalVariable",
+        "whitelisted": false
+    },
+    "536871843": {
+        "name": "RedundantNullCheckOnSpecdNonNullLocalVariable",
+        "url": "https://www.javadoc.io/doc/org.aspectj/aspectjtools/1.8.4/org/aspectj/org/eclipse/jdt/core/compiler/IProblem.html#RedundantNullCheckOnSpecdNonNullLocalVariable",
+        "whitelisted": false
+    },
+    "536871837": {
+        "name": "RedundantNullDefaultAnnotation",
+        "url": "https://www.javadoc.io/doc/org.aspectj/aspectjtools/1.8.4/org/aspectj/org/eclipse/jdt/core/compiler/IProblem.html#RedundantNullDefaultAnnotation",
+        "whitelisted": false
+    },
+    "536871840": {
+        "name": "RedundantNullDefaultAnnotationMethod",
+        "url": "https://www.javadoc.io/doc/org.aspectj/aspectjtools/1.8.4/org/aspectj/org/eclipse/jdt/core/compiler/IProblem.html#RedundantNullDefaultAnnotationMethod",
+        "whitelisted": false
+    },
+    "536871838": {
+        "name": "RedundantNullDefaultAnnotationPackage",
+        "url": "https://www.javadoc.io/doc/org.aspectj/aspectjtools/1.8.4/org/aspectj/org/eclipse/jdt/core/compiler/IProblem.html#RedundantNullDefaultAnnotationPackage",
+        "whitelisted": false
+    },
+    "536871839": {
+        "name": "RedundantNullDefaultAnnotationType",
+        "url": "https://www.javadoc.io/doc/org.aspectj/aspectjtools/1.8.4/org/aspectj/org/eclipse/jdt/core/compiler/IProblem.html#RedundantNullDefaultAnnotationType",
+        "whitelisted": false
+    },
+    "16778100": {
+        "name": "RedundantSpecificationOfTypeArguments",
+        "url": "https://www.javadoc.io/doc/org.aspectj/aspectjtools/1.8.4/org/aspectj/org/eclipse/jdt/core/compiler/IProblem.html#RedundantSpecificationOfTypeArguments",
+        "whitelisted": false
+    },
+    "16777547": {
+        "name": "SuperclassNotVisible",
+        "url": "https://www.javadoc.io/doc/org.aspectj/aspectjtools/1.8.4/org/aspectj/org/eclipse/jdt/core/compiler/IProblem.html#SuperclassNotVisible",
+        "whitelisted": false
+    },
+    "67109821": {
+        "name": "ReferenceExpressionParameterNullityMismatch",
+        "url": "https://www.javadoc.io/doc/org.aspectj/aspectjtools/1.8.4/org/aspectj/org/eclipse/jdt/core/compiler/IProblem.html#ReferenceExpressionParameterNullityMismatch",
+        "whitelisted": false
+    },
+    "67109822": {
+        "name": "ReferenceExpressionParameterNullityUnchecked",
+        "url": "https://www.javadoc.io/doc/org.aspectj/aspectjtools/1.8.4/org/aspectj/org/eclipse/jdt/core/compiler/IProblem.html#ReferenceExpressionParameterNullityUnchecked",
+        "whitelisted": false
+    },
+    "67109823": {
+        "name": "ReferenceExpressionReturnNullRedef",
+        "url": "https://www.javadoc.io/doc/org.aspectj/aspectjtools/1.8.4/org/aspectj/org/eclipse/jdt/core/compiler/IProblem.html#ReferenceExpressionReturnNullRedef",
+        "whitelisted": false
+    },
+    "67109824": {
+        "name": "ReferenceExpressionReturnNullRedefUnchecked",
+        "url": "https://www.javadoc.io/doc/org.aspectj/aspectjtools/1.8.4/org/aspectj/org/eclipse/jdt/core/compiler/IProblem.html#ReferenceExpressionReturnNullRedefUnchecked",
+        "whitelisted": false
+    },
+    "570425419": {
+        "name": "ReferenceToForwardField",
+        "url": "https://www.javadoc.io/doc/org.aspectj/aspectjtools/1.8.4/org/aspectj/org/eclipse/jdt/core/compiler/IProblem.html#ReferenceToForwardField",
+        "whitelisted": false
+    },
+    "16777744": {
+        "name": "ReferenceToForwardTypeVariable",
+        "url": "https://www.javadoc.io/doc/org.aspectj/aspectjtools/1.8.4/org/aspectj/org/eclipse/jdt/core/compiler/IProblem.html#ReferenceToForwardTypeVariable",
+        "whitelisted": false
+    },
+    "16778123": {
+        "name": "RepeatableAnnotationTypeIsDocumented",
+        "url": "https://www.javadoc.io/doc/org.aspectj/aspectjtools/1.8.4/org/aspectj/org/eclipse/jdt/core/compiler/IProblem.html#RepeatableAnnotationTypeIsDocumented",
+        "whitelisted": false
+    },
+    "16778124": {
+        "name": "RepeatableAnnotationTypeIsInherited",
+        "url": "https://www.javadoc.io/doc/org.aspectj/aspectjtools/1.8.4/org/aspectj/org/eclipse/jdt/core/compiler/IProblem.html#RepeatableAnnotationTypeIsInherited",
+        "whitelisted": false
+    },
+    "16778122": {
+        "name": "RepeatableAnnotationTypeTargetMismatch",
+        "url": "https://www.javadoc.io/doc/org.aspectj/aspectjtools/1.8.4/org/aspectj/org/eclipse/jdt/core/compiler/IProblem.html#RepeatableAnnotationTypeTargetMismatch",
+        "whitelisted": false
+    },
+    "16778125": {
+        "name": "RepeatableAnnotationWithRepeatingContainerAnnotation",
+        "url": "https://www.javadoc.io/doc/org.aspectj/aspectjtools/1.8.4/org/aspectj/org/eclipse/jdt/core/compiler/IProblem.html#RepeatableAnnotationWithRepeatingContainerAnnotation",
+        "whitelisted": false
+    },
+    "16778115": {
+        "name": "RepeatedAnnotationWithContainerAnnotation",
+        "url": "https://www.javadoc.io/doc/org.aspectj/aspectjtools/1.8.4/org/aspectj/org/eclipse/jdt/core/compiler/IProblem.html#RepeatedAnnotationWithContainerAnnotation",
+        "whitelisted": false
+    },
+    "16778126": {
+        "name": "RequiredNonNullButProvidedNull",
+        "url": "https://www.javadoc.io/doc/org.aspectj/aspectjtools/1.8.4/org/aspectj/org/eclipse/jdt/core/compiler/IProblem.html#RequiredNonNullButProvidedNull",
+        "whitelisted": false
+    },
+    "16778127": {
+        "name": "RequiredNonNullButProvidedPotentialNull",
+        "url": "https://www.javadoc.io/doc/org.aspectj/aspectjtools/1.8.4/org/aspectj/org/eclipse/jdt/core/compiler/IProblem.html#RequiredNonNullButProvidedPotentialNull",
+        "whitelisted": false
+    },
+    "536871845": {
+        "name": "RequiredNonNullButProvidedSpecdNullable",
+        "url": "https://www.javadoc.io/doc/org.aspectj/aspectjtools/1.8.4/org/aspectj/org/eclipse/jdt/core/compiler/IProblem.html#RequiredNonNullButProvidedSpecdNullable",
+        "whitelisted": false
+    },
+    "16778128": {
+        "name": "RequiredNonNullButProvidedUnknown",
+        "url": "https://www.javadoc.io/doc/org.aspectj/aspectjtools/1.8.4/org/aspectj/org/eclipse/jdt/core/compiler/IProblem.html#RequiredNonNullButProvidedUnknown",
+        "whitelisted": false
+    },
+    "16778087": {
+        "name": "ResourceHasToImplementAutoCloseable",
+        "url": "https://www.javadoc.io/doc/org.aspectj/aspectjtools/1.8.4/org/aspectj/org/eclipse/jdt/core/compiler/IProblem.html#ResourceHasToImplementAutoCloseable",
+        "whitelisted": false
+    },
+    "67109246": {
+        "name": "ReturnTypeAmbiguous",
+        "url": "https://www.javadoc.io/doc/org.aspectj/aspectjtools/1.8.4/org/aspectj/org/eclipse/jdt/core/compiler/IProblem.html#ReturnTypeAmbiguous",
+        "whitelisted": false
+    },
+    "67109230": {
+        "name": "ReturnTypeCannotBeVoidArray",
+        "url": "https://www.javadoc.io/doc/org.aspectj/aspectjtools/1.8.4/org/aspectj/org/eclipse/jdt/core/compiler/IProblem.html#ReturnTypeCannotBeVoidArray",
+        "whitelisted": false
+    },
+    "67109248": {
+        "name": "ReturnTypeInheritedNameHidesEnclosingName",
+        "url": "https://www.javadoc.io/doc/org.aspectj/aspectjtools/1.8.4/org/aspectj/org/eclipse/jdt/core/compiler/IProblem.html#ReturnTypeInheritedNameHidesEnclosingName",
+        "whitelisted": false
+    },
+    "67109247": {
+        "name": "ReturnTypeInternalNameProvided",
+        "url": "https://www.javadoc.io/doc/org.aspectj/aspectjtools/1.8.4/org/aspectj/org/eclipse/jdt/core/compiler/IProblem.html#ReturnTypeInternalNameProvided",
+        "whitelisted": false
+    },
+    "16777235": {
+        "name": "ReturnTypeMismatch",
+        "url": "https://www.javadoc.io/doc/org.aspectj/aspectjtools/1.8.4/org/aspectj/org/eclipse/jdt/core/compiler/IProblem.html#ReturnTypeMismatch",
+        "whitelisted": true
+    },
+    "67109244": {
+        "name": "ReturnTypeNotFound",
+        "url": "https://www.javadoc.io/doc/org.aspectj/aspectjtools/1.8.4/org/aspectj/org/eclipse/jdt/core/compiler/IProblem.html#ReturnTypeNotFound",
+        "whitelisted": false
+    },
+    "67109245": {
+        "name": "ReturnTypeNotVisible",
+        "url": "https://www.javadoc.io/doc/org.aspectj/aspectjtools/1.8.4/org/aspectj/org/eclipse/jdt/core/compiler/IProblem.html#ReturnTypeNotVisible",
+        "whitelisted": false
+    },
+    "67109668": {
+        "name": "SafeVarargsOnFixedArityMethod",
+        "url": "https://www.javadoc.io/doc/org.aspectj/aspectjtools/1.8.4/org/aspectj/org/eclipse/jdt/core/compiler/IProblem.html#SafeVarargsOnFixedArityMethod",
+        "whitelisted": false
+    },
+    "67109669": {
+        "name": "SafeVarargsOnNonFinalInstanceMethod",
+        "url": "https://www.javadoc.io/doc/org.aspectj/aspectjtools/1.8.4/org/aspectj/org/eclipse/jdt/core/compiler/IProblem.html#SafeVarargsOnNonFinalInstanceMethod",
+        "whitelisted": false
+    },
+    "16777548": {
+        "name": "SuperclassAmbiguous",
+        "url": "https://www.javadoc.io/doc/org.aspectj/aspectjtools/1.8.4/org/aspectj/org/eclipse/jdt/core/compiler/IProblem.html#SuperclassAmbiguous",
+        "whitelisted": false
+    },
+    "603979884": {
+        "name": "ShouldReturnValue",
+        "url": "https://www.javadoc.io/doc/org.aspectj/aspectjtools/1.8.4/org/aspectj/org/eclipse/jdt/core/compiler/IProblem.html#ShouldReturnValue",
+        "whitelisted": false
+    },
+    "67109635": {
+        "name": "ShouldReturnValueHintMissingDefault",
+        "url": "https://www.javadoc.io/doc/org.aspectj/aspectjtools/1.8.4/org/aspectj/org/eclipse/jdt/core/compiler/IProblem.html#ShouldReturnValueHintMissingDefault",
+        "whitelisted": false
+    },
+    "536871844": {
+        "name": "SpecdNonNullLocalVariableComparisonYieldsFalse",
+        "url": "https://www.javadoc.io/doc/org.aspectj/aspectjtools/1.8.4/org/aspectj/org/eclipse/jdt/core/compiler/IProblem.html#SpecdNonNullLocalVariableComparisonYieldsFalse",
+        "whitelisted": false
+    },
+    "67109272": {
+        "name": "StaticInheritedMethodConflicts",
+        "url": "https://www.javadoc.io/doc/org.aspectj/aspectjtools/1.8.4/org/aspectj/org/eclipse/jdt/core/compiler/IProblem.html#StaticInheritedMethodConflicts",
+        "whitelisted": false
+    },
+    "1610613632": {
+        "name": "StaticInterfaceMethodNotBelow18",
+        "url": "https://www.javadoc.io/doc/org.aspectj/aspectjtools/1.8.4/org/aspectj/org/eclipse/jdt/core/compiler/IProblem.html#StaticInterfaceMethodNotBelow18",
+        "whitelisted": false
+    },
+    "16777779": {
+        "name": "StaticMemberOfParameterizedType",
+        "url": "https://www.javadoc.io/doc/org.aspectj/aspectjtools/1.8.4/org/aspectj/org/eclipse/jdt/core/compiler/IProblem.html#StaticMemberOfParameterizedType",
+        "whitelisted": false
+    },
+    "603979977": {
+        "name": "StaticMethodRequested",
+        "url": "https://www.javadoc.io/doc/org.aspectj/aspectjtools/1.8.4/org/aspectj/org/eclipse/jdt/core/compiler/IProblem.html#StaticMethodRequested",
+        "whitelisted": false
+    },
+    "603979900": {
+        "name": "StaticMethodShouldBeAccessedStatically",
+        "url": "https://www.javadoc.io/doc/org.aspectj/aspectjtools/1.8.4/org/aspectj/org/eclipse/jdt/core/compiler/IProblem.html#StaticMethodShouldBeAccessedStatically",
+        "whitelisted": false
+    },
+    "536871064": {
+        "name": "StringConstantIsExceedingUtf8Limit",
+        "url": "https://www.javadoc.io/doc/org.aspectj/aspectjtools/1.8.4/org/aspectj/org/eclipse/jdt/core/compiler/IProblem.html#StringConstantIsExceedingUtf8Limit",
+        "whitelisted": false
+    },
+    "16778270": {
+        "name": "SuperAccessCannotBypassDirectSuper",
+        "url": "https://www.javadoc.io/doc/org.aspectj/aspectjtools/1.8.4/org/aspectj/org/eclipse/jdt/core/compiler/IProblem.html#SuperAccessCannotBypassDirectSuper",
+        "whitelisted": false
+    },
+    "67109919": {
+        "name": "SuperCallCannotBypassOverride",
+        "url": "https://www.javadoc.io/doc/org.aspectj/aspectjtools/1.8.4/org/aspectj/org/eclipse/jdt/core/compiler/IProblem.html#SuperCallCannotBypassOverride",
+        "whitelisted": false
+    },
+    "16777550": {
+        "name": "SuperclassInheritedNameHidesEnclosingName",
+        "url": "https://www.javadoc.io/doc/org.aspectj/aspectjtools/1.8.4/org/aspectj/org/eclipse/jdt/core/compiler/IProblem.html#SuperclassInheritedNameHidesEnclosingName",
+        "whitelisted": false
+    },
+    "16777528": {
+        "name": "SuperclassMustBeAClass",
+        "url": "https://www.javadoc.io/doc/org.aspectj/aspectjtools/1.8.4/org/aspectj/org/eclipse/jdt/core/compiler/IProblem.html#SuperclassMustBeAClass",
+        "whitelisted": true
+    },
+    "16777546": {
+        "name": "SuperclassNotFound",
+        "url": "https://www.javadoc.io/doc/org.aspectj/aspectjtools/1.8.4/org/aspectj/org/eclipse/jdt/core/compiler/IProblem.html#SuperclassNotFound",
+        "whitelisted": true
+    },
+    "536871092": {
+        "name": "SuperfluousSemicolon",
+        "url": "https://www.javadoc.io/doc/org.aspectj/aspectjtools/1.8.4/org/aspectj/org/eclipse/jdt/core/compiler/IProblem.html#SuperfluousSemicolon",
+        "whitelisted": false
+    },
+    "16777531": {
+        "name": "SuperInterfaceMustBeAnInterface",
+        "url": "https://www.javadoc.io/doc/org.aspectj/aspectjtools/1.8.4/org/aspectj/org/eclipse/jdt/core/compiler/IProblem.html#SuperInterfaceMustBeAnInterface",
+        "whitelisted": false
+    },
+    "16777755": {
+        "name": "SuperInterfacesCollide",
+        "url": "https://www.javadoc.io/doc/org.aspectj/aspectjtools/1.8.4/org/aspectj/org/eclipse/jdt/core/compiler/IProblem.html#SuperInterfacesCollide",
+        "whitelisted": false
+    },
+    "16777772": {
+        "name": "SuperTypeUsingWildcard",
+        "url": "https://www.javadoc.io/doc/org.aspectj/aspectjtools/1.8.4/org/aspectj/org/eclipse/jdt/core/compiler/IProblem.html#SuperTypeUsingWildcard",
+        "whitelisted": false
+    },
+    "536871611": {
+        "name": "SwallowedExceptionInCatchBlock",
+        "url": "https://www.javadoc.io/doc/org.aspectj/aspectjtools/1.8.4/org/aspectj/org/eclipse/jdt/core/compiler/IProblem.html#SwallowedExceptionInCatchBlock",
+        "whitelisted": false
+    },
+    "16778106": {
+        "name": "SwitchOnEnumNotBelow15",
+        "url": "https://www.javadoc.io/doc/org.aspectj/aspectjtools/1.8.4/org/aspectj/org/eclipse/jdt/core/compiler/IProblem.html#SwitchOnEnumNotBelow15",
+        "whitelisted": false
+    },
+    "16778097": {
+        "name": "SwitchOnStringsNotBelow17",
+        "url": "https://www.javadoc.io/doc/org.aspectj/aspectjtools/1.8.4/org/aspectj/org/eclipse/jdt/core/compiler/IProblem.html#SwitchOnStringsNotBelow17",
+        "whitelisted": false
+    },
+    "1073741824": {
+        "name": "Syntax",
+        "url": "https://www.javadoc.io/doc/org.aspectj/aspectjtools/1.8.4/org/aspectj/org/eclipse/jdt/core/compiler/IProblem.html#Syntax",
+        "whitelisted": true
+    },
+    "553648781": {
+        "name": "TargetTypeNotAFunctionalInterface",
+        "url": "https://www.javadoc.io/doc/org.aspectj/aspectjtools/1.8.4/org/aspectj/org/eclipse/jdt/core/compiler/IProblem.html#TargetTypeNotAFunctionalInterface",
+        "whitelisted": false
+    },
+    "536871362": {
+        "name": "Task",
+        "url": "https://www.javadoc.io/doc/org.aspectj/aspectjtools/1.8.4/org/aspectj/org/eclipse/jdt/core/compiler/IProblem.html#Task",
+        "whitelisted": false
+    },
+    "536871112": {
+        "name": "ThisInStaticContext",
+        "url": "https://www.javadoc.io/doc/org.aspectj/aspectjtools/1.8.4/org/aspectj/org/eclipse/jdt/core/compiler/IProblem.html#ThisInStaticContext",
+        "whitelisted": false
+    },
+    "134217866": {
+        "name": "ThisSuperDuringConstructorInvocation",
+        "url": "https://www.javadoc.io/doc/org.aspectj/aspectjtools/1.8.4/org/aspectj/org/eclipse/jdt/core/compiler/IProblem.html#ThisSuperDuringConstructorInvocation",
+        "whitelisted": false
+    },
+    "1610613402": {
+        "name": "ToleratedMisplacedTypeAnnotations",
+        "url": "https://www.javadoc.io/doc/org.aspectj/aspectjtools/1.8.4/org/aspectj/org/eclipse/jdt/core/compiler/IProblem.html#ToleratedMisplacedTypeAnnotations",
+        "whitelisted": false
+    },
+    "536870977": {
+        "name": "TooManyArgumentSlots",
+        "url": "https://www.javadoc.io/doc/org.aspectj/aspectjtools/1.8.4/org/aspectj/org/eclipse/jdt/core/compiler/IProblem.html#TooManyArgumentSlots",
+        "whitelisted": false
+    },
+    "536870980": {
+        "name": "TooManyArrayDimensions",
+        "url": "https://www.javadoc.io/doc/org.aspectj/aspectjtools/1.8.4/org/aspectj/org/eclipse/jdt/core/compiler/IProblem.html#TooManyArrayDimensions",
+        "whitelisted": false
+    },
+    "536871343": {
+        "name": "TooManyBytesForStringConstant",
+        "url": "https://www.javadoc.io/doc/org.aspectj/aspectjtools/1.8.4/org/aspectj/org/eclipse/jdt/core/compiler/IProblem.html#TooManyBytesForStringConstant",
+        "whitelisted": false
+    },
+    "536871342": {
+        "name": "TooManyConstantsInConstantPool",
+        "url": "https://www.javadoc.io/doc/org.aspectj/aspectjtools/1.8.4/org/aspectj/org/eclipse/jdt/core/compiler/IProblem.html#TooManyConstantsInConstantPool",
+        "whitelisted": false
+    },
+    "536871344": {
+        "name": "TooManyFields",
+        "url": "https://www.javadoc.io/doc/org.aspectj/aspectjtools/1.8.4/org/aspectj/org/eclipse/jdt/core/compiler/IProblem.html#TooManyFields",
+        "whitelisted": false
+    },
+    "536870978": {
+        "name": "TooManyLocalVariableSlots",
+        "url": "https://www.javadoc.io/doc/org.aspectj/aspectjtools/1.8.4/org/aspectj/org/eclipse/jdt/core/compiler/IProblem.html#TooManyLocalVariableSlots",
+        "whitelisted": false
+    },
+    "536871345": {
+        "name": "TooManyMethods",
+        "url": "https://www.javadoc.io/doc/org.aspectj/aspectjtools/1.8.4/org/aspectj/org/eclipse/jdt/core/compiler/IProblem.html#TooManyMethods",
+        "whitelisted": false
+    },
+    "536871346": {
+        "name": "TooManyParametersForSyntheticMethod",
+        "url": "https://www.javadoc.io/doc/org.aspectj/aspectjtools/1.8.4/org/aspectj/org/eclipse/jdt/core/compiler/IProblem.html#TooManyParametersForSyntheticMethod",
+        "whitelisted": false
+    },
+    "536870979": {
+        "name": "TooManySyntheticArgumentSlots",
+        "url": "https://www.javadoc.io/doc/org.aspectj/aspectjtools/1.8.4/org/aspectj/org/eclipse/jdt/core/compiler/IProblem.html#TooManySyntheticArgumentSlots",
+        "whitelisted": false
+    },
+    "16777742": {
+        "name": "TypeArgumentMismatch",
+        "url": "https://www.javadoc.io/doc/org.aspectj/aspectjtools/1.8.4/org/aspectj/org/eclipse/jdt/core/compiler/IProblem.html#TypeArgumentMismatch",
+        "whitelisted": true
+    },
+    "16777771": {
+        "name": "TypeArgumentsForRawGenericConstructor",
+        "url": "https://www.javadoc.io/doc/org.aspectj/aspectjtools/1.8.4/org/aspectj/org/eclipse/jdt/core/compiler/IProblem.html#TypeArgumentsForRawGenericConstructor",
+        "whitelisted": false
+    },
+    "16777770": {
+        "name": "TypeArgumentsForRawGenericMethod",
+        "url": "https://www.javadoc.io/doc/org.aspectj/aspectjtools/1.8.4/org/aspectj/org/eclipse/jdt/core/compiler/IProblem.html#TypeArgumentsForRawGenericMethod",
+        "whitelisted": false
+    },
+    "16777538": {
+        "name": "TypeCollidesWithPackage",
+        "url": "https://www.javadoc.io/doc/org.aspectj/aspectjtools/1.8.4/org/aspectj/org/eclipse/jdt/core/compiler/IProblem.html#TypeCollidesWithPackage",
+        "whitelisted": false
+    },
+    "16777249": {
+        "name": "TypeHidingType",
+        "url": "https://www.javadoc.io/doc/org.aspectj/aspectjtools/1.8.4/org/aspectj/org/eclipse/jdt/core/compiler/IProblem.html#TypeHidingType",
+        "whitelisted": false
+    },
+    "16777793": {
+        "name": "TypeHidingTypeParameterFromMethod",
+        "url": "https://www.javadoc.io/doc/org.aspectj/aspectjtools/1.8.4/org/aspectj/org/eclipse/jdt/core/compiler/IProblem.html#TypeHidingTypeParameterFromMethod",
+        "whitelisted": false
+    },
+    "16777792": {
+        "name": "TypeHidingTypeParameterFromType",
+        "url": "https://www.javadoc.io/doc/org.aspectj/aspectjtools/1.8.4/org/aspectj/org/eclipse/jdt/core/compiler/IProblem.html#TypeHidingTypeParameterFromType",
+        "whitelisted": false
+    },
+    "16777233": {
+        "name": "TypeMismatch",
+        "url": "https://www.javadoc.io/doc/org.aspectj/aspectjtools/1.8.4/org/aspectj/org/eclipse/jdt/core/compiler/IProblem.html#TypeMismatch",
+        "whitelisted": true
+    },
+    "536871542": {
+        "name": "TypeMissingDeprecatedAnnotation",
+        "url": "https://www.javadoc.io/doc/org.aspectj/aspectjtools/1.8.4/org/aspectj/org/eclipse/jdt/core/compiler/IProblem.html#TypeMissingDeprecatedAnnotation",
+        "whitelisted": false
+    },
+    "16777787": {
+        "name": "TypeParameterHidingType",
+        "url": "https://www.javadoc.io/doc/org.aspectj/aspectjtools/1.8.4/org/aspectj/org/eclipse/jdt/core/compiler/IProblem.html#TypeParameterHidingType",
+        "whitelisted": false
+    },
+    "16777216": {
+        "name": "TypeRelated",
+        "url": "https://www.javadoc.io/doc/org.aspectj/aspectjtools/1.8.4/org/aspectj/org/eclipse/jdt/core/compiler/IProblem.html#TypeRelated",
+        "whitelisted": false
+    },
+    "536871633": {
+        "name": "UnboxingConversion",
+        "url": "https://www.javadoc.io/doc/org.aspectj/aspectjtools/1.8.4/org/aspectj/org/eclipse/jdt/core/compiler/IProblem.html#UnboxingConversion",
+        "whitelisted": false
+    },
+    "0": {
+        "name": "Unclassified",
+        "url": "https://www.javadoc.io/doc/org.aspectj/aspectjtools/1.8.4/org/aspectj/org/eclipse/jdt/core/compiler/IProblem.html#Unclassified",
+        "whitelisted": false
+    },
+    "536871799": {
+        "name": "UnclosedCloseable",
+        "url": "https://www.javadoc.io/doc/org.aspectj/aspectjtools/1.8.4/org/aspectj/org/eclipse/jdt/core/compiler/IProblem.html#UnclosedCloseable",
+        "whitelisted": false
+    },
+    "536871800": {
+        "name": "UnclosedCloseableAtExit",
+        "url": "https://www.javadoc.io/doc/org.aspectj/aspectjtools/1.8.4/org/aspectj/org/eclipse/jdt/core/compiler/IProblem.html#UnclosedCloseableAtExit",
+        "whitelisted": false
+    },
+    "67109475": {
+        "name": "UndefinedAnnotationMember",
+        "url": "https://www.javadoc.io/doc/org.aspectj/aspectjtools/1.8.4/org/aspectj/org/eclipse/jdt/core/compiler/IProblem.html#UndefinedAnnotationMember",
+        "whitelisted": false
+    },
+    "134217858": {
+        "name": "UndefinedConstructor",
+        "url": "https://www.javadoc.io/doc/org.aspectj/aspectjtools/1.8.4/org/aspectj/org/eclipse/jdt/core/compiler/IProblem.html#UndefinedConstructor",
+        "whitelisted": true
+    },
+    "134217868": {
+        "name": "UndefinedConstructorInDefaultConstructor",
+        "url": "https://www.javadoc.io/doc/org.aspectj/aspectjtools/1.8.4/org/aspectj/org/eclipse/jdt/core/compiler/IProblem.html#UndefinedConstructorInDefaultConstructor",
+        "whitelisted": false
+    },
+    "134217871": {
+        "name": "UndefinedConstructorInImplicitConstructorCall",
+        "url": "https://www.javadoc.io/doc/org.aspectj/aspectjtools/1.8.4/org/aspectj/org/eclipse/jdt/core/compiler/IProblem.html#UndefinedConstructorInImplicitConstructorCall",
+        "whitelisted": false
+    },
+    "33554502": {
+        "name": "UndefinedField",
+        "url": "https://www.javadoc.io/doc/org.aspectj/aspectjtools/1.8.4/org/aspectj/org/eclipse/jdt/core/compiler/IProblem.html#UndefinedField",
+        "whitelisted": true
+    },
+    "536871086": {
+        "name": "UndefinedLabel",
+        "url": "https://www.javadoc.io/doc/org.aspectj/aspectjtools/1.8.4/org/aspectj/org/eclipse/jdt/core/compiler/IProblem.html#UndefinedLabel",
+        "whitelisted": false
+    },
+    "67108964": {
+        "name": "UndefinedMethod",
+        "url": "https://www.javadoc.io/doc/org.aspectj/aspectjtools/1.8.4/org/aspectj/org/eclipse/jdt/core/compiler/IProblem.html#UndefinedMethod",
+        "whitelisted": true
+    },
+    "570425394": {
+        "name": "UndefinedName",
+        "url": "https://www.javadoc.io/doc/org.aspectj/aspectjtools/1.8.4/org/aspectj/org/eclipse/jdt/core/compiler/IProblem.html#UndefinedName",
+        "whitelisted": false
+    },
+    "16777218": {
+        "name": "UndefinedType",
+        "url": "https://www.javadoc.io/doc/org.aspectj/aspectjtools/1.8.4/org/aspectj/org/eclipse/jdt/core/compiler/IProblem.html#UndefinedType",
+        "whitelisted": true
+    },
+    "536871450": {
+        "name": "UndefinedTypeVariable",
+        "url": "https://www.javadoc.io/doc/org.aspectj/aspectjtools/1.8.4/org/aspectj/org/eclipse/jdt/core/compiler/IProblem.html#UndefinedTypeVariable",
+        "whitelisted": false
+    },
+    "1610613005": {
+        "name": "UnderscoresInLiteralsNotBelow17",
+        "url": "https://www.javadoc.io/doc/org.aspectj/aspectjtools/1.8.4/org/aspectj/org/eclipse/jdt/core/compiler/IProblem.html#UnderscoresInLiteralsNotBelow17",
+        "whitelisted": false
+    },
+    "536871372": {
+        "name": "UndocumentedEmptyBlock",
+        "url": "https://www.javadoc.io/doc/org.aspectj/aspectjtools/1.8.4/org/aspectj/org/eclipse/jdt/core/compiler/IProblem.html#UndocumentedEmptyBlock",
+        "whitelisted": false
+    },
+    "33554778": {
+        "name": "UnexpectedStaticModifierForField",
+        "url": "https://www.javadoc.io/doc/org.aspectj/aspectjtools/1.8.4/org/aspectj/org/eclipse/jdt/core/compiler/IProblem.html#UnexpectedStaticModifierForField",
+        "whitelisted": false
+    },
+    "67109225": {
+        "name": "UnexpectedStaticModifierForMethod",
+        "url": "https://www.javadoc.io/doc/org.aspectj/aspectjtools/1.8.4/org/aspectj/org/eclipse/jdt/core/compiler/IProblem.html#UnexpectedStaticModifierForMethod",
+        "whitelisted": false
+    },
+    "16777384": {
+        "name": "UnhandledException",
+        "url": "https://www.javadoc.io/doc/org.aspectj/aspectjtools/1.8.4/org/aspectj/org/eclipse/jdt/core/compiler/IProblem.html#UnhandledException",
+        "whitelisted": true
+    },
+    "16777362": {
+        "name": "UnhandledExceptionInDefaultConstructor",
+        "url": "https://www.javadoc.io/doc/org.aspectj/aspectjtools/1.8.4/org/aspectj/org/eclipse/jdt/core/compiler/IProblem.html#UnhandledExceptionInDefaultConstructor",
+        "whitelisted": true
+    },
+    "16777363": {
+        "name": "UnhandledExceptionInImplicitConstructorCall",
+        "url": "https://www.javadoc.io/doc/org.aspectj/aspectjtools/1.8.4/org/aspectj/org/eclipse/jdt/core/compiler/IProblem.html#UnhandledExceptionInImplicitConstructorCall",
+        "whitelisted": false
+    },
+    "16778098": {
+        "name": "UnhandledExceptionOnAutoClose",
+        "url": "https://www.javadoc.io/doc/org.aspectj/aspectjtools/1.8.4/org/aspectj/org/eclipse/jdt/core/compiler/IProblem.html#UnhandledExceptionOnAutoClose",
+        "whitelisted": true
+    },
+    "536871543": {
+        "name": "UnhandledWarningToken",
+        "url": "https://www.javadoc.io/doc/org.aspectj/aspectjtools/1.8.4/org/aspectj/org/eclipse/jdt/core/compiler/IProblem.html#UnhandledWarningToken",
+        "whitelisted": false
+    },
+    "33554513": {
+        "name": "UninitializedBlankFinalField",
+        "url": "https://www.javadoc.io/doc/org.aspectj/aspectjtools/1.8.4/org/aspectj/org/eclipse/jdt/core/compiler/IProblem.html#UninitializedBlankFinalField",
+        "whitelisted": false
+    },
+    "33555202": {
+        "name": "UninitializedBlankFinalFieldHintMissingDefault",
+        "url": "https://www.javadoc.io/doc/org.aspectj/aspectjtools/1.8.4/org/aspectj/org/eclipse/jdt/core/compiler/IProblem.html#UninitializedBlankFinalFieldHintMissingDefault",
+        "whitelisted": false
+    },
+    "536870963": {
+        "name": "UninitializedLocalVariable",
+        "url": "https://www.javadoc.io/doc/org.aspectj/aspectjtools/1.8.4/org/aspectj/org/eclipse/jdt/core/compiler/IProblem.html#UninitializedLocalVariable",
+        "whitelisted": true
+    },
+    "536871681": {
+        "name": "UninitializedLocalVariableHintMissingDefault",
+        "url": "https://www.javadoc.io/doc/org.aspectj/aspectjtools/1.8.4/org/aspectj/org/eclipse/jdt/core/compiler/IProblem.html#UninitializedLocalVariableHintMissingDefault",
+        "whitelisted": false
+    },
+    "33555366": {
+        "name": "UninitializedNonNullField",
+        "url": "https://www.javadoc.io/doc/org.aspectj/aspectjtools/1.8.4/org/aspectj/org/eclipse/jdt/core/compiler/IProblem.html#UninitializedNonNullField",
+        "whitelisted": false
+    },
+    "33555367": {
+        "name": "UninitializedNonNullFieldHintMissingDefault",
+        "url": "https://www.javadoc.io/doc/org.aspectj/aspectjtools/1.8.4/org/aspectj/org/eclipse/jdt/core/compiler/IProblem.html#UninitializedNonNullFieldHintMissingDefault",
+        "whitelisted": false
+    },
+    "1610613180": {
+        "name": "UninternedIdentityComparison",
+        "url": "https://www.javadoc.io/doc/org.aspectj/aspectjtools/1.8.4/org/aspectj/org/eclipse/jdt/core/compiler/IProblem.html#UninternedIdentityComparison",
+        "whitelisted": false
+    },
+    "1610612956": {
+        "name": "UnmatchedBracket",
+        "url": "https://www.javadoc.io/doc/org.aspectj/aspectjtools/1.8.4/org/aspectj/org/eclipse/jdt/core/compiler/IProblem.html#UnmatchedBracket",
+        "whitelisted": true
+    },
+    "553648310": {
+        "name": "UnnecessaryArgumentCast",
+        "url": "https://www.javadoc.io/doc/org.aspectj/aspectjtools/1.8.4/org/aspectj/org/eclipse/jdt/core/compiler/IProblem.html#UnnecessaryArgumentCast",
+        "whitelisted": false
+    },
+    "553648309": {
+        "name": "UnnecessaryCast",
+        "url": "https://www.javadoc.io/doc/org.aspectj/aspectjtools/1.8.4/org/aspectj/org/eclipse/jdt/core/compiler/IProblem.html#UnnecessaryCast",
+        "whitelisted": false
+    },
+    "536871101": {
+        "name": "UnnecessaryElse",
+        "url": "https://www.javadoc.io/doc/org.aspectj/aspectjtools/1.8.4/org/aspectj/org/eclipse/jdt/core/compiler/IProblem.html#UnnecessaryElse",
+        "whitelisted": false
+    },
+    "553648311": {
+        "name": "UnnecessaryInstanceof",
+        "url": "https://www.javadoc.io/doc/org.aspectj/aspectjtools/1.8.4/org/aspectj/org/eclipse/jdt/core/compiler/IProblem.html#UnnecessaryInstanceof",
+        "whitelisted": false
+    },
+    "536871177": {
+        "name": "UnnecessaryNLSTag",
+        "url": "https://www.javadoc.io/doc/org.aspectj/aspectjtools/1.8.4/org/aspectj/org/eclipse/jdt/core/compiler/IProblem.html#UnnecessaryNLSTag",
+        "whitelisted": false
+    },
+    "570425423": {
+        "name": "UnqualifiedFieldAccess",
+        "url": "https://www.javadoc.io/doc/org.aspectj/aspectjtools/1.8.4/org/aspectj/org/eclipse/jdt/core/compiler/IProblem.html#UnqualifiedFieldAccess",
+        "whitelisted": false
+    },
+    "83886247": {
+        "name": "UnreachableCatch",
+        "url": "https://www.javadoc.io/doc/org.aspectj/aspectjtools/1.8.4/org/aspectj/org/eclipse/jdt/core/compiler/IProblem.html#UnreachableCatch",
+        "whitelisted": false
+    },
+    "33554515": {
+        "name": "UnresolvedVariable",
+        "url": "https://www.javadoc.io/doc/org.aspectj/aspectjtools/1.8.4/org/aspectj/org/eclipse/jdt/core/compiler/IProblem.html#UnresolvedVariable",
+        "whitelisted": false
+    },
+    "16777801": {
+        "name": "UnsafeElementTypeConversion",
+        "url": "https://www.javadoc.io/doc/org.aspectj/aspectjtools/1.8.4/org/aspectj/org/eclipse/jdt/core/compiler/IProblem.html#UnsafeElementTypeConversion",
+        "whitelisted": false
+    },
+    "67109438": {
+        "name": "UnsafeGenericArrayForVarargs",
+        "url": "https://www.javadoc.io/doc/org.aspectj/aspectjtools/1.8.4/org/aspectj/org/eclipse/jdt/core/compiler/IProblem.html#UnsafeGenericArrayForVarargs",
+        "whitelisted": false
+    },
+    "16777761": {
+        "name": "UnsafeGenericCast",
+        "url": "https://www.javadoc.io/doc/org.aspectj/aspectjtools/1.8.4/org/aspectj/org/eclipse/jdt/core/compiler/IProblem.html#UnsafeGenericCast",
+        "whitelisted": false
+    },
+    "536871879": {
+        "name": "UnsafeNullnessCast",
+        "url": "https://www.javadoc.io/doc/org.aspectj/aspectjtools/1.8.4/org/aspectj/org/eclipse/jdt/core/compiler/IProblem.html#UnsafeNullnessCast",
+        "whitelisted": false
+    },
+    "16777746": {
+        "name": "UnsafeRawConstructorInvocation",
+        "url": "https://www.javadoc.io/doc/org.aspectj/aspectjtools/1.8.4/org/aspectj/org/eclipse/jdt/core/compiler/IProblem.html#UnsafeRawConstructorInvocation",
+        "whitelisted": false
+    },
+    "16777752": {
+        "name": "UnsafeRawFieldAssignment",
+        "url": "https://www.javadoc.io/doc/org.aspectj/aspectjtools/1.8.4/org/aspectj/org/eclipse/jdt/core/compiler/IProblem.html#UnsafeRawFieldAssignment",
+        "whitelisted": false
+    },
+    "16777785": {
+        "name": "UnsafeRawGenericConstructorInvocation",
+        "url": "https://www.javadoc.io/doc/org.aspectj/aspectjtools/1.8.4/org/aspectj/org/eclipse/jdt/core/compiler/IProblem.html#UnsafeRawGenericConstructorInvocation",
+        "whitelisted": false
+    },
+    "16777786": {
+        "name": "UnsafeRawGenericMethodInvocation",
+        "url": "https://www.javadoc.io/doc/org.aspectj/aspectjtools/1.8.4/org/aspectj/org/eclipse/jdt/core/compiler/IProblem.html#UnsafeRawGenericMethodInvocation",
+        "whitelisted": false
+    },
+    "16777747": {
+        "name": "UnsafeRawMethodInvocation",
+        "url": "https://www.javadoc.io/doc/org.aspectj/aspectjtools/1.8.4/org/aspectj/org/eclipse/jdt/core/compiler/IProblem.html#UnsafeRawMethodInvocation",
+        "whitelisted": false
+    },
+    "67109423": {
+        "name": "UnsafeReturnTypeOverride",
+        "url": "https://www.javadoc.io/doc/org.aspectj/aspectjtools/1.8.4/org/aspectj/org/eclipse/jdt/core/compiler/IProblem.html#UnsafeReturnTypeOverride",
+        "whitelisted": false
+    },
+    "16777748": {
+        "name": "UnsafeTypeConversion",
+        "url": "https://www.javadoc.io/doc/org.aspectj/aspectjtools/1.8.4/org/aspectj/org/eclipse/jdt/core/compiler/IProblem.html#UnsafeTypeConversion",
+        "whitelisted": false
+    },
+    "1610612996": {
+        "name": "UnterminatedComment",
+        "url": "https://www.javadoc.io/doc/org.aspectj/aspectjtools/1.8.4/org/aspectj/org/eclipse/jdt/core/compiler/IProblem.html#UnterminatedComment",
+        "whitelisted": true
+    },
+    "1610612995": {
+        "name": "UnterminatedString",
+        "url": "https://www.javadoc.io/doc/org.aspectj/aspectjtools/1.8.4/org/aspectj/org/eclipse/jdt/core/compiler/IProblem.html#UnterminatedString",
+        "whitelisted": true
+    },
+    "536871098": {
+        "name": "UnusedConstructorDeclaredThrownException",
+        "url": "https://www.javadoc.io/doc/org.aspectj/aspectjtools/1.8.4/org/aspectj/org/eclipse/jdt/core/compiler/IProblem.html#UnusedConstructorDeclaredThrownException",
+        "whitelisted": true
+    },
+    "268435844": {
+        "name": "UnusedImport",
+        "url": "https://www.javadoc.io/doc/org.aspectj/aspectjtools/1.8.4/org/aspectj/org/eclipse/jdt/core/compiler/IProblem.html#UnusedImport",
+        "whitelisted": true
+    },
+    "536871111": {
+        "name": "UnusedLabel",
+        "url": "https://www.javadoc.io/doc/org.aspectj/aspectjtools/1.8.4/org/aspectj/org/eclipse/jdt/core/compiler/IProblem.html#UnusedLabel",
+        "whitelisted": true
+    },
+    "536871097": {
+        "name": "UnusedMethodDeclaredThrownException",
+        "url": "https://www.javadoc.io/doc/org.aspectj/aspectjtools/1.8.4/org/aspectj/org/eclipse/jdt/core/compiler/IProblem.html#UnusedMethodDeclaredThrownException",
+        "whitelisted": true
+    },
+    "536871060": {
+        "name": "UnusedObjectAllocation",
+        "url": "https://www.javadoc.io/doc/org.aspectj/aspectjtools/1.8.4/org/aspectj/org/eclipse/jdt/core/compiler/IProblem.html#UnusedObjectAllocation",
+        "whitelisted": true
+    },
+    "603979910": {
+        "name": "UnusedPrivateConstructor",
+        "url": "https://www.javadoc.io/doc/org.aspectj/aspectjtools/1.8.4/org/aspectj/org/eclipse/jdt/core/compiler/IProblem.html#UnusedPrivateConstructor",
+        "whitelisted": true
+    },
+    "570425421": {
+        "name": "UnusedPrivateField",
+        "url": "https://www.javadoc.io/doc/org.aspectj/aspectjtools/1.8.4/org/aspectj/org/eclipse/jdt/core/compiler/IProblem.html#UnusedPrivateField",
+        "whitelisted": true
+    },
+    "603979894": {
+        "name": "UnusedPrivateMethod",
+        "url": "https://www.javadoc.io/doc/org.aspectj/aspectjtools/1.8.4/org/aspectj/org/eclipse/jdt/core/compiler/IProblem.html#UnusedPrivateMethod",
+        "whitelisted": true
+    },
+    "553648135": {
+        "name": "UnusedPrivateType",
+        "url": "https://www.javadoc.io/doc/org.aspectj/aspectjtools/1.8.4/org/aspectj/org/eclipse/jdt/core/compiler/IProblem.html#UnusedPrivateType",
+        "whitelisted": true
+    },
+    "67109524": {
+        "name": "UnusedTypeArgumentsForConstructorInvocation",
+        "url": "https://www.javadoc.io/doc/org.aspectj/aspectjtools/1.8.4/org/aspectj/org/eclipse/jdt/core/compiler/IProblem.html#UnusedTypeArgumentsForConstructorInvocation",
+        "whitelisted": true
+    },
+    "67109443": {
+        "name": "UnusedTypeArgumentsForMethodInvocation",
+        "url": "https://www.javadoc.io/doc/org.aspectj/aspectjtools/1.8.4/org/aspectj/org/eclipse/jdt/core/compiler/IProblem.html#UnusedTypeArgumentsForMethodInvocation",
+        "whitelisted": true
+    },
+    "16777877": {
+        "name": "UnusedTypeParameter",
+        "url": "https://www.javadoc.io/doc/org.aspectj/aspectjtools/1.8.4/org/aspectj/org/eclipse/jdt/core/compiler/IProblem.html#UnusedTypeParameter",
+        "whitelisted": true
+    },
+    "536871547": {
+        "name": "UnusedWarningToken",
+        "url": "https://www.javadoc.io/doc/org.aspectj/aspectjtools/1.8.4/org/aspectj/org/eclipse/jdt/core/compiler/IProblem.html#UnusedWarningToken",
+        "whitelisted": true
+    },
+    "536871352": {
+        "name": "UseAssertAsAnIdentifier",
+        "url": "https://www.javadoc.io/doc/org.aspectj/aspectjtools/1.8.4/org/aspectj/org/eclipse/jdt/core/compiler/IProblem.html#UseAssertAsAnIdentifier",
+        "whitelisted": false
+    },
+    "536871353": {
+        "name": "UseEnumAsAnIdentifier",
+        "url": "https://www.javadoc.io/doc/org.aspectj/aspectjtools/1.8.4/org/aspectj/org/eclipse/jdt/core/compiler/IProblem.html#UseEnumAsAnIdentifier",
+        "whitelisted": false
+    },
+    "134217861": {
+        "name": "UsingDeprecatedConstructor",
+        "url": "https://www.javadoc.io/doc/org.aspectj/aspectjtools/1.8.4/org/aspectj/org/eclipse/jdt/core/compiler/IProblem.html#UsingDeprecatedConstructor",
+        "whitelisted": false
+    },
+    "33554505": {
+        "name": "UsingDeprecatedField",
+        "url": "https://www.javadoc.io/doc/org.aspectj/aspectjtools/1.8.4/org/aspectj/org/eclipse/jdt/core/compiler/IProblem.html#UsingDeprecatedField",
+        "whitelisted": false
+    },
+    "67108967": {
+        "name": "UsingDeprecatedMethod",
+        "url": "https://www.javadoc.io/doc/org.aspectj/aspectjtools/1.8.4/org/aspectj/org/eclipse/jdt/core/compiler/IProblem.html#UsingDeprecatedMethod",
+        "whitelisted": false
+    },
+    "16777221": {
+        "name": "UsingDeprecatedType",
+        "url": "https://www.javadoc.io/doc/org.aspectj/aspectjtools/1.8.4/org/aspectj/org/eclipse/jdt/core/compiler/IProblem.html#UsingDeprecatedType",
+        "whitelisted": false
+    },
+    "67109667": {
+        "name": "VarargsConflict",
+        "url": "https://www.javadoc.io/doc/org.aspectj/aspectjtools/1.8.4/org/aspectj/org/eclipse/jdt/core/compiler/IProblem.html#VarargsConflict",
+        "whitelisted": false
+    },
+    "67109671": {
+        "name": "VarargsElementTypeNotVisible",
+        "url": "https://www.javadoc.io/doc/org.aspectj/aspectjtools/1.8.4/org/aspectj/org/eclipse/jdt/core/compiler/IProblem.html#VarargsElementTypeNotVisible",
+        "whitelisted": false
+    },
+    "134218536": {
+        "name": "VarargsElementTypeNotVisibleForConstructor",
+        "url": "https://www.javadoc.io/doc/org.aspectj/aspectjtools/1.8.4/org/aspectj/org/eclipse/jdt/core/compiler/IProblem.html#VarargsElementTypeNotVisibleForConstructor",
+        "whitelisted": false
+    },
+    "536870964": {
+        "name": "VariableTypeCannotBeVoid",
+        "url": "https://www.javadoc.io/doc/org.aspectj/aspectjtools/1.8.4/org/aspectj/org/eclipse/jdt/core/compiler/IProblem.html#VariableTypeCannotBeVoid",
+        "whitelisted": false
+    },
+    "536870965": {
+        "name": "VariableTypeCannotBeVoidArray",
+        "url": "https://www.javadoc.io/doc/org.aspectj/aspectjtools/1.8.4/org/aspectj/org/eclipse/jdt/core/compiler/IProblem.html#VariableTypeCannotBeVoidArray",
+        "whitelisted": false
+    },
+    "67108969": {
+        "name": "VoidMethodReturnsValue",
+        "url": "https://www.javadoc.io/doc/org.aspectj/aspectjtools/1.8.4/org/aspectj/org/eclipse/jdt/core/compiler/IProblem.html#VoidMethodReturnsValue",
+        "whitelisted": false
+    },
+    "16777756": {
+        "name": "WildcardConstructorInvocation",
+        "url": "https://www.javadoc.io/doc/org.aspectj/aspectjtools/1.8.4/org/aspectj/org/eclipse/jdt/core/compiler/IProblem.html#WildcardConstructorInvocation",
+        "whitelisted": false
+    },
+    "16777758": {
+        "name": "WildcardFieldAssignment",
+        "url": "https://www.javadoc.io/doc/org.aspectj/aspectjtools/1.8.4/org/aspectj/org/eclipse/jdt/core/compiler/IProblem.html#WildcardFieldAssignment",
+        "whitelisted": false
+    },
+    "16777757": {
+        "name": "WildcardMethodInvocation",
+        "url": "https://www.javadoc.io/doc/org.aspectj/aspectjtools/1.8.4/org/aspectj/org/eclipse/jdt/core/compiler/IProblem.html#WildcardMethodInvocation",
+        "whitelisted": false
+    },
+    "16": {
+        "name": "Unknown",
+        "message": "XXX.java is a non-project file, only syntax errors are reported",
+        "whitelisted": false
+    }
+}

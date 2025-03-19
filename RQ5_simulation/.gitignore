@@ -1,0 +1,6 @@
+__pycache__
+LSPs/__pycache__
+LSPs/projects
+models/
+*.ipynb
+*.out
