@@ -1,2 +1,4 @@
 *.bin
 *.ipynb
+RQ2_generator/CCT5/*
+RQ2_generator/GrACE/*
