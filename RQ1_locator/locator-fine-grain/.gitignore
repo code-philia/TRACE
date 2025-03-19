@@ -1,0 +1,8 @@
+/model*
+*.out
+__pycache__/
+detect_overfitting.py
+*.ipynb
+/test
+metric/CoEdPilot
+dataset*
