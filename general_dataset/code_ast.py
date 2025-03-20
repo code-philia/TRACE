@@ -33,7 +33,7 @@ def merge_matched_position(common_positions):
     """
     def is_consecutive(numbers):
         if len(numbers) < 2:
-            return True  # 0或1个元素的列表被视为连贯的
+            return True  # list with 0 or 1 element is considered as consecutive
 
         for i in range(1, len(numbers)):
             if numbers[i] != numbers[i - 1] + 1:

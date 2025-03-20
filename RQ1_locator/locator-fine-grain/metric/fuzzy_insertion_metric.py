@@ -35,7 +35,7 @@ def get_variable_accesses(code, language):
         if node.type == 'identifier':
             parent = node.parent
             if parent.type in ['assignment', 'augmented_assignment']:
-                # 左侧是写操作，右侧是读操作
+                # left is write operation and right is read operation
                 left_node = parent.child_by_field_name('left')
                 right_node = parent.child_by_field_name('right')
                 if node == left_node:
@@ -45,7 +45,7 @@ def get_variable_accesses(code, language):
             else:
                 reads.add(node.text.decode('utf-8'))
         
-        # 遍历子节点
+        # traverse child nodes
         for child in node.children:
             traverse(child)
 

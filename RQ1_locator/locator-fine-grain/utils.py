@@ -334,7 +334,6 @@ class CustomTfidfVectorizer(TfidfVectorizer):
         tfidf = X.dot(idf)
         tfidf = tfidf.toarray()
         
-        # 应用自定义权重
         feature_names = np.array(self.get_feature_names_out())
         for word in custom_weights:
             if word in feature_names:

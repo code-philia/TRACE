@@ -1,6 +1,6 @@
 import os
 from tree_sitter import Language, Parser
-TREE_SITTER_PATH = "/home/user/workspace/CodeEdit/ICSE25/optimize/new_RQ4"
+TREE_SITTER_PATH = ""
 
 def traverse_python_tree(node, results):
     def process_args(param, args):

@@ -123,7 +123,6 @@ class LanguageServer(ABC):
         self.workspace_file_version[file_path] = 1
     
     def did_change(self, file_path: str):
-        # 读取整个文件内容
         with open(file_path, 'r') as f:
             content = f.read()
         
@@ -246,7 +245,7 @@ class LanguageServer(ABC):
         buffer = ""
         brace_count = 0
         inside_str = False
-        escaped = False  # 处理转义字符
+        escaped = False 
         target_start = '{"jsonrpc":"2.0"'
         
         while True:
