@@ -3,7 +3,7 @@
 This directory crawls top-starred repositories' commit from GitHub
 
 
-## 📂 Contents
+## 📂 Content
 
 * `0_all_in_one.py`: This script performs all data processing in one go and directly produces `train.json`, `dev.json`, and `test.json` files under the path `ROOT_PATH/dataset_fine_grain/all`;
 

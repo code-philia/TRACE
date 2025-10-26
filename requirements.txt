@@ -12,3 +12,5 @@ torchaudio
 nltk
 datasets
 huggingface-hub
+rank-bm25
+scikit-learn

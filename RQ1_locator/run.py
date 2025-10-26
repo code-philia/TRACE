@@ -2,10 +2,13 @@ import argparse
 import logging
 import torch
 import torch.nn as nn
+
 from utils import *
+from convert_label import label_conversion
+from torch.utils.data.distributed import DistributedSampler
+from sklearn.metrics import classification_report, fbeta_score
 from locator import Locator ,train_locator,evaluate_locator,locator_loss_by_sample
 from torch.utils.data import DataLoader, Dataset, SequentialSampler, RandomSampler,TensorDataset
-from torch.utils.data.distributed import DistributedSampler
 from transformers import AdamW, get_linear_schedule_with_warmup
 from transformers import (RobertaConfig, RobertaModel, RobertaTokenizer,
                           T5Config,T5ForConditionalGeneration)
@@ -101,7 +104,7 @@ def main():
                             help="weight for <insert>")
         parser.add_argument("--block_split_weight", default=1.0, required=True, type=float,
                             help="weight for <block-split>")
-        parser.add_argument("--select_method", default="selector", type=str, required=True, choices=["selector", "random", "bm25", "tfidf"],
+        parser.add_argument("--select_method", default="bm25", type=str, required=True, choices=["random", "bm25", "tfidf"],
                             help="Method to select the data. Must be one of 'selector', 'random', or 'bm25'.")
         parser.add_argument("--label_num", default=6, type=int, required=True,
                             help="number of labels")
@@ -167,20 +170,9 @@ def main():
 
     if args.load_locator_model_path is not None:
         logger.info("reload model from {}".format(args.load_locator_model_path))
-        locator.load_state_dict(torch.load(args.load_locator_model_path))
+        locator.load_state_dict(torch.load(args.load_locator_model_path, weights_only=True))
 
     locator.to(device)
-
-    if args.local_rank != -1:
-        # Distributed training
-        try:
-            from apex.parallel import DistributedDataParallel as DDP
-        except ImportError:
-            raise ImportError("Please install apex from https://www.github.com/nvidia/apex to use distributed and fp16 training.")
-        locator = DDP(locator)
-    elif args.n_gpu > 1:
-        # multi-gpu training
-        locator = torch.nn.DataParallel(locator)
 
     if args.do_train:
         # Prepare optimizer and schedule (linear warmup and decay)
@@ -205,7 +197,7 @@ def main():
             logger.info(f"***** Epoch {epoch}, Training locator *****")
             # Step 1: train locator
             # Step 1.1: make locator dataset for locator training
-            if (args.select_method != "selector" and epoch == 0) or args.select_method == "selector":
+            if epoch == 0: 
                 logger.info("***** Finding relevant prior edit for training dataset *****")
                 locator_train_data, locator_raw_train_data = make_locator_dataset(args.train_filename, locator_tokenizer, args, logger, epoch)
                 logger.info("***** Finding relevant prior edit for validation dataset *****")
@@ -241,6 +233,7 @@ def main():
         logger.info("***** Evaluate Locator*****")
         locator_test_data, locator_raw_test_data = make_locator_dataset(args.test_filename, locator_tokenizer, args, logger)
         logger.info(f"test data size: {len(locator_test_data)}")
+        os.makedirs(os.path.join(args.output_dir, "locator_data"), exist_ok=True)
         with open(os.path.join(args.output_dir, "locator_data", f"test_{args.select_method}.jsonl"), "w") as f:
             for data in locator_raw_test_data:
                 f.write(json.dumps(data) + "\n")
@@ -257,6 +250,33 @@ def main():
                 f.write(f"{idx}\t{seq}\n")
         with open(os.path.join(args.output_dir, f"test_confidence_{args.select_method}.json"), "w") as f:
             json.dump(confidences, f)
+
+        print_result(args.output_dir)
+
+def print_result(output_dir):
+    with open(f"{output_dir}/test_bm25.pred", "r") as f:
+        preds = [line.strip().split("\t")[1].split(" ") for line in f.readlines()]
+    with open(f"{output_dir}/test_bm25.gold", "r") as f:
+        golds = [line.strip().split("\t")[1].split(" ") for line in f.readlines()]
+    with open(f"{output_dir}/test_confidence_bm25.json", "r") as f:
+        confidences = json.load(f)
+
+    # Get the classification report if we convert back to 3 labels:
+    converted_preds = []
+    converted_golds = []
+    converted_confs = []
+    for pred, gold, confidence in zip(preds, golds, confidences):
+        pred_inter_line = [pred[i] for i in range(0, len(pred), 2)]
+        pred_inline = [pred[i] for i in range(1, len(pred), 2)]
+        gold_inter_line = [gold[i] for i in range(0, len(gold), 2)]
+        gold_inline = [gold[i] for i in range(1, len(gold), 2)]
+        
+        converted_label, converted_conf = label_conversion(pred_inline, pred_inter_line, confidence)
+        converted_preds.extend(converted_label)
+        converted_confs.extend(converted_conf)
+        converted_golds.extend(label_conversion(gold_inline, gold_inter_line))
+    print("==> Classification report (Converted to 3 labels)")
+    print(classification_report(converted_golds, converted_preds, digits=4, labels=["<keep>", "<insert>", "<replace>"]), end="")
 
 if __name__ == "__main__":
     main()

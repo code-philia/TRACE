@@ -291,8 +291,6 @@ def evaluate_locator(model: Locator, dataloader: DataLoader, device: torch.devic
     for i in range(len(pred_edit_labels)):
         all_preds.extend(pred_edit_labels[i])
         all_gts.extend(gold_edit_labels[i])
-    logger.info("Classification report:\n%s",classification_report(all_gts, all_preds, digits=4))
-    logger.info("  "+"*"*20)
 
     return pred_edit_labels, gold_edit_labels, confidences
 

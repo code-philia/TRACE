@@ -8,22 +8,22 @@ output_dir=model_${label_num}/$lang
 train_file=$data_dir/$lang/train.json
 dev_file=$data_dir/$lang/dev.json
 test_file=$data_dir/$lang/test.json
-epochs=1
+epochs=2
 debug_size=10
-delete_weight=4
-replace_weight=4
+delete_weight=2
+replace_weight=7
 insert_weight=7
-block_split_weight=12
+block_split_weight=6
 select_method=bm25
 model_type=codet5
-pretrained_model=salesforce/codet5-small
-load_locator_model_path=model_6/$lang/checkpoint-last/pytorch_model.bin
+pretrained_model=salesforce/codet5-large
+load_locator_model_path=model/$lang/checkpoint-last/pytorch_model.bin
 
 python run.py --lang $lang \
- --do_test \
+ --do_test --do_train --do_eval \
  --model_type $model_type --model_name_or_path $pretrained_model \
  --train_filename $train_file --dev_filename $dev_file --test_filename $test_file \
- --output_dir $output_dir --load_locator_model_path $load_locator_model_path\
+ --output_dir $output_dir \
  --max_source_length $source_length \
  --locator_batch_size $batch_size \
  --learning_rate $lr --num_train_epochs $epochs \
