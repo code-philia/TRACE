@@ -2,5 +2,6 @@
 *.ipynb
 **.DS_Store
 __pycache__/
+dataset/**
 RQ2_generator/CCT5/*
 RQ2_generator/GrACE/*

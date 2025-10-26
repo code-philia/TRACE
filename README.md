@@ -23,18 +23,29 @@ This repository contains source code, dataset, and trained model parameters of T
 ## 📂 Contents
 > More detailed READMEs are available in each sub-directory
 
-* `/dataset_collection`: Crawl top-starred repositories' commit from GitHub
-* `RQ1_locator`: The training and evaluation script for edit locator
-* `RQ2_generator`: The training and evaluation script for edit generator.
-* `RQ4_invoker`: The training and evaluation script for edit-composition invoker.
-* `RQ5_simulation`: The evaluation script to simulation real-world editing process.
+* `dataset_collection/`: Crawl top-starred repositories' commit from GitHub
+* `RQ1_locator/`: The training and evaluation script for edit locator
+* `RQ2_generator/`: The training and evaluation script for edit generator.
+* `RQ4_invoker/`: The training and evaluation script for edit-composition invoker.
+* `RQ5_simulation/`: The evaluation script to simulation real-world editing process.
+* `download_dataset.py`: A script to download the TRACE dataset from HuggingFace.
 
 ## 🚀 Getting Started
+
+* Install dependencies:
+
 ```bash
 conda create -n trace python=3.10.13
 conda activate trace
 python -m pip install -r requirements.txt
 ```
+
+* Download the dataset:
+
+```bash
+bash download_dataset.sh
+```
+
 
 ## ✍️ Citation
 

@@ -10,3 +10,5 @@ torch
 torchvision
 torchaudio
 nltk
+datasets
+huggingface-hub
