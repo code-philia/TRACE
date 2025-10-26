@@ -12,13 +12,15 @@ import jsonlines
 import subprocess
 from tqdm import tqdm
 
+from dotenv import load_dotenv
 from proxies_pool import proxy_list
 from user_agent_pool import user_agents    
 
-GITHUB_TOKENS = ['']
+load_dotenv(".env")
+GITHUB_TOKENS = os.getenv("GITHUB_TOKENS").split(',')
+ROOT_PATH = os.getenv("ROOT_PATH")
 CURR_TOKEN_IDX = 0
 GITHUB_TOKENS_RST_TIME = [time.time()-3600 for _ in range(len(GITHUB_TOKENS))]
-ROOT_PATH = '/media/user'
 
 def get_response(request_url, params=None):
     global CURR_TOKEN_IDX
@@ -168,10 +170,9 @@ def git_clone(user_name, proj_name):
 def crawl(lang, repo_num):
     global ROOT_PATH
     # ---------------------- Get the top star repo's name ----------------------
-    if not os.path.exists(ROOT_PATH+"/repo_info"):
-        os.mkdir(ROOT_PATH+"/repo_info")
+    os.makedirs(os.path.join(ROOT_PATH, "repo_info"), exist_ok=True)
     print("==> Starting to get repos of %s ..." % lang)
-    if os.path.exists(ROOT_PATH+f"/repo_info/{lang}_top_star_repos.jsonl"):    # if have recorded repos before
+    if os.path.exists(os.path.join(ROOT_PATH, "repo_info", f"{lang}_top_star_repos.jsonl")):    # if have recorded repos before
         # open recorded repo info
         with jsonlines.open(ROOT_PATH+f"/repo_info/{lang}_top_star_repos.jsonl") as reader:
             print(f"==> {lang}_top_star_repos.jsonl exists, read from local")

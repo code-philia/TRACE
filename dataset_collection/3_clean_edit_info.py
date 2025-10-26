@@ -4,9 +4,13 @@ import os
 import json
 import signal
 import subprocess
+
 from tqdm import tqdm
 from code_ast import *
-ROOT_PATH = '/media/user'
+from dotenv import load_dotenv
+
+load_dotenv(".env")
+ROOT_PATH = os.getenv("ROOT_PATH")
 
 def contains_tag(main_string):
     """

@@ -1,6 +1,9 @@
 import os
 import json
-ROOT_PATH = "/media/user"
+from dotenv import load_dotenv
+
+load_dotenv(".env")
+ROOT_PATH = os.getenv("ROOT_PATH")
 
 def count(lang: str, dataset_name: str):
     global ROOT_PATH

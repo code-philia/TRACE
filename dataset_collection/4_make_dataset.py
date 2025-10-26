@@ -7,10 +7,12 @@ import itertools
 import numpy as np
 import transformers
 
-from tqdm import tqdm
 from llama import *
+from tqdm import tqdm
+from dotenv import load_dotenv
 
-ROOT_PATH = "/media/user"
+load_dotenv(".env")
+ROOT_PATH = os.getenv("ROOT_PATH")
 transformers.utils.logging.set_verbosity_error()
 
 def filter_clean_msg_with_llama(msg: str, llama3, llama3_tokenizer):

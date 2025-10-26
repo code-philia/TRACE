@@ -1,14 +1,25 @@
 import os
+import platform
 from tree_sitter import Language, Parser
 
 def parse(code, language):
     assert language in ["go", "javascript", "typescript", "python", "java"]
-    if not os.path.exists("tree-sitter/build/my-languages.so"):
-        Language.build_library(
-            # Store the library in the `build` directory
-            "tree-sitter/build/my-languages.so",
 
-            # Include one or more languages
+    system = platform.system().lower()
+    if system == "darwin":
+        build_dir = "tree-sitter/macos_build"
+    elif system == "linux":
+        build_dir = "tree-sitter/linux_build"
+    elif system == "windows":
+        build_dir = "tree-sitter/windows_build"
+    else:
+        raise RuntimeError(f"Unsupported OS: {system}")
+
+    so_path = os.path.join(build_dir, "my-languages.so")
+
+    if not os.path.exists(so_path):
+        Language.build_library(
+            so_path,
             [
                 "tree-sitter/tree-sitter-go",
                 "tree-sitter/tree-sitter-javascript",
@@ -17,8 +28,9 @@ def parse(code, language):
                 "tree-sitter/tree-sitter-java",
             ]
         )
+
     parser = Parser()
-    parser.set_language(Language("tree-sitter/build/my-languages.so", language))
+    parser.set_language(Language(so_path, language))
     tree = parser.parse(bytes(code, "utf8"))
     return tree
 

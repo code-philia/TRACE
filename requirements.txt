@@ -1,0 +1,12 @@
+tqdm
+gevent
+dotenv
+requests
+jsonlines
+tree-sitter==0.20.4
+numpy
+transformers==4.34.1
+torch
+torchvision
+torchaudio
+nltk

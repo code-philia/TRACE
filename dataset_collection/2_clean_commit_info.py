@@ -3,8 +3,12 @@
 import re
 import os
 import json
+
 from tqdm import tqdm
-ROOT_PATH = '/media/user'
+from dotenv import load_dotenv
+
+load_dotenv(".env")
+ROOT_PATH = os.getenv("ROOT_PATH")
     
 def remove_pull_id(commit_message):
     pull_id_pattern = re.compile(r'\(#(\d+)\)')

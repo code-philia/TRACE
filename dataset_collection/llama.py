@@ -1,18 +1,25 @@
+import os
 import re
 import time
 import torch
 import warnings
+
+from dotenv import load_dotenv
 from transformers import AutoTokenizer, AutoModelForCausalLM
+
+load_dotenv(".env")
+LLAMA3_PATH = os.getenv("LLAMA3_PATH")
 
 warnings.filterwarnings("ignore")
 
 def load_llama3():
+    global LLAMA3_PATH
     access_token = ''
     model_id = "meta-llama/Meta-Llama-3-8B-Instruct"
 
-    tokenizer = AutoTokenizer.from_pretrained("/media/user/llama3", token=access_token)
+    tokenizer = AutoTokenizer.from_pretrained(LLAMA3_PATH, token=access_token)
     model = AutoModelForCausalLM.from_pretrained(
-        "/media/user/llama3",
+        LLAMA3_PATH,
         torch_dtype=torch.bfloat16,
         device_map="auto",
         token=access_token
@@ -22,13 +29,14 @@ def load_llama3():
     return model, tokenizer 
 
 def ask_llama3(question: str, model=None, tokenizer=None, answer_length=256):
+    global LLAMA3_PATH
     if model is None or tokenizer is None:
         access_token = ''
         model_id = "meta-llama/Meta-Llama-3-8B-Instruct"
 
-        tokenizer = AutoTokenizer.from_pretrained("/media/user/llama3", token=access_token)
+        tokenizer = AutoTokenizer.from_pretrained(LLAMA3_PATH, token=access_token)
         model = AutoModelForCausalLM.from_pretrained(
-            "/media/user/llama3",
+            LLAMA3_PATH,
             torch_dtype=torch.bfloat16,
             device_map="auto",
             token=access_token

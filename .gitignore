@@ -1,4 +1,6 @@
 *.bin
 *.ipynb
+**.DS_Store
+__pycache__/
 RQ2_generator/CCT5/*
 RQ2_generator/GrACE/*
