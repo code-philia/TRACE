@@ -25,15 +25,13 @@ import time
 import torch
 import logging
 import argparse
-import multiprocessing
 
 from torch.utils.tensorboard import SummaryWriter
-from torch.utils.data import DataLoader, SequentialSampler, RandomSampler, TensorDataset
 from torch.utils.data.distributed import DistributedSampler
 from transformers import AdamW, get_linear_schedule_with_warmup
+from torch.utils.data import DataLoader, SequentialSampler, RandomSampler
 from generator import build_or_load_gen_model,train_generator,evaluate_generator
 from utils import add_args, set_seed, set_dist, get_filenames, get_elapse_time, load_data
-from prior_edit_estimator import load_estimator
 
 os.environ["TOKENIZERS_PARALLELISM"] = "false"
 logging.basicConfig(format='%(asctime)s - %(levelname)s - %(name)s -   %(message)s',
@@ -50,12 +48,6 @@ def main():
     set_dist(args)
     set_seed(args)
     _, generator, generator_tokenizer = build_or_load_gen_model(args)
-    if args.paper_name == "CoEdPilot":
-        args.select_method = "selector"
-        args.label_num = 3
-        args.load_dep_model_path = "../dependency_analyzer/model"
-        args.load_estimator_model_path = "fixed_model/estimator.bin"
-        estimator, estimator_tokenizer, dependency_tokenizer = load_estimator(args) 
     generator.to(args.device)
     if args.n_gpu > 1:
         # for DataParallel
@@ -71,13 +63,8 @@ def main():
             tb_writer = SummaryWriter(summary_fn)
 
         # Prepare training data loader
-        if args.select_method == "selector":
-            selector_model_set = [estimator, estimator_tokenizer, dependency_tokenizer]
-            train_examples, train_data = load_data(args, args.train_filename, generator_tokenizer, split_tag='train', selector_model_set=selector_model_set)
-            eval_examples, eval_data = load_data(args, args.dev_filename, generator_tokenizer, 'dev', selector_model_set=selector_model_set)
-        else:
-            train_examples, train_data = load_data(args, args.train_filename, generator_tokenizer, split_tag='train')
-            eval_examples, eval_data = load_data(args, args.dev_filename, generator_tokenizer, 'dev')
+        train_examples, train_data = load_data(args, args.train_filename, generator_tokenizer, split_tag='train')
+        eval_examples, eval_data = load_data(args, args.dev_filename, generator_tokenizer, 'dev')
         train_sampler = RandomSampler(train_data) if args.local_rank == -1 else DistributedSampler(train_data)
         train_dataloader = DataLoader(train_data, sampler=train_sampler, batch_size=args.train_batch_size,
                                       num_workers=4, pin_memory=True)
@@ -129,11 +116,7 @@ def main():
 
     if args.do_test:
         # prepare eval dataloader and examples
-        if args.paper_name == "CoEdPilot":
-            selector_model_set = [estimator, estimator_tokenizer, dependency_tokenizer]
-            eval_examples, eval_data = load_data(args, args.test_filename, generator_tokenizer,'test', only_src=True, selector_model_set=selector_model_set)
-        else:
-            eval_examples, eval_data = load_data(args, args.test_filename, generator_tokenizer,'test', only_src=True)
+        eval_examples, eval_data = load_data(args, args.test_filename, generator_tokenizer, 'test', only_src=True)
         eval_sampler = SequentialSampler(eval_data)
         if args.data_num == -1:
             eval_dataloader = DataLoader(eval_data, sampler=eval_sampler, batch_size=args.eval_batch_size,

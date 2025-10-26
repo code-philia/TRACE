@@ -320,12 +320,11 @@ def evaluate_generator(args: argparse.Namespace,model,
 
         result = eval_bleu_epoch(args, eval_dataloader, eval_examples, model, tokenizer, 'test',logger)
         test_bleu, test_em = result['bleu'], result['em']
-        test_codebleu = result['codebleu'] if 'codebleu' in result else 0
 
-        result_str = "[%s] bleu-4: %.2f, em: %.4f, codebleu: %.4f\n" % (criteria, test_bleu, test_em, test_codebleu)
+        result_str = "[%s] bleu-4: %.2f, em: %.4f" % (criteria, test_bleu, test_em)
         logger.info(result_str)
         summary_file.write(result_str)
         
-        results.append([test_bleu,test_em,test_codebleu,file,result_str])
+        results.append([test_bleu,test_em,file,result_str])
 
     return results

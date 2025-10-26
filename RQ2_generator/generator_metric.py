@@ -53,5 +53,5 @@ def all_in_one(output):
     print('BLEU-4@10:',bleu_score)
 
 if __name__ == '__main__':
-    output_path = './model_6_new/all/test_pred_gold.json'
+    output_path = './model_6/all/test_pred_gold.json'
     all_in_one(output_path)

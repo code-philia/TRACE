@@ -4,6 +4,4 @@
 nohup*
 dataset*
 *.ipynb
-grace/*
-CCT5/*
 external_tool_feedback/*

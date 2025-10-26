@@ -15,7 +15,6 @@ from code_window import CodeWindow
 from torch.utils.data import TensorDataset
 from transformers import RobertaTokenizer
 from torch.utils.data import DataLoader, TensorDataset
-from prior_edit_estimator import Estimator, load_estimator_data, evaluate_estimator
 
 logger = logging.getLogger(__name__)
 
@@ -30,7 +29,6 @@ def add_args(parser):
     parser.add_argument("--patience", default=5, type=int)
     parser.add_argument("--summary_dir", type=str, required=True)
     parser.add_argument("--data_dir", type=str, required=True)
-    parser.add_argument("--res_dir", type=str, required=True)
     parser.add_argument("--res_fn", type=str, default='')
     parser.add_argument("--add_task_prefix", action='store_true', help="Whether to add task prefix for t5 and codet5")
     parser.add_argument("--save_last_checkpoints", action='store_true')
@@ -115,9 +113,8 @@ def add_args(parser):
                         help="Whether to run in debug mode")
     parser.add_argument('--debug_size', type=int, default=20,
                         help="Size of the debug dataset")
-    parser.add_argument('--select_method', type=str, choices=["random", "bm25", "selector"], required=True)
+    parser.add_argument('--select_method', type=str, choices=["random", "bm25"], required=True)
     parser.add_argument('--label_num', type=int, default=6)
-    parser.add_argument('--paper_name', type=str, default='')
     args = parser.parse_args()
 
     return args
@@ -150,7 +147,6 @@ def formalize_generator_input(sliding_window: dict, prompt: str,
 
 def formalize_generator_input_CoEdPilot(sliding_window: dict, prompt: str, 
                             prior_edits: list[dict], tokenizer: RobertaTokenizer, args: argparse.Namespace) -> tuple[str, str]:
-    external_tool_feedback = sliding_window["external_tool_feedback"]
     sliding_window = CodeWindow(sliding_window, "hunk")
     common_seq = sliding_window.formalize_as_generator_target_window(beautify=False, label_num=args.label_num)
     common_seq = common_seq.replace("<keep>", "keep").replace("<replace>", "replace").replace("<insert>", "add").replace("<code_window>","").replace("</code_window>","")
@@ -217,27 +213,7 @@ def select_hunk(tgt_hunk: dict, other_hunks: list[dict], args: argparse.Namespac
         raise NotImplementedError("Not implemented yet")
     elif args.select_method == "tfidf":
         raise NotImplementedError("Not implemented yet")
-    elif args.select_method == "selector":
-        estimator_dataset = []
-        choosen_hunk_ids = []
-        for hunk in non_overlap_hunks:
-            choosen_hunk_ids.append(hunk.id)
-            sample = {
-                "sliding_window": tgt_hunk_obj,
-                "prior_edit": hunk,
-                "code_distance": get_code_distance(tgt_hunk_obj, hunk)
-            }
-            estimator_dataset.append(sample)
-        estimator, estimator_tokenizer, dependency_tokenizer = selector_model_set
-        estimator_dataset = load_estimator_data(estimator_dataset, estimator_tokenizer, dependency_tokenizer, args)
-        estimator_dataloader = DataLoader(estimator_dataset, batch_size=args.estimator_batch_size, shuffle=False)
-        # get the prior edit estimation
-        estimation = evaluate_estimator(estimator, estimator_dataloader, "infer", show_progress=False)
-        # get top 3 idx 
-        top_3_idx = np.argsort(estimation)[-3:]
-        prior_edit_id = [choosen_hunk_ids[idx] for idx in top_3_idx]
-        prior_edits = [hunk for hunk in other_hunks if hunk["id"] in prior_edit_id]
-    
+
     return prior_edits
     
 def load_data(args: argparse.Namespace, filename: str, generator_tokenizer: RobertaTokenizer, 
@@ -262,10 +238,7 @@ def load_data(args: argparse.Namespace, filename: str, generator_tokenizer: Robe
                 "commit_url": commit_url,
             })
             # shuffle the other hunks
-            if args.paper_name != "CoEdPilot":
-                source_seq, target_seq = formalize_generator_input(hunk, commit_msg, selected_hunks, generator_tokenizer, args)
-            else:
-                source_seq, target_seq = formalize_generator_input_CoEdPilot(hunk, commit_msg, selected_hunks, generator_tokenizer, args)
+            source_seq, target_seq = formalize_generator_input(hunk, commit_msg, selected_hunks, generator_tokenizer, args)
             encoded_source_seq = generator_tokenizer(source_seq, padding="max_length", truncation=True, max_length=args.max_source_length)
             source_ids = encoded_source_seq["input_ids"]
 
