@@ -11,7 +11,7 @@ from llama import *
 from tqdm import tqdm
 from dotenv import load_dotenv
 
-load_dotenv(".env")
+load_dotenv("../.env")
 ROOT_PATH = os.getenv("ROOT_PATH")
 transformers.utils.logging.set_verbosity_error()
 

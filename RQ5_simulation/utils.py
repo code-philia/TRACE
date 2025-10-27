@@ -2,7 +2,12 @@ import os
 import re
 import subprocess
 
-from tree_sitter import Language, Parser
+from dotenv import load_dotenv
+
+load_dotenv("../.env")
+ROOT_PATH = os.getenv("ROOT_PATH")
+REPOS_PATH = os.path.join(ROOT_PATH, "repos")
+
 
 def clone_repo(user_name: str, project_name: str):
     """
@@ -44,14 +49,15 @@ def extract_hunks(commit_url: str):
         commit_message: str, the message of the commit
         commit_snapshots: dict, key is file path, value is list of snapshot of the file
     """
+    global REPOS_PATH
     commit_sha = commit_url.split("/")[-1]
     project_name = commit_url.split("/")[-3]
     user_name = commit_url.split("/")[-4]
-    repo_path = os.path.join("/media/user/repos", project_name)
-    
+    repo_path = os.path.join(REPOS_PATH, project_name)
+
     # if not exist, clone to local
-    if not os.path.exists("/media/user/repos"):
-        os.mkdir("/media/user/repos")
+    if not os.path.exists(REPOS_PATH):
+        os.mkdir(REPOS_PATH)
     if not os.path.exists(repo_path):
         clone_repo(user_name, project_name)
     

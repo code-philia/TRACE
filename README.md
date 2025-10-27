@@ -46,6 +46,9 @@ python -m pip install -r requirements.txt
 bash download_dataset.sh
 ```
 
+* Please fill environment variables in `.env`;
+
+   > Acquire GitHub token please refer to [Creating a personal access token](https://docs.github.com/en/authentication/keeping-your-account-and-data-secure/managing-your-personal-access-tokens#creating-a-personal-access-token-classic)
 
 ## ✍️ Citation
 

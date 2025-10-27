@@ -4,6 +4,12 @@ from utils import extract_hunks
 from code_window import CodeWindow
 from enriched_semantic import construct_prior_edit_hunk, finer_grain_window
 
+from dotenv import load_dotenv
+
+load_dotenv("../.env")
+ROOT_PATH = os.getenv("ROOT_PATH")
+REPOS_PATH = os.path.join(ROOT_PATH, "repos")
+
 class Commit:
     def __init__(self, commit_url):
         self.commit_url = commit_url
@@ -23,7 +29,7 @@ class Commit:
         self.prev_edits = []
         self.enriched_prev_edits = []
         self.language = None
-        self.project_dir = os.path.join("/media/user/repos", self.project_name)
+        self.project_dir = os.path.join(REPOS_PATH, self.project_name)
         
     def get_edit(self, idx):
         return self.snapshots[self.map[idx]["at_file"]][self.map[idx]["at_window"]]

@@ -3,7 +3,7 @@ import os
 from dotenv import load_dotenv
 from importlib import import_module
 
-load_dotenv(".env")
+load_dotenv("../.env")
 ROOT_PATH = os.getenv("ROOT_PATH")
 
 if __name__ == '__main__':

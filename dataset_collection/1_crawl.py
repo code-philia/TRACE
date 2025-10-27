@@ -16,7 +16,7 @@ from dotenv import load_dotenv
 from proxies_pool import proxy_list
 from user_agent_pool import user_agents    
 
-load_dotenv(".env")
+load_dotenv("../.env")
 GITHUB_TOKENS = os.getenv("GITHUB_TOKENS").split(',')
 ROOT_PATH = os.getenv("ROOT_PATH")
 CURR_TOKEN_IDX = 0

@@ -2,7 +2,7 @@ import os
 import json
 from dotenv import load_dotenv
 
-load_dotenv(".env")
+load_dotenv("../.env")
 ROOT_PATH = os.getenv("ROOT_PATH")
 
 def count(lang: str, dataset_name: str):

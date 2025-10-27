@@ -7,7 +7,7 @@ import warnings
 from dotenv import load_dotenv
 from transformers import AutoTokenizer, AutoModelForCausalLM
 
-load_dotenv(".env")
+load_dotenv("../.env")
 LLAMA3_PATH = os.getenv("LLAMA3_PATH")
 
 warnings.filterwarnings("ignore")

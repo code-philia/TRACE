@@ -6,7 +6,7 @@ from dotenv import load_dotenv
 from code_window import CodeWindow
 from transformers import RobertaTokenizer
 
-load_dotenv(".env")
+load_dotenv("../.env")
 ROOT_PATH = os.getenv("ROOT_PATH")
 
 def filter_by_length(lang, dataset_path, tokenizer_name, max_length=512):

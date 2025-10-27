@@ -1,6 +1,8 @@
 # README
 
-This directory crawls top-starred repositories' commit from GitHub
+This directory crawls top-starred repositories' commit from GitHub. You may use this code to create your own dataset.
+
+To acquire the dataset used in our experiments, please refer to the instruction in the main [README](../README.md) file, directly download from HuggingFace.
 
 
 ## 📂 Content
@@ -23,10 +25,8 @@ This directory crawls top-starred repositories' commit from GitHub
 
 ## 🚀 Getting Started
 
-* When running scripts, your current working directory should be `dataset_collection`;
+* Run the following command under working directory `dataset_collection/`:
 
-* Please fill hyper-parameters in `.env`;
-
-    > Acquire GitHub token please refer to [Creating a personal access token](https://docs.github.com/en/authentication/keeping-your-account-and-data-secure/managing-your-personal-access-tokens#creating-a-personal-access-token-classic)
-
-* 
+```bash
+python 0_all_in_one.py
+```

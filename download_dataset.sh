@@ -6,20 +6,17 @@ TARGET_DIR="./dataset"
 echo "📦 Downloading dataset: code-philia/TRACE ..."
 echo "📁 Target directory: $TARGET_DIR"
 
-# 创建目标目录
+# Create target directory
 mkdir -p "$TARGET_DIR"
 
-# 检查 huggingface CLI 是否安装
+# Check whether huggingface CLI is installed
 if ! command -v huggingface &> /dev/null
 then
     echo "⚙️  huggingface CLI not found. Installing..."
     pip install -U "huggingface_hub[cli]"
 fi
 
-# 如果需要登录（私有数据集），可取消下一行注释
-# huggingface-cli login
-
-# 下载数据集到指定目录
+# Download the dataset into the target directory
 huggingface-cli download code-philia/TRACE \
     --repo-type dataset \
     --local-dir "$TARGET_DIR"

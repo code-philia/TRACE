@@ -1,6 +1,6 @@
 import os
 import sys
-sys.path.append("../new_RQ4")
+sys.path.append("../RQ5_simulation")
 import json
 import random
 from tqdm import tqdm
@@ -159,8 +159,12 @@ def perimitive_check(commit_url, lang):
     
     return propagatable
  
-def run_permitive_check(dataset_type):
-    with open(f"/media/user/dataset_fine_grain/all/{dataset_type}.json", "r") as f:
+def run_primitive_check(dataset_type):
+    """
+    Run primitive check. Use AST and other static method to filter out commit that definitely do not contain our pre-defined edits.
+    
+    """
+    with open(f"../dataset/all/{dataset_type}.json", "r") as f:
         dataset = json.load(f)
     
     if not os.path.exists(f"potential/{dataset_type}_potential_commits.json"):
@@ -171,6 +175,7 @@ def run_permitive_check(dataset_type):
     
     urls = list(dataset.keys())
     
+    # Resume from last processed commit
     if len(potential_commits) > 0:
         last_potential_commit = potential_commits[-1]
         last_potential_commit_idx = urls.index(last_potential_commit)
@@ -194,7 +199,7 @@ if __name__ == "__main__":
     os.makedirs("raw_dataset", exist_ok=True) # this folder for edits that can/cannot use lsp to detect propagation, not split into train/valid/test yet, not ready to feed into invoker
     
     dataset_type = "test"
-    run_permitive_check(dataset_type)
+    run_primitive_check(dataset_type)
 
     with open(f"potential/{dataset_type}_potential_commits.json", "r") as f:
         dataset = json.load(f)
@@ -202,10 +207,10 @@ if __name__ == "__main__":
     with open(f"raw_dataset/{dataset_type}.json", "w") as f:
         json.dump([], f, indent=4)
     
-    with open(f"/media/user/dataset_fine_grain/all/{dataset_type}.json", "r") as f:
+    with open(f"../dataset/all/{dataset_type}.json", "r") as f:
         original_dataset = json.load(f)
         
-    last_proj = ""        
+    last_proj = ""
     for commit_url in tqdm(dataset):
         curr_proj = commit_url.split("/")[-3]
         commit_info = original_dataset[commit_url]

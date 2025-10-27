@@ -7,7 +7,7 @@ import json
 from tqdm import tqdm
 from dotenv import load_dotenv
 
-load_dotenv(".env")
+load_dotenv("../.env")
 ROOT_PATH = os.getenv("ROOT_PATH")
     
 def remove_pull_id(commit_message):

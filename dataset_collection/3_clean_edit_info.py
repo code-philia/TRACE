@@ -9,7 +9,7 @@ from tqdm import tqdm
 from code_ast import *
 from dotenv import load_dotenv
 
-load_dotenv(".env")
+load_dotenv("../.env")
 ROOT_PATH = os.getenv("ROOT_PATH")
 
 def contains_tag(main_string):
