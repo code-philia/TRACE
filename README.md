@@ -1,7 +1,5 @@
 # README
 
-## Description
-
 This is the official repository for paper "*Learning Project-wise Subsequent Code Edits via
 Interleaving Neural-based Induction and Tool-based
 Deduction*" by Chenyan Liu, Yun Lin, Yuhuan Huang, Jiaxin Chang, Binhang Qi, Bo Jiang, Zhiyong Huang, and Jin Song Dong. Presented at ASE'25.
@@ -46,7 +44,7 @@ python -m pip install -r requirements.txt
 bash download_dataset.sh
 ```
 
-* Please fill environment variables in `.env`;
+* Please fill environment variables in `.env`
 
    > Acquire GitHub token please refer to [Creating a personal access token](https://docs.github.com/en/authentication/keeping-your-account-and-data-secure/managing-your-personal-access-tokens#creating-a-personal-access-token-classic)
 
