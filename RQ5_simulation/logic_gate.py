@@ -28,7 +28,7 @@ def parse_identifier(code: bytes, lang):
 
     return traverse_tree(root_node, [], lang)
 
-def logic_gate(prev_edit_hunks: list, commit: Commit, lang: str):
+def logic_gate(prev_edit_hunks: list, lang: str):
     code_before = "".join(prev_edit_hunks[-1]["before"])
     code_after = "".join(prev_edit_hunks[-1]["after"])
 
@@ -40,7 +40,7 @@ def logic_gate(prev_edit_hunks: list, commit: Commit, lang: str):
     if refdef_result is not False:
         return "def&ref", refdef_result
     
-    clone_result = is_clone_edit(commit, prev_edit_hunks)
+    clone_result = is_clone_edit(prev_edit_hunks)
     if clone_result is not False:
         if clone_result is None:
             raise ValueError("clone_result is None")

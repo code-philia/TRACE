@@ -1,9 +1,0 @@
-[submodule "dataset_collection/tree-sitter/tree-sitter-go"]
-	path = dataset_collection/tree-sitter/tree-sitter-go
-	url = https://github.com/tree-sitter/tree-sitter-go.git
-[submodule "dataset_collection/tree-sitter/tree-sitter-python"]
-	path = dataset_collection/tree-sitter/tree-sitter-python
-	url = https://github.com/tree-sitter/tree-sitter-python.git
-[submodule "dataset_collection/tree-sitter/tree-sitter-typescript"]
-	path = dataset_collection/tree-sitter/tree-sitter-typescript
-	url = https://github.com/tree-sitter/tree-sitter-typescript.git

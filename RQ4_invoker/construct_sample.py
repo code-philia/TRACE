@@ -2,7 +2,7 @@ import os
 import sys
 import json
 import random
-sys.path.append("../new_RQ4")
+sys.path.append("../RQ5_simulation")
 
 from tqdm import tqdm
 from commit import Commit
@@ -87,7 +87,6 @@ if __name__ == "__main__":
             raw_dataset = json.load(f)
             
         dataset = main(raw_dataset, dataset_type)
-        
         
         os.makedirs("dataset", exist_ok=True)
         with open(f"dataset/{dataset_type}.json", "w") as f:

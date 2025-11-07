@@ -11,8 +11,9 @@ torchvision
 torchaudio
 nltk
 datasets
-huggingface-hub
+huggingface-hub==0.17.0
 rank-bm25
 scikit-learn
 tensorboard
 rapidfuzz
+simhash

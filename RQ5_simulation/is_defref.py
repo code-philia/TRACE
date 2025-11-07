@@ -1,6 +1,7 @@
 import os
+import platform
 from tree_sitter import Language, Parser
-TREE_SITTER_PATH = ""
+TREE_SITTER_PATH = "../dataset_collection/tree-sitter/"
 
 def traverse_python_tree(node, results):
     def process_args(param, args):
@@ -229,6 +230,8 @@ def traverse_javascript_tree(node, results):
         # find constructor and extract arguments 
         for child in node.children:
             if child.type == 'class_body':
+                if child.child_by_field_name('member') is None:
+                    continue
                 constructor_params = child.child_by_field_name('member').child_by_field_name('parameters')
                 if constructor_params:
                     constructor_args = process_params(constructor_params)
@@ -322,7 +325,17 @@ def traverse_tree(node, results, lang):
         traverse_tree(child, results, lang)
         
 def parse_args(code: bytes, lang):
-    LANGUAGE = Language(os.path.join(TREE_SITTER_PATH, "build/my-languages.so"), lang)
+    system = platform.system().lower()
+    if system == "darwin":
+        build_dir = os.path.join(TREE_SITTER_PATH, "macos_build")
+    elif system == "linux":
+        build_dir = os.path.join(TREE_SITTER_PATH, "linux_build")
+    elif system == "windows":
+        build_dir = os.path.join(TREE_SITTER_PATH, "windows_build")
+    else:
+        raise RuntimeError(f"Unsupported OS: {system}")
+    
+    LANGUAGE = Language(os.path.join(build_dir, "my-languages.so"), lang)
 
     parser = Parser()
     parser.set_language(LANGUAGE)

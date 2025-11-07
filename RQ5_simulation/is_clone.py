@@ -118,7 +118,7 @@ def find_clone_in_project(commit, query: str, threshold=80, lsp_style=False):
 
     return found_clones
 
-def is_clone_edit(commit: Commit, prior_edits: list):
+def is_clone_edit(prior_edits: list):
     """
     Func: 
         Check if the current edit is a clone edit

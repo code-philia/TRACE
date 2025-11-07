@@ -198,30 +198,30 @@ if __name__ == "__main__":
     os.makedirs("potential", exist_ok=True) # this folder for commits that contain edits that are poentially our pre-defined edits
     os.makedirs("raw_dataset", exist_ok=True) # this folder for edits that can/cannot use lsp to detect propagation, not split into train/valid/test yet, not ready to feed into invoker
     
-    dataset_type = "test"
-    run_primitive_check(dataset_type)
+    for dataset_type in  ["train", "dev", "test"]:
+        run_primitive_check(dataset_type)
 
-    with open(f"potential/{dataset_type}_potential_commits.json", "r") as f:
-        dataset = json.load(f)
-            
-    with open(f"raw_dataset/{dataset_type}.json", "w") as f:
-        json.dump([], f, indent=4)
-    
-    with open(f"../dataset/all/{dataset_type}.json", "r") as f:
-        original_dataset = json.load(f)
-        
-    last_proj = ""
-    for commit_url in tqdm(dataset):
-        curr_proj = commit_url.split("/")[-3]
-        commit_info = original_dataset[commit_url]
-        language = commit_info["lang"]
-        if last_proj != curr_proj and last_proj != "":
-            print(f"Switch to {curr_proj}")
-        last_proj = curr_proj
-        samples_in_commit = main(commit_url, language, [])
-        # add samples_in_commit to meta_dataset.json
-        with open(f"raw_dataset/{dataset_type}.json", "r") as f:
-            meta_dataset = json.load(f)
-        meta_dataset.extend(samples_in_commit)
+        with open(f"potential/{dataset_type}_potential_commits.json", "r") as f:
+            dataset = json.load(f)
+                
         with open(f"raw_dataset/{dataset_type}.json", "w") as f:
-            json.dump(meta_dataset, f, indent=4)
+            json.dump([], f, indent=4)
+        
+        with open(f"../dataset/all/{dataset_type}.json", "r") as f:
+            original_dataset = json.load(f)
+            
+        last_proj = ""
+        for commit_url in tqdm(dataset):
+            curr_proj = commit_url.split("/")[-3]
+            commit_info = original_dataset[commit_url]
+            language = commit_info["lang"]
+            if last_proj != curr_proj and last_proj != "":
+                print(f"Switch to {curr_proj}")
+            last_proj = curr_proj
+            samples_in_commit = main(commit_url, language, [])
+            # add samples_in_commit to meta_dataset.json
+            with open(f"raw_dataset/{dataset_type}.json", "r") as f:
+                meta_dataset = json.load(f)
+            meta_dataset.extend(samples_in_commit)
+            with open(f"raw_dataset/{dataset_type}.json", "w") as f:
+                json.dump(meta_dataset, f, indent=4)

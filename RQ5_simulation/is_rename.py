@@ -1,25 +1,39 @@
 import os
+import platform
 from tree_sitter import Language, Parser
-TREE_SITTER_PATH = "./"
+TREE_SITTER_PATH = "../dataset_collection/tree-sitter/"
 
 def parse(code: str, language: str):
+    global TREE_SITTER_PATH
     assert language in ["go", "javascript", "typescript", "python", "java"]
-    if not os.path.exists(os.path.join(TREE_SITTER_PATH, "build/my-languages.so")):
+    system = platform.system().lower()
+    if system == "darwin":
+        build_dir = os.path.join(TREE_SITTER_PATH, "macos_build")
+    elif system == "linux":
+        build_dir = os.path.join(TREE_SITTER_PATH, "linux_build")
+    elif system == "windows":
+        build_dir = os.path.join(TREE_SITTER_PATH, "windows_build")
+    else:
+        raise RuntimeError(f"Unsupported OS: {system}")
+
+    so_path = os.path.join(build_dir, "my-languages.so")
+
+    if not os.path.exists(so_path):
         Language.build_library(
             # Store the library in the `build` directory
-            os.path.join(TREE_SITTER_PATH, "build/my-languages.so"),
+            so_path,
 
             # Include one or more languages
             [
-                os.path.join(TREE_SITTER_PATH, "tree-sitter/tree-sitter-go"),
-                os.path.join(TREE_SITTER_PATH, "tree-sitter/tree-sitter-javascript"),
-                os.path.join(TREE_SITTER_PATH, "tree-sitter/tree-sitter-typescript/typescript"),
-                os.path.join(TREE_SITTER_PATH, "tree-sitter/tree-sitter-python"),
-                os.path.join(TREE_SITTER_PATH, "tree-sitter/tree-sitter-java"),
+                os.path.join(TREE_SITTER_PATH, "tree-sitter-go"),
+                os.path.join(TREE_SITTER_PATH, "tree-sitter-javascript"),
+                os.path.join(TREE_SITTER_PATH, "tree-sitter-typescript/typescript"),
+                os.path.join(TREE_SITTER_PATH, "tree-sitter-python"),
+                os.path.join(TREE_SITTER_PATH, "tree-sitter-java"),
             ]
         )
     parser = Parser()
-    parser.set_language(Language(os.path.join(TREE_SITTER_PATH, "build/my-languages.so"), language))
+    parser.set_language(Language(so_path, language))
     tree = parser.parse(bytes(code, "utf8"))
     return tree
 
@@ -61,7 +75,17 @@ def parse_identifier(code: str, lang):
             
         return results
     
-    LANGUAGE = Language(os.path.join(TREE_SITTER_PATH, "build/my-languages.so"), lang)
+    system = platform.system().lower()
+    if system == "darwin":
+        build_dir = os.path.join(TREE_SITTER_PATH, "macos_build")
+    elif system == "linux":
+        build_dir = os.path.join(TREE_SITTER_PATH, "linux_build")
+    elif system == "windows":
+        build_dir = os.path.join(TREE_SITTER_PATH, "windows_build")
+    else:
+        raise RuntimeError(f"Unsupported OS: {system}")
+    
+    LANGUAGE = Language(os.path.join(build_dir, "my-languages.so"), lang)
 
     parser = Parser()
     parser.set_language(LANGUAGE)

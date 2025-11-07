@@ -79,7 +79,7 @@ def ask_invoker(commit: Commit, models: dict, args: argparse.Namespace, logger: 
         service: the service name
         service_info: the additional information to invoke LSP service
     """
-    prior_edit_type, service_info = logic_gate(commit.prev_edits, commit, commit.language)
+    prior_edit_type, service_info = logic_gate(commit.prev_edits, commit.language)
     if prior_edit_type == "normal":
         service = "normal"
         logger.info("Last prior edit composition type prediction:")

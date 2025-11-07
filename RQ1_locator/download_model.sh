@@ -5,20 +5,21 @@
 REPO_URL="https://huggingface.co/code-philia/TRACE"
 TARGET_DIR="locator/model_6"
 
-# Create temporary directory
-TMP_DIR=$(mktemp -d)
-echo "Cloning repository into $TMP_DIR ..."
+echo "Cloning repository with sparse-checkout ..."
 git lfs install
-git clone --depth 1 "$REPO_URL" "$TMP_DIR"
+git clone --depth 1 --filter=blob:none --sparse "$REPO_URL" TRACE_temp
+cd TRACE_temp
+git sparse-checkout set "$TARGET_DIR"
+cd ..
 
 # Copy locator subdirectory to current directory
-if [ -d "$TMP_DIR/$TARGET_DIR" ]; then
+if [ -d "TRACE_temp/$TARGET_DIR" ]; then
     echo "Copying $TARGET_DIR to current directory ..."
-    cp -r "$TMP_DIR/$TARGET_DIR" ./
+    cp -r "TRACE_temp/$TARGET_DIR" ./
     echo "✅ Download completed: $(pwd)/$TARGET_DIR"
 else
     echo "❌ Error: $TARGET_DIR not found in repository."
 fi
 
 # Clean up temporary directory
-rm -rf "$TMP_DIR"
+rm -rf TRACE_temp
