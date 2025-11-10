@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # 你可以传递任何额外的参数
-language=java
+language=python
 idx=100
 
 # 启动 script2.sh，并传递额外的参数

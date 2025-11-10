@@ -19,32 +19,41 @@ This repository contains source code, dataset, and trained model parameters of T
 </div>
 
 ## 📂 Contents
-> More detailed READMEs are available in each sub-directory
+> [!Note]
+> 
+> More detailed READMEs and model downloading scripts are available in each sub-directory
 
 * `dataset_collection/`: Crawl top-starred repositories' commit from GitHub
 * `RQ1_locator/`: The training and evaluation script for edit locator
 * `RQ2_generator/`: The training and evaluation script for edit generator.
 * `RQ4_invoker/`: The training and evaluation script for edit-composition invoker.
 * `RQ5_simulation/`: The evaluation script to simulation real-world editing process.
-* `download_dataset.py`: A script to download the TRACE dataset from HuggingFace.
+* `download_dataset.sh`: A script to download the TRACE dataset from HuggingFace.
+* `download_treesitter.sh`: A script to download tree-sitter repositories and checkout to compatiable versions.
 
 ## 🚀 Getting Started
 
 * Install dependencies:
 
-```bash
-conda create -n trace python=3.10.13
-conda activate trace
-python -m pip install -r requirements.txt
-```
+   ```bash
+   conda create -n trace python=3.10.13
+   conda activate trace
+   python -m pip install -r requirements.txt
+   ```
+
+* Download tree-sitter:
+
+   ```bash
+   bash download_treesitter.sh
+   ```
 
 * Download the dataset:
 
-```bash
-bash download_dataset.sh
-```
+   ```bash
+   bash download_dataset.sh
+   ```
 
-* Please fill environment variables in `.env`
+* Set environment variables in `.env`
 
    > Acquire GitHub token please refer to [Creating a personal access token](https://docs.github.com/en/authentication/keeping-your-account-and-data-secure/managing-your-personal-access-tokens#creating-a-personal-access-token-classic)
 

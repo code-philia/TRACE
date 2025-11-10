@@ -25,13 +25,6 @@ To acquire the dataset used in our experiments, please refer to the instruction 
 
 ## 🚀 Getting Started
 
-* To use tree-sitter, please download tree-sitter for different languages and set to version before v0.21.3. Run the following command under working directory `dataset_collection/`:
-
-    ```bash
-    git submodule update --init --recursive
-    bash set_treesitter_version.sh
-    ```
-
 * Run the following command under working directory `dataset_collection/`:
 
     ```bash

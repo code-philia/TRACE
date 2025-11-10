@@ -1,8 +1,19 @@
 #!/usr/bin/env bash
 set -e
 
+echo "Initializing submodule configuration..."
+git submodule init
+
+echo "Updating submodules..."
+git submodule update
+
+echo "Updating all nested submodules recursively..."
+git submodule update --init --recursive
+
+echo "✅ All submodules have been initialized and updated."
+
 TARGET_TAG="v0.21.0"
-BASE_DIR="tree-sitter"
+BASE_DIR="dataset_collection/tree-sitter"
 
 # 定义所有子模块路径
 MODULES=(
