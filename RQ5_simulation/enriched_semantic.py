@@ -1,4 +1,6 @@
 import os
+import platform
+
 from rapidfuzz import fuzz
 from tree_sitter import Language, Parser
 
@@ -47,22 +49,34 @@ def merge_matched_position(common_positions):
 
 def parse(code, language):
     assert language in ["go", "javascript", "typescript", "python", "java"]
-    if not os.path.exists("tree-sitter/build/my-languages.so"):
+    
+    system = platform.system().lower()
+    if system == "darwin":
+        build_dir = "../dataset_collection/tree-sitter/macos_build"
+    elif system == "linux":
+        build_dir = "../dataset_collection/tree-sitter/linux_build"
+    elif system == "windows":
+        build_dir = "../dataset_collection/tree-sitter/windows_build"
+    else:
+        raise RuntimeError(f"Unsupported OS: {system}")
+    so_path = os.path.join(build_dir, "my-languages.so")
+    
+    if not os.path.exists(so_path):
         Language.build_library(
             # Store the library in the `build` directory
-            "tree-sitter/build/my-languages.so",
+            so_path,
 
             # Include one or more languages
             [
-                "tree-sitter/tree-sitter-go",
-                "tree-sitter/tree-sitter-javascript",
-                "tree-sitter/tree-sitter-typescript/typescript",
-                "tree-sitter/tree-sitter-python",
-                "tree-sitter/tree-sitter-java",
+                "../dataset_collection/tree-sitter/tree-sitter-go",
+                "../dataset_collection/tree-sitter/tree-sitter-javascript",
+                "../dataset_collection/tree-sitter/tree-sitter-typescript/typescript",
+                "../dataset_collection/tree-sitter/tree-sitter-python",
+                "../dataset_collection/tree-sitter/tree-sitter-java",
             ]
         )
     parser = Parser()
-    parser.set_language(Language("tree-sitter/build/my-languages.so", language))
+    parser.set_language(Language(so_path, language))
     tree = parser.parse(bytes(code, "utf8"))
     return tree
 

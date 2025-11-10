@@ -6,6 +6,7 @@ import torch.nn as nn
 
 from invoker_utils import *
 from invoker import *
+from sklearn.metrics import classification_report
 from torch.utils.data import DataLoader, RandomSampler
 from torch.utils.data.distributed import DistributedSampler
 from transformers import AdamW, get_linear_schedule_with_warmup
@@ -177,7 +178,8 @@ def main():
         
         test_dataloader = DataLoader(test_data, batch_size=args.batch_size, shuffle=False)
         marco_f1, probabilities, prediction, gold = eval_invoker(invoker, test_dataloader, args)
-        
+
+        print(classification_report(gold, prediction, output_dict=False, digits=4))
         logger.info("***** Test Result *****")
         logger.info("  F1 = %s", marco_f1)
         

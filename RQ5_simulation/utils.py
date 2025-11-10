@@ -20,7 +20,8 @@ def clone_repo(user_name: str, project_name: str):
     Returns:
         None
     """
-    command = f"git clone https://github.com/{user_name}/{project_name}.git /media/user/repos/{project_name}"
+    global REPOS_PATH
+    command = f"git clone https://github.com/{user_name}/{project_name}.git {os.path.join(REPOS_PATH,project_name)}"
     subprocess.run(command, shell=True)
 
 def detect_extension(file_names: list[str]):
