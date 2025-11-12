@@ -61,7 +61,6 @@ def main(commit_url, lang, samples):
             "commit_url": commit_url,
             "language": lang,
             "class": class_type,
-            "label": 1 if precision >= 0.5 else 0,
             "target_hunk": target_edit,
             "TP_cnt": TP_cnt,
             "FP_cnt": FP_cnt

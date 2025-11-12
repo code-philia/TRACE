@@ -6,15 +6,15 @@ Deduction*" by Chenyan Liu, Yun Lin, Yuhuan Huang, Jiaxin Chang, Binhang Qi, Bo 
 
 This repository contains source code, dataset, and trained model parameters of TRACE. 
 
-## 🎥 Demonstration
+## 🎥 Introduction
 
 > [!Note]
-> * Please click the image to watch the demo video on YouTube;
+> * Please click the image to watch the introduction video on YouTube;
 > * To deploy this extension, please refer to [TRACE-extension](https://github.com/code-philia/TRACE-extension), with detailed instructions.
 
 <div align="center">
-   <a href="https://youtu.be/qfftiPzf5b4">
-   <img src="./demo_cover.png" width="600"/>
+   <a href="https://youtu.be/jCIzZilw81Y">
+   <img src="./demo_cover.jpg" width="600"/>
    </a>
 </div>
 
