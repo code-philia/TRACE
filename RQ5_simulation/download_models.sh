@@ -1,9 +1,9 @@
 #!/bin/bash
-# Download specified subdirectory contents from a Hugging Face repository (simulation/)
-# Target: https://huggingface.co/code-philia/TRACE/tree/main/simulation
+# Download specified subdirectory contents from a Hugging Face repository (simulation/models/)
+# Target: https://huggingface.co/code-philia/TRACE/tree/main/simulation/models
 
 REPO_URL="https://huggingface.co/code-philia/TRACE"
-TARGET_DIR="simulation"
+TARGET_DIR="simulation/models"
 
 echo "Cloning repository with sparse-checkout ..."
 git lfs install
