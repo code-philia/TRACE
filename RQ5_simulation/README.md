@@ -13,6 +13,12 @@ This directory contains the code for RQ5 real-world simulation.
 >
 > To skip the training process, you may execute command `bash download_models.sh` under working directory `RQ5_simulation/`.
 
+* Install lsps:
+
+    ```bash
+    go install golang.org/x/tools/gopls@latest
+    ```
+    
 * To evaluate indivisual benchmark, run the following command under working directory `RQ5_simulation/`:
 
     ```bash
