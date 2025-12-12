@@ -312,6 +312,9 @@ def merge_predictions(A_predictions, B_predictions):
             "inline_service": [],
             "inter_service": []
         }
+        if file_path not in B_predictions:
+            merged_predictions[file_path] = A_prediction
+            continue
         B_prediction = B_predictions[file_path]
         A_inline_predictions = A_prediction["inline_predictions"]
         A_inline_confidences = A_prediction["inline_confidences"]
@@ -368,7 +371,12 @@ def merge_predictions(A_predictions, B_predictions):
                 merged_prediction["inter_service"].append(B_service)
         
         merged_predictions[file_path] = merged_prediction
-        
+
+    # Handle files that only exist in B_predictions
+    for file_path, B_prediction in B_predictions.items():
+        if file_path not in A_predictions:
+            merged_predictions[file_path] = B_prediction
+
     return merged_predictions
         
         
