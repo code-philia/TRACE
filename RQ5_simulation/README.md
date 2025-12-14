@@ -13,10 +13,12 @@ This directory contains the code for RQ5 real-world simulation.
 >
 > To skip the training process, you may execute command `bash download_models.sh` under working directory `RQ5_simulation/`.
 
-* Install lsps:
+* Install LSPs:
 
+    Python LSP (pyright) has been included in `requirements.txt`, Java LSP (jdtls) has been included in `RQ5_simulation/LSPs/jdt-language-server`.
     ```bash
     go install golang.org/x/tools/gopls@latest
+    npm install -g typescript-language-server typescript
     ```
     
 * To evaluate indivisual benchmark, run the following command under working directory `RQ5_simulation/`:
