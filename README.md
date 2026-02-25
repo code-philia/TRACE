@@ -62,5 +62,13 @@ This repository contains source code, dataset, and trained model parameters of T
 If you find our work helpful, please consider citing our paper:
 
 ```
-TBD
+@inproceedings{liu2025learning,
+  title={Learning Project-wise Subsequent Code Edits via Interleaving Neural-based Induction and Tool-based Deduction},
+  author={Liu, Chenyan and Lin, Yun and Huang, Yuhuan and Chang, Jiaxin and Qi, Binhang and Jiang, Bo and Huang, Zhiyong and Dong, Jin Song},
+  booktitle={2025 40th IEEE/ACM International Conference on Automated Software Engineering (ASE)},
+  pages={1377--1389},
+  year={2025},
+  organization={IEEE},
+  doi={https://doi.org/10.1109/ASE63991.2025.00117}
+}
 ```
