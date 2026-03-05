@@ -4,7 +4,7 @@ This directory contains the code for RQ5 real-world simulation.
 
 * If you aim to fully reproduce the experiment results, please follow the instructions in this README.
 
-* If you intend to reuse the simulation framework and use TRACE as a baseline, please refer to the [Simulation framework repository](We are working on it!).
+* If you intend to reuse the simulation framework and use TRACE as a baseline, please refer to repository 🎓 [Historian](https://github.com/code-philia/Historian).
 
 
 ## 🚀 Getting Started
